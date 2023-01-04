@@ -1,6 +1,11 @@
-import React from "react";
-import Typed from "react-typed";
+import React, { useEffect, useState } from "react";
+import { useTypedSuperpower } from "../hooks/useTypedSuperpower";
+
+const superpowers = ["Monterrey", "Saltillo", "CDMX"];
 export const Info = () => {
+  const { typedSuperpower, selectedSuperpower, phase, resume } =
+    useTypedSuperpower(superpowers);
+
   return (
     <div className="h-[400px] sm:h-[200px] sm:flex sm:flex-row flex-col-reverse">
       <div className="bg-[#112627] h-[50%] sm:h-full sm:w-[50%] flex flex-col items-center justify-center">
@@ -8,14 +13,11 @@ export const Info = () => {
           Redes propias en 10 estados de México
         </h2>
 
-        <span className="text-[#c8cd05] font-bold text-center text-xl">
-          <Typed
-            strings={["Monterrey", "Saltillo", "CDMX"]}
-            typeSpeed={50}
-            backSpeed={50}
-            backDelay={2000}
-            loop
-          />
+        <span
+          className="text-[#c8cd05] font-bold text-center text-xl blinking-cursor"
+          aria-label={selectedSuperpower}
+        >
+          {typedSuperpower}
         </span>
       </div>
       <div className="bg-[#121a1a] h-[50%] sm:w-[50%] sm:h-full flex items-center">
