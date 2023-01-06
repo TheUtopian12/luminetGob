@@ -1,5 +1,5 @@
 import React from "react";
-import bgVideo from "../assets/bgPlanet.mp4";
+import bgVideo from "../assets/bgvideo.mp4";
 export const Hero = () => {
   return (
     <div className="w-full h-screen relative">
