@@ -1,5 +1,5 @@
 import React from "react";
-import logoL from "../../assets/cofetel.jpg";
+import logoL from "../../assets/Cofetel.jpg";
 export const PlantaExt = () => {
   return (
     <div className="flex flex-col pl-20">
