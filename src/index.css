@@ -15,3 +15,7 @@
         }
     }
 }
+
+.bgImageBanner{
+    background-image: url('../src/assets/banner.jpg');
+}

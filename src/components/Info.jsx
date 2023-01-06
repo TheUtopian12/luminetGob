@@ -7,7 +7,7 @@ export const Info = () => {
     useTypedSuperpower(superpowers);
 
   return (
-    <div className="h-[400px] sm:h-[200px] sm:flex sm:flex-row flex-col-reverse">
+    <div className="h-[400px] sm:h-[200px] sm:flex sm:flex-row flex-col-reverse w-[100%]">
       <div className="bg-[#112627] h-[50%] sm:h-full sm:w-[50%] flex flex-col items-center justify-center">
         <h2 className="text-white text-center text-xl">
           Redes propias en 10 estados de México
