@@ -10,8 +10,6 @@ function App() {
     <Hero/>
     <Info/>
     <MoreInfo/>
-    <Banner/>
-    <Servicios/>
 
     </>
   );

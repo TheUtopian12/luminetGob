@@ -2,81 +2,147 @@ import React from "react";
 import logo from "../assets/logo-luminet-c-v.png";
 import logo_ift from "../assets/logo_ift_horizontal.png";
 import cofetel from "../assets/Cofetel.jpg";
+
 export const MoreInfo = () => {
   return (
-    <div className="w-[99%] min-h-screen relative bg-white mt-10">
-      <div className="flex justify-center">
-        <img src={logo} alt="Logo" style={{ width: "150px" }} />
-      </div>
-      <div className="flex justify-center">
-        <h2 className="text-xl sm:text-3xl mt-10">
-          Empresa especializada en la contrucción de redes y centro de datos de
-          primer nivel
-        </h2>
-      </div>
-
-      <div className="w-[99%] h-[200px] mr-5 ml-5  sm:flex gap-10 justify-center items-center mt-24 mb-16">
-        <h2 className="text-2xl w-[30%]">
-          Empresa regulada y consensionada por el IFT
-        </h2>
-        <img src={logo_ift} alt="IFT" style={{ width: "200px" }} />
-        <h2 className="text-2xl w-[25%]">
-          {" "}
-          1ER Concesionario Federal de Telecomunicaciones en radiofrecuencia
-        </h2>
-        <img src={cofetel} alt="CFT Logo" style={{ width: "200px" }} />
-      </div>
-
-      <div className="flex justify-center">
-        <h1 className="text-xl sm:text-4xl mt-14 text-[#143c6a] font-bold">
-          Nos destacamos por
+    <div className="w-full min-h-screen">
+      <div className="flex justify-center flex-col items-center text-center">
+        <img src={logo} alt="" style={{ width: "150px" }} />
+        <h1 className="pt-5 text-lg ml-2 mr-2">
+          Empresa especializada en el{" "}
+          <span className="font-bold">sector público</span> para la construcción
+          de redes y centro de datos de primer nivel.
         </h1>
       </div>
 
-      <div className="grid grid-cols-2  gap-4 w-[80%] ml-64 pt-10">
+      <div className="grid grid-cols-1 text-center items-center mt-10 gap-5 sm:grid-cols-4">
         <div>
-          <h1 className="text-2xl text-[#143c6a]">
-            Aegurar la confidencialidad
-          </h1>
-          <p>
+          <h2 className="text-lg sm:text-xl font-semibold">
+            Empresa regulada y concensionada por el IFT
+          </h2>
+        </div>
+        <div className="flex justify-center">
+          <img src={logo_ift} alt="" style={{ width: "250px" }} />
+        </div>
+        <div>
+          <h2 className="text-lg sm:text-xl font-semibold">
+            1er Concesionario Federal de Telecomunicaciones en radiofrecuencia
+          </h2>
+        </div>
+        <div className="flex justify-center">
+          <img src={cofetel} alt="" style={{ width: "250px" }} />
+        </div>
+      </div>
+
+      <div className="mt-10 mb-10">
+        <h1 className="text-2xl text-center font-bold text-[#143C6A]">
+          Nuestras ventajas
+        </h1>
+      </div>
+      <hr className="sm:hidden"/>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 mt-4">
+        <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+          <div className="flex justify-center sm:justify-start ml-4">
+            <img
+              src="/iconosLuminet/private-data.png"
+              alt=""
+              style={{ width: "50px" }}
+            />
+          </div>
+          <h2 className="ml-4">
+            <span className="text-[#143C6A] font-bold texl-lg">
+              Aseguramos la confidencialidad
+            </span>
+            <br />
             de nuestros clientes y el manejo de información crítica de la red de
             monitoreo y videovigilancia.
-          </p>
+          </h2>
         </div>
-        <div>
-          <h1 className="text-2xl text-[#143c6a]">
+
+        <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+          <div className="flex justify-center sm:justify-start ml-4">
+            <img
+              src="/iconosLuminet/software.png"
+              alt=""
+              style={{ width: "50px" }}
+            />
+          </div>
+          <h2 className="ml-4">
+            <span className="text-[#143C6A] font-bold texl-lg">
             Contamos con software propio
-          </h1>
-          <p>para administrar incidencias de red y reportes ciudadanos.</p>
+            </span>
+            <br />
+            para administrar incidencias de red y reportes ciudadanos.
+          </h2>
         </div>
 
-        <div>
-          <h1 className="text-2xl text-[#143c6a]">
+        <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+          <div className="flex justify-center sm:justify-start ml-4">
+            <img
+              src="/iconosLuminet/box.png"
+              alt=""
+              style={{ width: "50px" }}
+            />
+          </div>
+          <h2 className="ml-4">
+            <span className="text-[#143C6A] font-bold texl-lg">
             Somos independientes de las marcas de equipos
-          </h1>
-          <p>No representamos a ninguna empresa extranjera.</p>
-        </div>
-        <div>
-          <h1 className="text-2xl text-[#143c6a]">
-            Damos mantenimiento a la red de seguridad de Coahuila
-          </h1>
-          <p>La mejor red de seguridad evaluada de México.</p>
+            </span>
+            <br />
+            No representamos a ninguna empresa extranjera.
+          </h2>
         </div>
 
-        <div>
-          <h1 className="text-2xl text-[#143c6a]">
-            Cumplimos en tiempo y forma
-          </h1>
-          <p>
-            Se firma un convenio en el cual se cumplan los acuerdos del plan de
-            remediación.
-          </p>
+        <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+          <div className="flex justify-center sm:justify-start ml-4">
+            <img
+              src="/iconosLuminet/favorite-list.png"
+              alt=""
+              style={{ width: "50px" }}
+            />
+          </div>
+          <h2 className="ml-4">
+            <span className="text-[#143C6A] font-bold texl-lg">
+            Damos mantenimiento a la red de seguridad de Coahuila
+            </span>
+            <br />
+            La mejor red de seguridad evaluada de México.
+          </h2>
         </div>
-        <div>
-          <h1 className="text-2xl text-[#143c6a]">
+
+        <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+          <div className="flex justify-center sm:justify-start ml-4">
+            <img
+              src="/iconosLuminet/checklist.png"
+              alt=""
+              style={{ width: "50px" }}
+            />
+          </div>
+          <h2 className="ml-4">
+            <span className="text-[#143C6A] font-bold texl-lg">
+            Cumplimos en tiempo y forma
+            </span>
+            <br />
+            Se firma un convenio en el cual se cumplan los acuerdos del plan de remediación.
+          </h2>
+        </div>
+
+        <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+          <div className="flex justify-center sm:justify-start ml-4">
+            <img
+              src="/iconosLuminet/certification.png"
+              alt=""
+              style={{ width: "50px" }}
+            />
+          </div>
+          <h2 className="ml-4">
+            <span className="text-[#143C6A] font-bold texl-lg">
             Contamos con Certificaciones
-          </h1>
-          <p>En instalación, manejo y operación de Fibra Óptica.</p>
+            </span>
+            <br />
+            En instalación, manejo y operación de Fibra Óptica.
+          </h2>
         </div>
       </div>
     </div>
