@@ -9,6 +9,7 @@ export const MoreInfo = () => {
     autoplay: true,
     autoplaySpeed: 5000,
     dots: true,
+    arrows:false
   };
   return (
     <div className="w-full min-h-screen mt-10">
