@@ -1,5 +1,5 @@
 import React from "react";
-import bgVideo from "../assets/bgvideo.mp4";
+import bgVideo from "../assets/bgPlanet.mp4";
 export const Hero = () => {
   return (
     <div className="w-full h-screen relative">
@@ -13,13 +13,17 @@ export const Hero = () => {
       <div className="absolute w-full h-full top-0 left-0 bg-gray-900/30"></div>
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-center text-white">
         <h1 className="text-2xl sm:text-4xl font-bold">
-          Brindamos Conectividad e Infraestructura de telecomunicaciones al
-          sector público
+        Brindamos servicios a la Infraestructura de telecomunicaciones del sector público
         </h1>
         <h2 className="text-xl sm:text-3xl mt-10">
-          Integramos servicios especializados para una conectividad y seguridad
-          total
+        Integramos servicios especializados para una conectividad y seguridad total  
         </h2>
+        <div className="mt-10">
+        
+          <button className="text-white bg-[#76BA22] w-[50%] sm:w-[25%] sm:text-2xl rounded-lg text-lg hover:bg-[#598d19]">
+            Contactar un especialista
+          </button>
+        </div>
       </div>
     </div>
   );
