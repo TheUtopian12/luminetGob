@@ -17,7 +17,7 @@ export const Banner = () => {
         <h1 className="text-lg font-extrabold sm:text-3xl">¿Por qué luminet?</h1>
         <div className="flex justify-center">
           {" "}
-          <div className="w-[370px] sm:w-[1200px]">
+          <div className="w-[360px] sm:w-[1200px]">
             {" "}
             <Slider {...settings}>
               <div>
