@@ -3,8 +3,8 @@ import React from "react";
 export const Ciberseguridad = () => {
   return (
     <div>
-      <div className="flex mt-20 gap-10">
-        <div className="w-[60%] text-2xl ml-16">
+      <div className="flex flex-col-reverse sm:flex sm:flex-row mt-20 gap-10">
+        <div className="sm:w-[60%] text-2xl ml-16">
           <p className="mt-4">
             Contamos con los equipos más sofisticados de contramedidas
             electrónicas para ofrecer servicios de barrido electrónico que
