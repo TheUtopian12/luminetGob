@@ -17,5 +17,86 @@
 }
 
 .bgImageBanner{
-    background-image: url('../src/assets/banner.jpg');
+    background-image: url('../src/assets/shutterstock_395659066.png');
 }
+.bgCarousel{
+    background-image: url('../src/assets/shutterstock_1257663727.png');
+}
+
+.slick-prev {
+    left: 3% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 3% !important;
+    z-index: 1;
+  }
+
+
+  	/* REACT SLICK ARROW CUSTOM CSS */
+	  .react__slick__slider__parent {
+	    position: relative;
+	  }
+	  
+	  .react__slick__slider__parent .slick-prev,
+	  .react__slick__slider__parent .slick-next {
+	    position: absolute;
+	    top: 50%;
+	  }
+	  .react__slick__slider__parent .slick-prev {
+	    color: black;
+	    z-index: 1;
+	  }
+	  .react__slick__slider__parent .slick-next {
+	    border-radius: 50%;
+	    color: black;
+	    z-index: 1;
+	  }
+	  
+	  .react__slick__slider__parent .slick-prev:before, .slick-next:before {
+	    color: black;
+        
+	  }
+
+
+	  
+.slide img {
+	width: 20rem;
+	margin: 0 auto;
+  }
+  
+  .slide {
+	transform: scale(0.2);
+	transition: transform 300ms;
+	opacity: 0.5;
+  }
+  
+  .activeSlide {
+	transform: scale(1.1);
+	opacity: 1;
+  }
+  
+  .arrow {
+	background-color: #fff;
+	position: absolute;
+	cursor: pointer;
+	z-index: 10;
+  }
+  
+  .arrow svg {
+	transition: color 300ms;
+  }
+  
+  .arrow svg:hover {
+	color: #68edff;
+  }
+  
+  .next {
+	right: 0%;
+	top: 50%;
+  }
+  
+  .prev {
+	left: 0%;
+	top: 50%;
+  }

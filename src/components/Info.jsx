@@ -1,29 +1,30 @@
 import React, { useEffect, useState } from "react";
 import { useTypedSuperpower } from "../hooks/useTypedSuperpower";
 
-const superpowers = ["Monterrey", "Saltillo", "CDMX"];
+const superpowers = ['Coahuila','CDMX','Estado de México','Guanajuato','Jalisco',
+'Nuevo León','Puebla','Querétaro','San Luis Potosí','Tamaulipas','Yucatán'];
 export const Info = () => {
   const { typedSuperpower, selectedSuperpower, phase, resume } =
     useTypedSuperpower(superpowers);
 
   return (
     <div className="h-[400px] sm:h-[200px] sm:flex sm:flex-row flex-col-reverse w-[100%]">
-      <div className="bg-[#112627] h-[50%] sm:h-full sm:w-[50%] flex flex-col items-center justify-center">
+      <div className="bg-[#102845] h-[50%] sm:h-full sm:w-[50%] flex flex-col items-center justify-center">
         <h2 className="text-white text-center text-xl">
           Redes propias en 10 estados de México
         </h2>
 
         <span
-          className="text-[#c8cd05] font-bold text-center text-xl blinking-cursor"
+          className="text-[#A5FF36] font-bold text-center text-xl blinking-cursor"
           aria-label={selectedSuperpower}
         >
           {typedSuperpower}
         </span>
       </div>
-      <div className="bg-[#121a1a] h-[50%] sm:w-[50%] sm:h-full flex items-center">
+      <div className="bg-[#041A32] h-[50%] sm:w-[50%] sm:h-full flex items-center">
         <h2 className="text-white text-center text-xl ml-5 mr-5">
           Somos los operadores de enlaces en microondas más grande de México con
-          más <span className="font-bold">23 años de experiencia</span>
+          más <span className="font-bold text-[#A5FF36]">23 años de experiencia</span>
         </h2>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Ciberseguridad } from "./Ciberseguridad";
 import { PlantaExt } from "./PlantaExt";
+import { RedInternet } from "./RedInternet";
 
 export const ContenidoServicios = ({ pagina }) => {
   return (
@@ -10,7 +11,7 @@ export const ContenidoServicios = ({ pagina }) => {
       ) : pagina === "2" ? (
         <Ciberseguridad />
       ) : (
-        <>Otras</>
+       <RedInternet/>
       )}
     </div>
   );

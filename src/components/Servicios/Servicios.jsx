@@ -9,34 +9,34 @@ export const Servicios = () => {
         Servicios especializados
       </h1>
 
-      <div className="mt-10 flex gap-2">
+      <div className="mt-10 flex justify-center">
         <div
-          className={`w-[33%] h-16 cursor-pointer  sm:rounded-t-full rounded-xl hover:bg-blue-500 active:bg-green-500 ${
-            pagina === "1" ? "bg-green-500 " : "bg-[#12292A]"
+          className={`w-[33%] h-20 cursor-pointer  sm:rounded-t-full rounded-xl hover:bg-[#2A5E9A] active:bg-[#2A5E9A] ${
+            pagina === "1" ? "bg-[#143C6A] " : "bg-[#09284B]"
           }`}
           onClick={() => setPagina("1")}
         >
-          <h1 className="text-white text-center text-sm sm:text-xl font-semibold pt-2">
+          <h1 className="text-white text-center text-sm sm:text-xl font-semibold pt-2 mt-4">
             PLANTA EXTERNA Y ÚLTIMA MILLA
           </h1>
         </div>
         <div
-          className={`w-[33%] h-16 cursor-pointer  sm:rounded-t-full rounded-xl hover:bg-blue-500 active:bg-green-500 ${
-            pagina === "2" ? "bg-green-500 " : "bg-[#12292A]"
+          className={`w-[33%] h-20 cursor-pointer  sm:rounded-t-full rounded-xl hover:bg-[#2A5E9A] active:bg-[#2A5E9A] ${
+            pagina === "2" ? "bg-[#143C6A] " : "bg-[#09284B]"
           }`}
           onClick={() => setPagina("2")}
         >
-          <h1 className="text-white text-center text-sm sm:text-xl font-semibold pt-2">
+          <h1 className="text-white text-center text-sm sm:text-xl font-semibold pt-2 mt-4">
             CIBERSEGURIDAD Y CONTRAINTELIGENCIA
           </h1>
         </div>
         <div
-          className={`w-[33%] h-16 cursor-pointer  sm:rounded-t-full rounded-xl hover:bg-blue-500 active:bg-green-500 ${
-            pagina === "3" ? "bg-green-500 " : "bg-[#12292A]"
+          className={`w-[33%] h-20 cursor-pointer  sm:rounded-t-full rounded-xl hover:bg-[#2A5E9A] active:bg-[#2A5E9A] ${
+            pagina === "3" ? "bg-[#143C6A] " : "bg-[#09284B]"
           }`}
           onClick={() => setPagina("3")}
         >
-          <h1 className="text-white text-center text-sm sm:text-xl font-semibold pt-2">
+          <h1 className="text-white text-center text-sm sm:text-xl font-semibold pt-2 mt-4">
             SERVICIOS DE RED E INTERNET
           </h1>
         </div>

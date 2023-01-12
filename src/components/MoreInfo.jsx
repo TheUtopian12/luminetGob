@@ -9,7 +9,7 @@ export const MoreInfo = () => {
     autoplay: true,
     autoplaySpeed: 5000,
     dots: true,
-    arrows:false
+    arrows: false,
   };
   return (
     <div className="w-full min-h-screen mt-10">
@@ -22,9 +22,9 @@ export const MoreInfo = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 text-center items-center mt-10 gap-5 sm:grid-cols-4">
+      <div className="grid grid-cols-1 text-center items-center mt-10 gap-5 sm:grid-cols-4 bg-[#DFEFFE] h-[25vh] ml-10 mr-10 rounded-3xl">
         <div>
-          <h2 className="text-lg sm:text-xl font-semibold">
+          <h2 className="text-lg sm:text-xl font-semibold ml-5">
             Empresa regulada y concensionada por el IFT
           </h2>
         </div>
@@ -49,33 +49,44 @@ export const MoreInfo = () => {
       <hr className="sm:hidden" />
 
       <div className="sm:grid grid-cols-1 sm:grid-cols-2 mt-4 hidden">
-        <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
-          <div className="flex justify-center sm:justify-start ml-4">
-            <img
-              src="/iconosLuminet/private-data.png"
-              alt=""
-              style={{ width: "50px" }}
-            />
+        <div className="flex gap-0 text-left sm:pl-10 pt-24 sm:pt-0">
+          <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
+            <div className="bg-gradient-to-b from-[#88bfff] via-[#D9D9D9] to-[#D9D9D9] rounded-full w-[100px] flex justify-center items-center">
+              <div>
+                <img
+                  src="/img/iconos/internet-security.png"
+                  alt=""
+                  className="w-[80px] "
+                />
+              </div>
+            </div>
           </div>
-          <h2 className="ml-4">
-            <span className="text-[#143C6A] font-bold texl-lg">
-              Aseguramos la confidencialidad
-            </span>
-            <br />
-            de nuestros clientes y el manejo de información crítica de la red de
-            monitoreo y videovigilancia.
-          </h2>
+          <div>
+            <h2 className="ml-0 mt-6">
+              <span className="text-[#143C6A] font-bold texl-lg">
+                Aseguramos la confidencialidad
+              </span>
+              <br />
+              de nuestros clientes y el manejo de información crítica de la red
+              de monitoreo y videovigilancia.
+            </h2>
+          </div>
         </div>
 
-        <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
-          <div className="flex justify-center sm:justify-start ml-4">
-            <img
-              src="/iconosLuminet/software.png"
-              alt=""
-              style={{ width: "50px" }}
-            />
+        <div className="flex gap-0 text-left sm:pl-10 pt-24 sm:pt-0">
+          <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
+            <div className="bg-gradient-to-b from-[#88bfff] via-[#D9D9D9] to-[#D9D9D9] rounded-full w-[100px] flex justify-center items-center">
+              <div>
+                <img
+                  src="/img/iconos/software (1).png"
+                  alt=""
+                  style={{ width: "80px" }}
+                />
+              </div>
+            </div>
           </div>
-          <h2 className="ml-4">
+
+          <h2 className="ml-4 mt-6">
             <span className="text-[#143C6A] font-bold texl-lg">
               Contamos con software propio
             </span>
@@ -84,15 +95,15 @@ export const MoreInfo = () => {
           </h2>
         </div>
 
-        <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex gap-5 text-left sm:pl-10 pt-24 sm:pt-0 mt-6">
           <div className="flex justify-center sm:justify-start ml-4">
             <img
-              src="/iconosLuminet/box.png"
+              src="/img/iconos/box-delivery.png"
               alt=""
-              style={{ width: "50px" }}
+              style={{ width: "70px" }}
             />
           </div>
-          <h2 className="ml-4">
+          <h2 className="ml-4 mt-6">
             <span className="text-[#143C6A] font-bold texl-lg">
               Somos independientes de las marcas de equipos
             </span>
@@ -101,12 +112,12 @@ export const MoreInfo = () => {
           </h2>
         </div>
 
-        <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex  gap-5 text-left sm:pl-10 pt-24 sm:pt-0 mt-12">
           <div className="flex justify-center sm:justify-start ml-4">
             <img
-              src="/iconosLuminet/favorite-list.png"
+              src="/img/iconos/feedback-form.png"
               alt=""
-              style={{ width: "50px" }}
+              style={{ width: "70px" }}
             />
           </div>
           <h2 className="ml-4">
@@ -118,33 +129,32 @@ export const MoreInfo = () => {
           </h2>
         </div>
 
-        <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex  gap-5 text-left sm:pl-10 pt-24 sm:pt-0 mt-6">
           <div className="flex justify-center sm:justify-start ml-4">
             <img
-              src="/iconosLuminet/checklist.png"
+              src="/img/iconos/hard-hat (1).png"
               alt=""
-              style={{ width: "50px" }}
+              style={{ width: "80px" }}
             />
           </div>
-          <h2 className="ml-4">
+          <h2 className="ml-4 mt-6">
             <span className="text-[#143C6A] font-bold texl-lg">
-              Cumplimos en tiempo y forma
+              Personal técnico especializado
             </span>
             <br />
-            Se firma un convenio en el cual se cumplan los acuerdos del plan de
-            remediación.
+            No subcontratamos, contamos con personal y equipo propios.
           </h2>
         </div>
 
-        <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex  gap-5 text-left sm:pl-10 pt-24 sm:pt-0 mt-6">
           <div className="flex justify-center sm:justify-start ml-4">
             <img
-              src="/iconosLuminet/certification.png"
+              src="/img/iconos/hard-hat (1).png"
               alt=""
-              style={{ width: "50px" }}
+              style={{ width: "80px" }}
             />
           </div>
-          <h2 className="ml-4">
+          <h2 className="ml-4 mt-6">
             <span className="text-[#143C6A] font-bold texl-lg">
               Contamos con Certificaciones
             </span>
@@ -160,7 +170,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
-                  src="/iconosLuminet/private-data.png"
+                  src="/img/iconos/private-data.png"
                   alt=""
                   style={{ width: "50px" }}
                 />
@@ -178,7 +188,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
-                  src="/iconosLuminet/software.png"
+                  src="/img/iconos/software.png"
                   alt=""
                   style={{ width: "50px" }}
                 />
@@ -195,7 +205,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
-                  src="/iconosLuminet/box.png"
+                  src="/img/iconos/box.png"
                   alt=""
                   style={{ width: "50px" }}
                 />
@@ -212,7 +222,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
-                  src="/iconosLuminet/favorite-list.png"
+                  src="/img/iconos/favorite-list.png"
                   alt=""
                   style={{ width: "50px" }}
                 />
@@ -229,7 +239,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
-                  src="/iconosLuminet/checklist.png"
+                  src="/img/iconos/checklist.png"
                   alt=""
                   style={{ width: "50px" }}
                 />
@@ -247,7 +257,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
-                  src="/iconosLuminet/certification.png"
+                  src="/img/iconos/certification.png"
                   alt=""
                   style={{ width: "50px" }}
                 />
@@ -264,8 +274,8 @@ export const MoreInfo = () => {
         </div>
       </div>
       <div className="mt-16 mb-16 flex justify-center">
-        <button className="text-white bg-[#76BA22] w-[50%] sm:w-[25%] sm:text-2xl rounded-lg text-lg hover:bg-[#598d19]">
-        Más información
+        <button className="text-white bg-gradient-to-r from-[#013506] to-[#43BA22] w-[50%] sm:w-[25%] sm:text-2xl rounded-lg text-lg hover:bg-[#598d19]">
+          Más información
         </button>
       </div>
     </div>
