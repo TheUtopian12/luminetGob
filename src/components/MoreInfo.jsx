@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/logo-luminet-c-v.png";
 import logo_ift from "../assets/logo_ift_horizontal.png";
-import cofetel from "../assets/Cofetel.jpg";
+import cofetel from "../assets/Clientes/Logo CFT.jpeg";
 import Slider from "react-slick";
 
 export const MoreInfo = () => {
@@ -42,16 +42,16 @@ export const MoreInfo = () => {
       </div>
 
       <div className="mt-10 mb-10">
-        <h1 className="text-2xl text-center font-bold text-[#143C6A]">
+        <h1 className="text-4xl text-center font-bold text-[#143C6A]">
           Nuestras ventajas
         </h1>
       </div>
       <hr className="sm:hidden" />
 
-      <div className="sm:grid grid-cols-1 sm:grid-cols-2 mt-4 hidden">
+      <div className="sm:grid grid-cols-1 sm:grid-cols-2 mt-4 hidden gap-10">
         <div className="flex gap-0 text-left sm:pl-10 pt-24 sm:pt-0">
           <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
-            <div className="bg-gradient-to-b from-[#88bfff] via-[#D9D9D9] to-[#D9D9D9] rounded-full w-[100px] flex justify-center items-center">
+            <div className="bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
                   src="/img/iconos/internet-security.png"
@@ -75,92 +75,117 @@ export const MoreInfo = () => {
 
         <div className="flex gap-0 text-left sm:pl-10 pt-24 sm:pt-0">
           <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
-            <div className="bg-gradient-to-b from-[#88bfff] via-[#D9D9D9] to-[#D9D9D9] rounded-full w-[100px] flex justify-center items-center">
+            <div className="bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
                   src="/img/iconos/software (1).png"
                   alt=""
-                  style={{ width: "80px" }}
+                  className="w-[80px] "
                 />
               </div>
             </div>
           </div>
-
-          <h2 className="ml-4 mt-6">
-            <span className="text-[#143C6A] font-bold texl-lg">
-              Contamos con software propio
-            </span>
-            <br />
-            para administrar incidencias de red y reportes ciudadanos.
-          </h2>
+          <div>
+            <h2 className="ml-0 mt-6">
+              <span className="text-[#143C6A] font-bold texl-lg">
+                Contamos con software propio
+              </span>
+              <br />
+              para administrar incidencias de red y reportes ciudadanos.
+            </h2>
+          </div>
         </div>
 
-        <div className="flex gap-5 text-left sm:pl-10 pt-24 sm:pt-0 mt-6">
-          <div className="flex justify-center sm:justify-start ml-4">
-            <img
-              src="/img/iconos/box-delivery.png"
-              alt=""
-              style={{ width: "70px" }}
-            />
+        <div className="flex gap-0 text-left sm:pl-10 pt-24 sm:pt-0">
+          <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
+            <div className="bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
+              <div>
+                <img
+                  src="/img/iconos/box-delivery.png"
+                  alt=""
+                  className="w-[80px] "
+                />
+              </div>
+            </div>
           </div>
-          <h2 className="ml-4 mt-6">
-            <span className="text-[#143C6A] font-bold texl-lg">
-              Somos independientes de las marcas de equipos
-            </span>
-            <br />
-            No representamos a ninguna empresa extranjera.
-          </h2>
+          <div>
+            <h2 className="ml-[-30px] mt-6">
+              <span className="text-[#143C6A] font-bold texl-lg">
+                Somos independientes de las marcas de equipos
+              </span>
+              <br />
+              No representamos a ninguna empresa extranjera.
+            </h2>
+          </div>
         </div>
 
-        <div className="flex  gap-5 text-left sm:pl-10 pt-24 sm:pt-0 mt-12">
-          <div className="flex justify-center sm:justify-start ml-4">
-            <img
-              src="/img/iconos/feedback-form.png"
-              alt=""
-              style={{ width: "70px" }}
-            />
+        <div className="flex gap-0 text-left sm:pl-10 pt-24 sm:pt-0">
+          <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
+            <div className="bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
+              <div>
+                <img
+                  src="/img/iconos/feedback-form.png"
+                  alt=""
+                  className="w-[80px] "
+                />
+              </div>
+            </div>
           </div>
-          <h2 className="ml-4">
-            <span className="text-[#143C6A] font-bold texl-lg">
-              Damos mantenimiento a la red de seguridad de Coahuila
-            </span>
-            <br />
-            La mejor red de seguridad evaluada de México.
-          </h2>
+          <div>
+            <h2 className="ml-0 mt-6">
+              <span className="text-[#143C6A] font-bold texl-lg">
+                Damos mantenimiento a la red de seguridad de Coahuila
+              </span>
+              <br />
+              La mejor red de seguridad evaluada de México.{" "}
+            </h2>
+          </div>
         </div>
 
-        <div className="flex  gap-5 text-left sm:pl-10 pt-24 sm:pt-0 mt-6">
-          <div className="flex justify-center sm:justify-start ml-4">
-            <img
-              src="/img/iconos/hard-hat (1).png"
-              alt=""
-              style={{ width: "80px" }}
-            />
+        <div className="flex gap-0 text-left sm:pl-10 pt-24 sm:pt-0">
+          <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
+            <div className="bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
+              <div>
+                <img
+                  src="/img/iconos/hard-hat (1).png"
+                  alt=""
+                  className="w-[80px] "
+                />
+              </div>
+            </div>
           </div>
-          <h2 className="ml-4 mt-6">
-            <span className="text-[#143C6A] font-bold texl-lg">
-              Personal técnico especializado
-            </span>
-            <br />
-            No subcontratamos, contamos con personal y equipo propios.
-          </h2>
+          <div>
+            <h2 className="ml-[-30px] mt-6">
+              <span className="text-[#143C6A] font-bold texl-lg">
+                Personal técnico especializado
+              </span>
+              <br />
+              No subcontratamos, contamos con personal y equipo propios.{" "}
+            </h2>
+          </div>
         </div>
 
-        <div className="flex  gap-5 text-left sm:pl-10 pt-24 sm:pt-0 mt-6">
-          <div className="flex justify-center sm:justify-start ml-4">
-            <img
-              src="/img/iconos/hard-hat (1).png"
-              alt=""
-              style={{ width: "80px" }}
-            />
+        <div className="flex gap-0 text-left sm:pl-10 pt-24 sm:pt-0">
+          <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
+            <div className="bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
+              <div>
+                <img
+                  src="/img/iconos/certificate (1).png"
+                  alt=""
+                  className="w-[80px] "
+                />
+              </div>
+            </div>
           </div>
-          <h2 className="ml-4 mt-6">
-            <span className="text-[#143C6A] font-bold texl-lg">
-              Contamos con Certificaciones
-            </span>
-            <br />
-            En instalación, manejo y operación de Fibra Óptica.
-          </h2>
+          <div>
+            <h2 className="ml-0 mt-6">
+              <span className="text-[#143C6A] font-bold texl-lg">
+                Contamos con Certificaciones{" "}
+              </span>
+              <br />
+              En instalación, manejo y operación de Fibra Óptica.{" "}
+            </h2>
+          </div>
         </div>
       </div>
 
@@ -170,7 +195,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
-                  src="/img/iconos/private-data.png"
+                  src="/img/iconos/internet-security.png"
                   alt=""
                   style={{ width: "50px" }}
                 />
@@ -188,7 +213,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
-                  src="/img/iconos/software.png"
+                  src="/img/iconos/software (1).png"
                   alt=""
                   style={{ width: "50px" }}
                 />
@@ -205,7 +230,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
-                  src="/img/iconos/box.png"
+                  src="/img/iconos/box-delivery.png"
                   alt=""
                   style={{ width: "50px" }}
                 />
@@ -222,7 +247,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
-                  src="/img/iconos/favorite-list.png"
+                  src="/img/iconos/feedback-form.png"
                   alt=""
                   style={{ width: "50px" }}
                 />
@@ -239,7 +264,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
-                  src="/img/iconos/checklist.png"
+                  src="/img/iconos/hard-hat (1).png"
                   alt=""
                   style={{ width: "50px" }}
                 />
@@ -257,7 +282,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
-                  src="/img/iconos/certification.png"
+                  src="/img/iconos/certificate (1).png"
                   alt=""
                   style={{ width: "50px" }}
                 />

@@ -4,14 +4,14 @@ import { ContenidoServicios } from "./ContenidoServicios";
 export const Servicios = () => {
   const [pagina, setPagina] = useState("");
   return (
-    <div className="w-[100%] min-h-screen ">
-      <h1 className="text-[#76BA22] text-3xl font-bold text-center ">
-        Servicios especializados
+    <div className="w-[100%] min-h-screen mt-10">
+      <h1 className="text-[#143C6A] text-4xl font-bold text-center ">
+      Nuestros servicios especializados
       </h1>
 
       <div className="mt-10 flex justify-center">
         <div
-          className={`w-[33%] h-20 cursor-pointer  sm:rounded-t-full rounded-xl hover:bg-[#2A5E9A] active:bg-[#2A5E9A] ${
+          className={`w-[33%] h-20 cursor-pointer  sm:rounded-b-none rounded-xl hover:bg-[#2A5E9A] active:bg-[#2A5E9A] ${
             pagina === "1" ? "bg-[#143C6A] " : "bg-[#09284B]"
           }`}
           onClick={() => setPagina("1")}
@@ -21,7 +21,7 @@ export const Servicios = () => {
           </h1>
         </div>
         <div
-          className={`w-[33%] h-20 cursor-pointer  sm:rounded-t-full rounded-xl hover:bg-[#2A5E9A] active:bg-[#2A5E9A] ${
+          className={`w-[33%] h-20 cursor-pointer  sm:rounded-b-none rounded-xl hover:bg-[#2A5E9A] active:bg-[#2A5E9A] ${
             pagina === "2" ? "bg-[#143C6A] " : "bg-[#09284B]"
           }`}
           onClick={() => setPagina("2")}
@@ -31,7 +31,7 @@ export const Servicios = () => {
           </h1>
         </div>
         <div
-          className={`w-[33%] h-20 cursor-pointer  sm:rounded-t-full rounded-xl hover:bg-[#2A5E9A] active:bg-[#2A5E9A] ${
+          className={`w-[33%] h-20 cursor-pointer  sm:rounded-b-none rounded-xl hover:bg-[#2A5E9A] active:bg-[#2A5E9A] ${
             pagina === "3" ? "bg-[#143C6A] " : "bg-[#09284B]"
           }`}
           onClick={() => setPagina("3")}

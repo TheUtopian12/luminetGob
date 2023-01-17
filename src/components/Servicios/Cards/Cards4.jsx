@@ -5,12 +5,12 @@ export const Cards4 = () => {
   return (
     <ReactCardFlip
       isFlipped={flip}
-      flipDirection=""
-      flipSpeedFrontToBack={1.6}
-      flipSpeedBackToFront={1.6}
+      flipDirection="horizontal"
+      flipSpeedFrontToBack={0.6}
+      flipSpeedBackToFront={0.6}
     >
-      <div className="w-96 h-96 bg-[url('/img/voip.jpg')] bg-contain  text-center grid">
-        <div>
+      <div className="w-[600px] h-96 bg-[url('/img/SERVICIOS-DE-RED-04.png')] bg-cover bg-center text-center grid rounded-3xl">
+        <div className="flex items-end mb-0 justify-center font-bold">
           <p className="text-2xl text-white mt-20">VoIP</p>
         </div>
         <div className="flex justify-center text-white">
@@ -18,8 +18,8 @@ export const Cards4 = () => {
         </div>
       </div>
 
-      <div className="w-96 h-96 bg-gray-100 grid border-black border-2">
-        <span className="m-10">
+      <div className="w-[600px] h-96 bg-[#09284B] grid border-black border-2 rounded-3xl">
+        <span className="m-10 text-white">
           <p>
             {" "}
             Nuestro servicio de telefonía IP te permite lograr una comunicación

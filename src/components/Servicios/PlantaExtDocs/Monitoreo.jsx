@@ -8,7 +8,7 @@ const Monitoreo = () => {
       <div className="flex justify-center">
         <img src={poste} alt="" className="w-[200px]" />
       </div>
-      <div className="text-2xl">
+      <div className="text-2xl font-semibold text-[#143C6A]">
         <h2 className="font-bold mb-5">Este servicio incluye:</h2>
         <ul className="list-disc">
           <li>Configuración e implementación del sistema de cámaras.</li>

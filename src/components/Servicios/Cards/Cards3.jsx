@@ -5,12 +5,12 @@ export const Cards3 = () => {
   return (
     <ReactCardFlip
       isFlipped={flip}
-      flipDirection=""
-      flipSpeedFrontToBack={1.6}
-      flipSpeedBackToFront={1.6}
+      flipDirection="horizontal"
+      flipSpeedFrontToBack={0.6}
+      flipSpeedBackToFront={0.6}
     >
-      <div className="w-96 h-96 bg-[url('/img/red.jpg')] bg-[length:400px_400px]   text-center grid">
-        <div>
+      <div className="w-[600px] h-96 bg-[url('/img/SERVICIOS-DE-RED-03.png')] bg-cover bg-center text-center grid rounded-3xl">
+        <div className="flex items-end mb-0 justify-center font-bold">
           <p className="text-2xl text-white mt-20">Servicios de Internet</p>
         </div>
         <div className="flex justify-center text-white">
@@ -18,8 +18,8 @@ export const Cards3 = () => {
         </div>
       </div>
 
-      <div className="w-96 h-96 bg-gray-100 grid border-black border-2">
-        <ul className="m-10 list-disc">
+      <div className="w-[600px] h-96 bg-[#09284B] grid border-black border-2 rounded-3xl">
+        <ul className="m-10 list-disc text-white">
           <li>
             Servicios de Internet Dedicado y Simétrico hasta 1 Gb de velocidad.
             SLA hasta de 99.95%.

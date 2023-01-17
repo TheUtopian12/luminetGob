@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+*{font-family: 'Montserrat', sans-serif;}
+
 @layer components {
     .blinking-cursor:after {
-        content: '|';
+        content: '.';
 
         animation: blink .8s step-start infinite
     }

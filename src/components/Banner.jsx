@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import bgImage from "../assets/banner.jpg";
 
 import Slider from "react-slick";
 export const Banner = () => {
+  const sliderRef = useRef(null);
   const settings = {
     autoplay: true,
     autoplaySpeed: 3000,
-    dots: true,
+    dots: false,
     arrows: false,
   };
   return (
@@ -14,12 +15,14 @@ export const Banner = () => {
       className={`w-[100%] h-[300px] bgImageBanner bg-cover flex items-center justify-center`}
     >
       <div className="text-white text-center ml-5 mr-5">
-        <h1 className="text-lg font-extrabold sm:text-3xl">¿Por qué luminet?</h1>
+        <h1 className="text-lg font-extrabold sm:text-4xl">
+          ¿Por qué luminet?
+        </h1>
         <div className="flex justify-center">
-          {" "}
+          <button className="mr-10" onClick={() => sliderRef.current.slickPrev()}><img src="/img/iconos/arrow (1).png" alt="" className="w-5 rotate-180" /></button>
+
           <div className="w-[360px] sm:w-[1200px]">
-            {" "}
-            <Slider {...settings}>
+            <Slider ref={sliderRef} {...settings}>
               <div>
                 <h2 className="text-lg sm:text-3xl">
                   Ofrecemos
@@ -82,6 +85,7 @@ export const Banner = () => {
               </div>
             </Slider>
           </div>
+          <button className="ml-10" onClick={() => sliderRef.current.slickNext()}> <img src="/img/iconos/arrow (1).png" alt="" className="w-5" /> </button>
         </div>
       </div>
     </div>

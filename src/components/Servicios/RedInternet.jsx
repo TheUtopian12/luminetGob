@@ -5,7 +5,7 @@ import { Cards3 } from "./Cards/Cards3";
 import { Cards4 } from "./Cards/Cards4";
 export const RedInternet = () => {
   return (
-    <div className="flex justify-center m-10">
+    <div className="flex flex-col place-content-center place-items-center justify-center m-10">
       <div className="grid grid-cols-2 gap-40">
         <div>
           <Cards />
@@ -20,6 +20,15 @@ export const RedInternet = () => {
           <Cards4 />
         </div>
       </div>
+      <div className="mt-20">
+        <h1 className="text-2xl">
+          Para mayor información de nuestros servicios de internet y redes
+          visita
+        </h1>
+      </div>
+      <button className="text-white bg-gradient-to-r from-[#00745F] to-[#95C926] w-[50%] sm:w-[20%]  sm:text-2xl rounded-2xl text-lg hover:bg-[#598d19] mt-10">
+        luminet.com.mx
+      </button>
     </div>
   );
 };

@@ -6,14 +6,14 @@ const Construccion = () => {
       <div className="flex justify-center">
         <img src={poste} alt="" className="w-[200px]"/>
       </div>
-      <div className="text-2xl">
+      <div className="text-2xl font-semibold">
         <p className="mb-10">
-          Ofrecemos una solución integral para la implementación de la red de
-          voz, video y datos, mediante un equipo especializado en construccion
-          de fibra óptica y microondas.
+          Ofrecemos una solución integral para la <span className="text-[#76BA22]">implementación de la red</span>  de
+          voz, video y datos, mediante un equipo especializado en <span className="text-[#76BA22]">construccion
+          de fibra óptica y microondas.</span> 
         </p>
-        <h2 className="font-bold mb-5">Este servicio incluye:</h2>
-        <ul className="list-disc">
+        <h2 className="font-bold mb-5 text-[#143C6A]">Este servicio incluye:</h2>
+        <ul className="list-disc text-[#143C6A]">
           <li>
             La construcción aérea (mediante posteria o microondas) en vía
             pública o privada.
