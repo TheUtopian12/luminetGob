@@ -7,6 +7,7 @@ import Carousels from './components/Carousels'
 import Exito from "./components/Exito";
 import Polizas from "./components/Polizas";
 import Tecnologias from "./components/Tecnologias";
+import Footer from "./components/ui/Footer";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
     <Exito/>
     <Polizas/>
     <Tecnologias/>
+
+    <Footer/>
     </>
   );
 }

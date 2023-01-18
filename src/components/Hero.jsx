@@ -20,7 +20,9 @@ export const Hero = () => {
         </h2>
         <div className="mt-10">
         
-          <button className="text-white bg-gradient-to-r from-[#013506] to-[#43BA22] w-[50%] sm:w-[30%]  sm:text-2xl rounded-2xl text-lg hover:bg-[#598d19]">
+          <button className="text-white bg-gradient-to-r 
+
+          from-[#013506] to-[#43BA22] w-[50%] sm:w-[30%]  sm:text-2xl rounded-2xl text-lg hover:bg-[#598d19]">
             Contactar un especialista
           </button>
         </div>
