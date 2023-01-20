@@ -22,9 +22,9 @@ export const MoreInfo = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 text-center items-center mt-10 gap-5 sm:grid-cols-4 bg-[#DFEFFE] h-[25vh] ml-10 mr-10 rounded-3xl">
+      <div className="grid grid-cols-1 text-center items-center mt-10 gap-5 sm:grid-cols-4 bg-[#DFEFFE] sm:h-[25vh] ml-10 mr-10 rounded-3xl">
         <div>
-          <h2 className="text-lg sm:text-xl font-semibold ml-5">
+          <h2 className="text-lg sm:text-sm md:xl font-semibold ml-5">
             Empresa regulada y concensionada por el IFT
           </h2>
         </div>
@@ -32,31 +32,31 @@ export const MoreInfo = () => {
           <img src={logo_ift} alt="" style={{ width: "250px" }} />
         </div>
         <div>
-          <h2 className="text-lg sm:text-xl font-semibold">
+          <h2 className="text-lg sm:text-sm md:xl font-semibold">
             1er Concesionario Federal de Telecomunicaciones en radiofrecuencia
           </h2>
         </div>
         <div className="flex justify-center">
-          <img src={cofetel} alt="" style={{ width: "250px" }} />
+          <img src={cofetel} alt="" className="w-[250px] mb-10 sm:mb-0 " />
         </div>
       </div>
 
-      <div className="mt-10 mb-10">
-        <h1 className="text-4xl text-center font-bold text-[#143C6A]">
+      <div className="mt-10 sm:mb-10">
+        <h1 className="text-2xl md:text-4xl text-center font-bold text-[#143C6A]">
           Nuestras ventajas
         </h1>
       </div>
       <hr className="sm:hidden" />
 
       <div className="sm:grid grid-cols-1 sm:grid-cols-2 mt-4 hidden gap-10">
-        <div className="flex gap-0 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex sm:gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
           <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
-            <div className="bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
+            <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
                   src="/img/iconos/internet-security.png"
                   alt=""
-                  className="w-[80px] "
+                  className="w-[80px]"
                 />
               </div>
             </div>
@@ -73,9 +73,9 @@ export const MoreInfo = () => {
           </div>
         </div>
 
-        <div className="flex gap-0 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex sm:gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
           <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
-            <div className="bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
+            <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
                   src="/img/iconos/software (1).png"
@@ -96,20 +96,20 @@ export const MoreInfo = () => {
           </div>
         </div>
 
-        <div className="flex gap-0 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex sm:gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
           <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
-            <div className="bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
+            <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
                   src="/img/iconos/box-delivery.png"
                   alt=""
-                  className="w-[80px] "
+                  className="w-[80px] sm:w-[60px] "
                 />
               </div>
             </div>
           </div>
           <div>
-            <h2 className="ml-[-30px] mt-6">
+            <h2 className="xl:ml-[-30px] mt-6">
               <span className="text-[#143C6A] font-bold texl-lg">
                 Somos independientes de las marcas de equipos
               </span>
@@ -119,9 +119,9 @@ export const MoreInfo = () => {
           </div>
         </div>
 
-        <div className="flex gap-0 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex sm:gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
           <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
-            <div className="bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
+            <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
                   src="/img/iconos/feedback-form.png"
@@ -142,9 +142,9 @@ export const MoreInfo = () => {
           </div>
         </div>
 
-        <div className="flex gap-0 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex sm:gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
           <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
-            <div className="bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
+            <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
                   src="/img/iconos/hard-hat (1).png"
@@ -155,7 +155,7 @@ export const MoreInfo = () => {
             </div>
           </div>
           <div>
-            <h2 className="ml-[-30px] mt-6">
+            <h2 className="xl:ml-[-30px] mt-6">
               <span className="text-[#143C6A] font-bold texl-lg">
                 Personal técnico especializado
               </span>
@@ -165,9 +165,9 @@ export const MoreInfo = () => {
           </div>
         </div>
 
-        <div className="flex gap-0 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex sm:gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
           <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
-            <div className="bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
+            <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
                   src="/img/iconos/certificate (1).png"

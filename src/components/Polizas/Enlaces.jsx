@@ -5,11 +5,11 @@ import poste from "./poste.png";
 const Enlaces = () => {
   return (
     <div className="flex justify-center mt-16">
-    <div className="flex gap-16 bg-[#E1ECF1] w-[50%] h-[500px] items-center p-10 rounded-3xl">
+    <div className="flex gap-16  w-[80%] h-[500px] items-center p-10 rounded-3xl">
       <div className='w-[300px]'>
         <img src={poste} alt="" className="rounded-2xl" />
       </div>
-      <div className='w-[50%]'>
+      <div className='w-[50%] text-white'>
         <h1 className="text-left text-3xl text-[#76BA22] font-bold mb-10">
         Revisión de funcionamiento de enlaces </h1>
 

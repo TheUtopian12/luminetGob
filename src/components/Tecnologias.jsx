@@ -1,13 +1,26 @@
-
 import { useState } from "react";
 import Slider from "react-slick";
-import astronaut from "../assets/aua.png";
-import celebrating from "../assets/hik.png";
-import education from "../assets/panasonic.png";
-import taken from "../assets/aua.png";
+import axis from "../assets/Tecnologias/axis.png";
+import cisco from "../assets/Tecnologias/cisco.png";
+import hikvision from "../assets/Tecnologias/hikvision.png";
+import Logos from "../assets/Tecnologias/añhua.png";
+import Panasonic from "../assets/Tecnologias/panasonic.png";
+import tamce from "../assets/Tecnologias/tamce.png";
+import tarana from "../assets/Tecnologias/tarana.png";
+import zencase from "../assets/Tecnologias/zencase.png";
+
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
-const images = [astronaut, celebrating, education, taken];
+const images = [
+  axis,
+  cisco,
+  hikvision,
+  Logos,
+  Panasonic,
+  tamce,
+  tarana,
+  zencase,
+];
 
 function Tecnologias() {
   const NextArrow = ({ onClick }) => {
@@ -41,16 +54,17 @@ function Tecnologias() {
   };
 
   return (
-    <div className="flex justify-center">
-        <div className="w-[80%]">
-     <Slider {...settings}>
-        {images.map((img, idx) => (
-          <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-            <img src={img} alt={img} />
-          </div>
-        ))}
-      </Slider>
-    </div>
+    <div className="flex justify-center h-[60vh] bgTec bg-cover bg-center pt-20">
+      <div className="w-[80%]">
+        <h1 className="text-center mb-20 text-4xl font-bold text-white">Tecnologías que implementamos</h1>
+        <Slider {...settings}>
+          {images.map((img, idx) => (
+            <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
+              <img src={img} alt={img} />
+            </div>
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 }

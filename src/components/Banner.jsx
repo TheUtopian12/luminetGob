@@ -21,7 +21,12 @@ export const Banner = () => {
         <div className="flex justify-center">
           <button className="mr-10" onClick={() => sliderRef.current.slickPrev()}><img src="/img/iconos/arrow (1).png" alt="" className="w-5 rotate-180" /></button>
 
-          <div className="w-[360px] sm:w-[1200px]">
+          <div className="w-[360px] 
+          sm:w-[560px] 
+          md:w-[730px]
+          lg:w-[900px]
+          xl:w-[1000px]
+          ">
             <Slider ref={sliderRef} {...settings}>
               <div>
                 <h2 className="text-lg sm:text-3xl">

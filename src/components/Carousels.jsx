@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 const Carousels = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -10,53 +10,65 @@ const Carousels = () => {
     arrows:false
   };
   return (
-    <div className="w-[100%] h-[50vh] text-center mt-48 mb-24 bg-cover bgCarousel">
+    <div className="w-[100%] h-[60vh] text-center mt-48 mb-24 bg-cover bgCarousel">
       <div>
       <h1 className="text-center text-4xl text-white font-bold mb-14 pt-14"> Clientes </h1> 
         <Slider {...settings}>
-          <div className="pl-36">
-            <img src="/img/clientes/Deacero.png" alt="" className="w-[200px]  rounded-2xl bg-white"/>
+          <div className="pl-14">
+            <img src="/img/LogosCliente/coahuila.png" alt="" className="w-[400px]  rounded-2xl bg-white"/>
+              <h2 className="text-white pr-10 pt-5 text-xl">Gobierno del Estado Coahuila</h2>
+            </div>
+          <div className="pl-14">
+            <img src="/img/LogosCliente/guanajuato.png" alt="" className="w-[400px] bg-white rounded-2xl"/>
+            <h2 className="text-white pr-10 pt-5 text-xl">Gobierno del Estado Guanajuato</h2>
           </div>
-          <div className="pl-36">
-            <img src="/img/clientes/Gobierno-MTY.png" alt="" className="w-[200px] bg-white rounded-2xl"/>
+          <div className="pl-14">
+            <img src="/img/LogosCliente/monterrey.png" alt="" className="w-[400px] bg-white rounded-2xl"/>
+            <h2 className="text-white pr-10 pt-5 text-xl">Gobierno del Estado Monterrey</h2>
           </div>
-          <div className="pl-36">
-            <img src="/img/clientes/Logo escudo-de-armas-Saltillo.jpeg" alt="" className="w-[200px] bg-white rounded-2xl"/>
-          </div>
-          <div className="pl-36">
-            <img src="/img/clientes/logo gobierno-17-23_03Ca-color.png" alt="" className="w-[200px] bg-white rounded-2xl"/>
-          </div>
-
-          <div className="pl-36">
-            <img src="/img/clientes/Logo guanajuato.png" alt="" className="w-[200px] bg-white rounded-2xl"/>
-          </div>
-
-          <div className="pl-36">
-            <img src="/img/clientes/LOGO UNI.png" alt="" className="w-[200px] bg-white rounded-2xl"/>
+          <div className="pl-14">
+            <img src="/img/LogosCliente/deacero.png" alt="" className="w-[400px] bg-white rounded-2xl"/>
+            <h2 className="text-white pr-10 pt-5 text-xl">Grupo DEACERO</h2>
           </div>
 
-          <div className="pl-36">
-            <img src="/img/clientes/logo_Secretaria de Salud.png" alt="" className="w-[200px] bg-white rounded-2xl"/>
+          <div className="pl-14">
+            <img src="/img/LogosCliente/gp.png" alt="" className="w-[400px] bg-white rounded-2xl"/>
+            <h2 className="text-white pr-10 pt-5 text-xl">Grupo GP</h2>
           </div>
 
-          <div className="pl-36">
-            <img src="/img/clientes/Logo-AMMEX.png" alt="" className="w-[200px] bg-white rounded-2xl"/>
+          <div className="pl-14">
+            <img src="/img/LogosCliente/judicial.png" alt="" className="w-[400px] bg-white rounded-2xl"/>
+            <h2 className="text-white pr-10 pt-5 text-xl">Poder Judiacial del Estado de Coahuila</h2>
           </div>
 
-          <div className="pl-36">
-            <img src="/img/clientes/logo-GP.png" alt="" className="w-[200px] bg-white rounded-2xl"/>
+          <div className="pl-14">
+            <img src="/img/LogosCliente/metalsa.png" alt="" className="w-[400px] bg-white rounded-2xl"/>
+            <h2 className="text-white pr-10 pt-5 text-xl">Metalsa</h2>
           </div>
 
-          <div className="pl-36">
-            <img src="/img/clientes/Logo-Universidad Saltillo.png" alt="" className="w-[200px] bg-white rounded-2xl"/>
+          <div className="pl-14">
+            <img src="/img/LogosCliente/saltilloG.png" alt="" className="w-[400px] bg-white rounded-2xl"/>
+            <h2 className="text-white pr-10 pt-5 text-xl">Gobierno Municipal de Saltillo</h2>
           </div>
 
-          <div className="pl-36">
-            <img src="/img/clientes/Metalsa.png" alt="" className="w-[200px] bg-white rounded-2xl"/>
+          <div className="pl-14">
+            <img src="/img/LogosCliente/saltilloU.png" alt="" className="w-[400px] bg-white rounded-2xl"/>
+            <h2 className="text-white pr-10 pt-5 text-xl">Universidad de Saltillo</h2>
           </div>
 
-          <div className="pl-36">
-            <img src="/img/clientes/Poder-Judicial.png" alt="" className="w-[200px] bg-white rounded-2xl"/>
+          <div className="pl-14">
+            <img src="/img/LogosCliente/salud.png" alt="" className="w-[400px] bg-white rounded-2xl"/>
+            <h2 className="text-white pr-10 pt-5 text-xl">Secretaria de Salud del Estado de Coahuila</h2>
+          </div>
+
+          <div className="pl-14">
+            <img src="/img/LogosCliente/amex.png" alt="" className="w-[400px] bg-white rounded-2xl"/>
+            <h2 className="text-white pr-10 pt-5 text-xl">AMMEX Products</h2>
+          </div>
+
+          <div className="pl-14">
+            <img src="/img/LogosCliente/uanl.png" alt="" className="w-[400px] bg-white rounded-2xl"/>
+            <h2 className="text-white pr-10 pt-5 text-xl">Universidad Autónoma de Nuevo León</h2>
           </div>
           
         </Slider>
