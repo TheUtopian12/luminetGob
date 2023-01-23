@@ -31,7 +31,7 @@ export const Ciberseguridad = () => {
   return (
     <div>
       <div className="flex flex-col-reverse sm:flex sm:flex-row mt-20 gap-10 p-10">
-        <div className="sm:w-[60%] text-2xl ml-4 mr-4 sm:ml-16 text-[#143C6A]">
+        <div className="sm:w-[60%] sm:text-2xl ml-4 mr-4 sm:ml-16 text-[#143C6A]">
           <p className="mt-4">
             Contamos con los equipos más sofisticados de contramedidas
             electrónicas para ofrecer servicios de barrido electrónico que
@@ -57,24 +57,24 @@ export const Ciberseguridad = () => {
         </div>
       </div>
 
-      <div className="mt-10 ml-32 mr-32">
+      <div className="mt-10 ml-5 mr-5 sm:ml-32 sm:mr-32 ">
         <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
           <AccordionHeader onClick={() => handleOpen(1)}>
           
-            <div className=" h-20 w-full flex items-center  gap-36">
+            <div className=" h-20 w-full flex items-center gap-5  sm:gap-36">
             <img
               src="/img/iconos/information.png"
               alt=""
-              className="w-20"
+              className="w-10"
             />
-            <h1 className="text-left text-[#143C6A] text-2xl font-bold">
+            <h1 className="text-left text-[#143C6A] text-sm sm:text-xl font-bold">
             ¿Qué hacemos?
             </h1>
           </div>
           </AccordionHeader>
           <AccordionBody>
             <div className="grid place-items-center">
-              <ul className="text-2xl ml-10 text-[#143C6A]">
+              <ul className="text-sm sm:text-xl ml-10 text-[#143C6A]">
                 <li type="circle">
                   Detección de todas las transmisiones de audio, video y datos
                   espías cuya fuente pueden ser cámaras o micrófonos ocultos en
@@ -101,23 +101,23 @@ export const Ciberseguridad = () => {
         </Accordion>
       </div>
 
-      <div className="mt-10 ml-32 ">
+      <div className="mt-10 ml-5 mr-5 sm:ml-32 sm:mr-32 ">
         <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
           <AccordionHeader onClick={() => handleOpen(2)}>
-            <div className=" h-20 w-full flex items-center  gap-36">
+            <div className=" h-20 w-full flex items-center gap-5   sm:gap-36">
             <img
               src="/img/iconos/tools.png"
               alt=""
-              className="w-20"
+              className="w-10"
             />
-            <h1 className="text-left text-[#143C6A] text-2xl font-bold">
+            <h1 className="text-left text-[#143C6A] text-sm sm:text-xl font-bold">
             ¿Cómo lo hacemos?
             </h1>
           </div>
           </AccordionHeader>
           <AccordionBody>
             <div className="grid">
-              <ul className="text-2xl ml-10 text-[#143C6A]">
+              <ul className="text-sm sm:text-xl ml-10 text-[#143C6A]">
                 <li type="circle">
                   Lentes de cámaras ocultas de forma rápida.
                 </li>
@@ -138,24 +138,24 @@ export const Ciberseguridad = () => {
         </Accordion>
       </div>
 
-      <div className="mt-10 ml-32 ">
+      <div className="mt-10 ml-5 mr-5 sm:ml-32 sm:mr-32 ">
         <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
           <AccordionHeader onClick={() => handleOpen(3)}>
            
-            <div className=" h-20 w-full flex items-center  gap-36">
+            <div className=" h-20 w-full flex items-center gap-5   sm:gap-36">
             <img
               src="/img/iconos/result.png"
               alt=""
-              className="w-20"
+              className="w-10"
             />
-            <h1 className="text-left text-[#143C6A] text-2xl font-bold">
+            <h1 className="text-left text-[#143C6A] text-sm sm:text-xl font-bold">
             Resultados
             </h1>
           </div>
           </AccordionHeader>
           <AccordionBody>
             <div className="grid">
-              <ul className="text-2xl ml-10 text-[#143C6A]">
+              <ul className="text-sm sm:text-xl ml-10 text-[#143C6A]">
                 <li type="circle">
                   Seguridad para redes internas, externas e internet.
                 </li>

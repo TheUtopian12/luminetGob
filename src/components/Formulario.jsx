@@ -5,16 +5,16 @@ import { Input, Button,Textarea  } from "@material-tailwind/react";
 const Formulario = () => {
   return (
     <div className="min-h-screen bg-[#95C926] flex flex-col place-items-center">
-      <h1 className="text-4xl text-[#143C6A] font-bold text-center pt-10">
+      <h1 className="sm:text-4xl text-[#143C6A] font-bold text-center pt-10">
         Solicitar más información
       </h1>
-      <h2 className="text-2xl text-[#143C6A] text-center pt-10 ml-28 mr-28 font-bold">
+      <h2 className="sm:text-2xl text-[#143C6A] text-center pt-5 sm:pt-10 sm:ml-28 sm:mr-28 font-bold">
         Déjanos tus datos de contacto para que uno de nuestros ejecutivos se
         contacte a la brevedad y te brinde la información detallada.
       </h2>
 
-      <div className=" w-[60%] h-[60vh] mt-20 rounded-2xl grid grid-cols-2">
-        <div className="h-full w-full bg-[#143C6A] rounded-l-2xl flex flex-col place-items-center pt-5">
+      <div className="w-[100%] sm:w-[60%] min-h-screen pb-10  pt-20 rounded-2xl grid sm:grid-cols-2 gap-10 sm:gap-0">
+        <div className="h-full w-[100%] sm:w-[100%] bg-[#143C6A] sm:rounded-l-2xl flex flex-col place-items-center pt-5">
           <img src={Logo} alt="" className="w-32" />
           <div className=" flex flex-col text-white m-5">
             <div className="flex gap-5">
@@ -44,7 +44,7 @@ const Formulario = () => {
             </div>
           </div>
         </div>
-        <div className="h-full w-full bg-white rounded-r-2xl">
+        <div className="h-full w-[100%] sm:w-[100%] bg-white sm:rounded-r-2xl">
           <div className="flex flex-col justify-center  items-center place-items-center m-10 gap-10">
             <Input variant="standard" label="Nombre" />
             <Input variant="standard" label="E-mail" />

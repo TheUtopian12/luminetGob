@@ -41,10 +41,10 @@ const Polizas = () => {
   }
   return (
     <div className="mt-10 min-h-screen w-full">
-      <h1 className="text-center text-4xl text-[#143C6A] font-bold">
+      <h1 className="text-center text-2xl sm:text-4xl text-[#143C6A] font-bold">
         Contamos con pólizas de servicio y mantenimiento
       </h1>
-      <div className="bg-[#09284B] ml-20 mr-20 rounded-3xl mt-10">
+      <div className="bg-[#09284B] ml-2 mr-2 sm:ml-20 sm:mr-20 rounded-3xl mt-10">
         <Slider ref={sliderRef} {...settings}>
           <div>
             <PlantaExterna />

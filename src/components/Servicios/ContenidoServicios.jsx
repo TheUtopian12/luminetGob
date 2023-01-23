@@ -5,7 +5,7 @@ import { RedInternet } from "./RedInternet";
 
 export const ContenidoServicios = ({ pagina }) => {
   return (
-    <div className="min-h-screen ">
+    <div className=" ">
       {pagina === "1" ? (
         <PlantaExt />
       ) : pagina === "2" ? (

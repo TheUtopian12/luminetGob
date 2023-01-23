@@ -13,7 +13,7 @@ const Accesos = () => {
             Control de accesos
           </h1>
 
-          <p className="mb-5">
+          <p className="mb-5 text-xl">
             Revisión del Circuito Cerrado de TV: cámaras, tarjetas, vídeos y
             equipos audiovisuales en general.{" "}
           </p>

@@ -9,7 +9,7 @@ export const Cards = () => {
       flipSpeedFrontToBack={0.6}
       flipSpeedBackToFront={0.6}
     >
-      <div className="w-[600px] h-96 bg-[url('/img/SERVICIOS-DE-RED-01.png')] bg-cover bg-center text-center grid rounded-3xl">
+      <div className="w-[90%] h-72 bg-[url('/img/SERVICIOS-DE-RED-01.png')] bg-cover bg-center text-center grid rounded-3xl">
         <div className="flex items-end mb-0 font-bold">
           <p className="text-2xl text-white mt-20">
             Servicios de interconexion para oficinas del sector público
@@ -22,7 +22,7 @@ export const Cards = () => {
         </div>
       </div>
 
-      <div className="w-[600px] h-96 bg-[#09284B] grid border-black border-2 rounded-3xl">
+      <div className="w-[90%] h-72 bg-[#09284B] grid border-black border-2 rounded-3xl">
         <p className="m-10 text-white">
           Servicio de red totalmente gestionado y seguro que ofrece servicios de
           alta calidad para conectar diferentes oficinas o dependencias entre

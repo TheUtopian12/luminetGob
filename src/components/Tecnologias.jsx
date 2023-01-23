@@ -9,7 +9,7 @@ import tamce from "../assets/Tecnologias/tamce.png";
 import tarana from "../assets/Tecnologias/tarana.png";
 import zencase from "../assets/Tecnologias/zencase.png";
 
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 
 const images = [
   axis,
@@ -26,15 +26,15 @@ function Tecnologias() {
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow next" onClick={onClick}>
-        <FaArrowRight />
+        <FaAngleRight size={30}/>
       </div>
     );
   };
 
   const PrevArrow = ({ onClick }) => {
     return (
-      <div className="arrow prev" onClick={onClick}>
-        <FaArrowLeft />
+      <div className="arrow prev " onClick={onClick}>
+        <FaAngleLeft size={30}/>
       </div>
     );
   };
@@ -52,20 +52,53 @@ function Tecnologias() {
     prevArrow: <PrevArrow />,
     beforeChange: (current, next) => setImageIndex(next),
   };
+  const settings2 = {
+    infinite: true,
+    lazyLoad: true,
+    speed: 300,
+    slidesToShow: 1,
+    centerMode: true,
+    centerPadding: 0,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+    beforeChange: (current, next) => setImageIndex(next),
+  };
 
   return (
-    <div className="flex justify-center h-[60vh] bgTec bg-cover bg-center pt-20">
-      <div className="w-[80%]">
-        <h1 className="text-center mb-20 text-4xl font-bold text-white">Tecnologías que implementamos</h1>
-        <Slider {...settings}>
-          {images.map((img, idx) => (
-            <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-              <img src={img} alt={img} />
-            </div>
-          ))}
-        </Slider>
+    <>
+      <div className="flex sm:hidden justify-center w-[100%] h-[60vh] bgTec bg-cover bg-center pt-20">
+        <div className="w-[80%]">
+          <h1 className="text-center mb-20 text-2xl font-bold text-white">
+            Tecnologías que implementamos
+          </h1>
+          <Slider {...settings2}>
+            {images.map((img, idx) => (
+              <div
+                className={idx === imageIndex ? "slide activeSlide" : "slide"}
+              >
+                <img src={img} alt={img} />
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </div>{" "}
+      <div className="hidden sm:flex justify-center h-[60vh] bgTec bg-cover bg-center pt-20">
+        <div className="w-[80%]">
+          <h1 className="text-center mb-20 text-4xl font-bold text-white">
+            Tecnologías que implementamos
+          </h1>
+          <Slider {...settings}>
+            {images.map((img, idx) => (
+              <div
+                className={idx === imageIndex ? "slide activeSlide" : "slide"}
+              >
+                <img src={img} alt={img} />
+              </div>
+            ))}
+          </Slider>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

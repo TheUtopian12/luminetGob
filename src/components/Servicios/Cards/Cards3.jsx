@@ -9,7 +9,7 @@ export const Cards3 = () => {
       flipSpeedFrontToBack={0.6}
       flipSpeedBackToFront={0.6}
     >
-      <div className="w-[600px] h-96 bg-[url('/img/SERVICIOS-DE-RED-03.png')] bg-cover bg-center text-center grid rounded-3xl">
+      <div className="w-[90%] h-72 bg-[url('/img/SERVICIOS-DE-RED-03.png')] bg-cover bg-center text-center grid rounded-3xl">
         <div className="flex items-end mb-0 justify-center font-bold">
           <p className="text-2xl text-white mt-20">Servicios de Internet</p>
         </div>
@@ -18,7 +18,7 @@ export const Cards3 = () => {
         </div>
       </div>
 
-      <div className="w-[600px] h-96 bg-[#09284B] grid border-black border-2 rounded-3xl">
+      <div className="w-[90%] h-72 bg-[#09284B] grid border-black border-2 rounded-3xl">
         <ul className="m-10 list-disc text-white">
           <li>
             Servicios de Internet Dedicado y Simétrico hasta 1 Gb de velocidad.

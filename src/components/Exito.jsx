@@ -8,7 +8,7 @@ const Exito = () => {
           Casos de éxito
         </h1>{" "}
       </div>
-      <div className="h-[70vh] w-[100%] bg-[#041A32] flex gap-36 justify-center items-center">
+      <div className="min-h-screen w-[100%] bg-[#041A32] flex flex-col sm:flex-row gap-10 sm:gap-36 justify-center items-center">
 
         <div className="grid place-items-center">
           <img

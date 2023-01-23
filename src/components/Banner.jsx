@@ -15,13 +15,13 @@ export const Banner = () => {
       className={`w-[100%] h-[300px] bgImageBanner bg-cover flex items-center justify-center`}
     >
       <div className="text-white text-center ml-5 mr-5">
-        <h1 className="text-lg font-extrabold sm:text-4xl">
+        <h1 className="text-lg mb-5 font-extrabold sm:text-4xl">
           ¿Por qué luminet?
         </h1>
         <div className="flex justify-center">
           <button className="mr-10" onClick={() => sliderRef.current.slickPrev()}><img src="/img/iconos/arrow (1).png" alt="" className="w-5 rotate-180" /></button>
 
-          <div className="w-[360px] 
+          <div className="w-[310px] 
           sm:w-[560px] 
           md:w-[730px]
           lg:w-[900px]

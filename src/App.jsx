@@ -4,6 +4,7 @@ import { Info } from "./components/Info";
 import { MoreInfo } from "./components/MoreInfo";
 import { Servicios } from "./components/Servicios/Servicios";
 import Carousels from "./components/Carousels";
+import CarouselsResponsive from "./components/CarouselsResponsive";
 import Exito from "./components/Exito";
 import Polizas from "./components/Polizas";
 import Tecnologias from "./components/Tecnologias";
@@ -14,12 +15,17 @@ import Breakpoints from "./components/Breakpoints";
 function App() {
   return (
     <>
-     <Hero />
+      <Hero />
       <Info />
       <MoreInfo />
       <Banner />
       <Servicios />
-      <Carousels />
+      <span className="hidden sm:flex">
+        <Carousels />
+      </span>
+      <span className="flex sm:hidden">
+        <CarouselsResponsive />
+      </span>
       <Exito />
       <Polizas />
       <Tecnologias />

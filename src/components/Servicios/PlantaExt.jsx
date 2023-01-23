@@ -30,7 +30,7 @@ export const PlantaExt = () => {
               />
             </div>
             <div>
-              <h1 className="text-left text-[#143C6A] text-sm font-bold ">
+              <h1 className="text-left text-[#143C6A] text-sm sm:text-xl font-bold ">
                 Construcción e instalación de puntos de monitoreo para cámaras
                 en vía pública
               </h1>
@@ -53,7 +53,7 @@ export const PlantaExt = () => {
             </div>
 
             <div>
-              <h1 className="text-left text-[#143C6A] text-sm font-bold ">
+              <h1 className="text-left text-[#143C6A] text-sm sm:text-xl font-bold ">
                 Monitoreo de red y cámaras en vía pública y red privada.
               </h1>
             </div>
@@ -74,7 +74,7 @@ export const PlantaExt = () => {
               />
             </div>
             <div>
-              <h1 className="text-left text-[#143C6A] text-sm font-bold ">
+              <h1 className="text-left text-[#143C6A] text-sm sm:text-xl font-bold ">
                 Mantenimiento de red
               </h1>
             </div>

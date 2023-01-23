@@ -4,7 +4,7 @@ import { ContenidoServicios } from "./ContenidoServicios";
 export const Servicios = () => {
   const [pagina, setPagina] = useState("1");
   return (
-    <div className="w-[100%] min-h-screen mt-10">
+    <div className="w-[100%]  mt-10">
       <h1 className="text-[#143C6A] text-4xl font-bold text-center ">
         Nuestros servicios especializados
       </h1>

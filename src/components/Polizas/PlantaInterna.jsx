@@ -12,11 +12,11 @@ const PlantaInterna = () => {
             Planta interna, Mantenimiento de red y site de clientes
           </h1>
 
-          <p className="mb-5">
+          <p className="mb-5 text-xl">
             Revisión del funcionamiento de routers, switches, señal de proveedor
             de internet y cableado.
           </p>
-          <p>
+          <p className="text-xl">
             Así como inspección de configuración, la disposición y distribución
             de los cables.
           </p>

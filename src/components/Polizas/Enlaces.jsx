@@ -13,7 +13,7 @@ const Enlaces = () => {
         <h1 className="text-left text-3xl text-[#76BA22] font-bold mb-10">
         Revisión de funcionamiento de enlaces </h1>
 
-        <ul className="list-disc">
+        <ul className="list-disc text-xl">
             <li>Revisión de transmisores de Microondas ubicadas en el sitio.</li>
             <li>
             Revisión de parámetros de calidad de señal del enlace.

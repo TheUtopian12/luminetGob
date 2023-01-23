@@ -3,7 +3,7 @@ import poste from "./poste.png";
 const PlantaExterna = () => {
   return (
     <div className="flex justify-center mt-16">
-      <div className="flex gap-16  w-[80%] h-[500px] items-center p-10 rounded-3xl">
+      <div className="flex gap-16 w-[80%] h-[500px] items-center p-10 rounded-3xl">
         <div className='w-[300px]'>
           <img src={poste} alt="" className="rounded-2xl" />
         </div>
@@ -12,7 +12,7 @@ const PlantaExterna = () => {
             Planta Externa y Última Milla
           </h1>
 
-          <ul className="list-disc">
+          <ul className="list-disc text-xl">
             <li>Patrullajes de red de Fibra Óptica metropolitana.</li>
             <li>
               Mantenimientos preventivos y correctivos de red de Fibra Óptica y

@@ -12,7 +12,7 @@ const Limpieza = () => {
         <h1 className="text-left text-3xl text-[#76BA22] font-bold mb-10">
         Limpieza técnica de salas de sistemas </h1>
 
-        <p className="mb-5">
+        <p className="mb-5 text-xl">
         Limpieza de Hardware, sistemas de energía, ventiladores, superficies verticales y periféricas y del suelo técnico para minimizar el riesgo de propagación de elementos contaminantes entre ellos polvo, material férrico, “pelos de zinc” que puedan generar sobrecalentamiento en los equipos y dificultar el flujo del aire en los mismos.
         </p>
       </div>

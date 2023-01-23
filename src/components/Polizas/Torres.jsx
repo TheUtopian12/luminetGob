@@ -12,9 +12,9 @@ const Torres = () => {
         <h1 className="text-left text-3xl text-[#76BA22] font-bold mb-10">
         Mantenimiento de Torres de Telecomunicaciones </h1>
 
-        <p className="mb-5">
+        <p className="mb-5 text-xl">
         Ejecutamos las acciones y trabajos necesarios con el objetivo de asegurar la conservación de los anclajes y las estructuras de soporte, tramos de la torre y tensores. </p>
-        <p>
+        <p className='text-xl'>
         Así como la verticalidad de la torre, el sistema de parrayos y tierra y retoque de pintura para evitar corrosión de ser necesaria. </p>
       </div>
     </div>

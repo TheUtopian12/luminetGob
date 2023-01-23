@@ -83,7 +83,8 @@
   }
   
   .arrow {
-	background-color: #fff;
+	background-color: transparent;
+	color: green;
 	position: absolute;
 	cursor: pointer;
 	z-index: 10;
@@ -98,11 +99,11 @@
   }
   
   .next {
-	right: 0%;
+	right: -10%;
 	top: 50%;
   }
   
   .prev {
-	left: 0%;
+	left: -10%;
 	top: 50%;
   }

@@ -4,7 +4,7 @@ import poste from "../PlantaExtDocs/poste2.png";
 
 const Monitoreo = () => {
   return (
-    <div className="grid grid-cols-1 smgrid-cols-2">
+    <div className="grid grid-cols-1 sm:grid-cols-2">
       <div className="flex justify-center">
         <img src={poste} alt="" className="w-[200px]" />
       </div>
