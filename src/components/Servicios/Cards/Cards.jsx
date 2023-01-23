@@ -23,7 +23,7 @@ export const Cards = () => {
       </div>
 
       <div className="w-[90%] h-72 bg-[#09284B] grid border-black border-2 rounded-3xl">
-        <p className="m-10 text-white">
+        <p className="m-10 text-white text-center pt-10">
           Servicio de red totalmente gestionado y seguro que ofrece servicios de
           alta calidad para conectar diferentes oficinas o dependencias entre
           sí: redes filiales, infraestructuras o aplicaciones en la nube,

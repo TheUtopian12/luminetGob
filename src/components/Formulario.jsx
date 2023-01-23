@@ -14,7 +14,7 @@ const Formulario = () => {
       </h2>
 
       <div className="w-[100%] sm:w-[60%] min-h-screen pb-10  pt-20 rounded-2xl grid sm:grid-cols-2 gap-10 sm:gap-0">
-        <div className="h-full w-[100%] sm:w-[100%] bg-[#143C6A] sm:rounded-l-2xl flex flex-col place-items-center pt-5">
+        <div className="h-full w-[100%] sm:w-[100%] bg-[#143C6A] sm:rounded-l-2xl hidden sm:flex flex-col place-items-center pt-5">
           <img src={Logo} alt="" className="w-32" />
           <div className=" flex flex-col text-white m-5">
             <div className="flex gap-5">

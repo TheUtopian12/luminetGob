@@ -29,7 +29,7 @@ export const Banner = () => {
           ">
             <Slider ref={sliderRef} {...settings}>
               <div>
-                <h2 className="text-lg sm:text-3xl">
+                <h2 className="text-lg sm:text-xl">
                   Ofrecemos
                   <span className="text-[#76BA22] font-semibold">
                     {" "}
@@ -40,7 +40,7 @@ export const Banner = () => {
               </div>
 
               <div>
-                <h2 className="text-lg sm:text-3xl">
+                <h2 className="text-lg sm:text-xl">
                   Porque somos{" "}
                   <span className="text-[#76BA22] font-semibold">
                     caso de éxito
@@ -54,7 +54,7 @@ export const Banner = () => {
               </div>
 
               <div>
-                <h2 className="text-lg sm:text-3xl">
+                <h2 className="text-lg sm:text-xl">
                   Brindamos{" "}
                   <span className="text-[#76BA22] font-semibold">
                     consultoría especializada
@@ -65,7 +65,7 @@ export const Banner = () => {
               </div>
 
               <div>
-                <h2 className="text-lg sm:text-3xl">
+                <h2 className="text-lg sm:text-xl">
                   Porque somos una empresa que tiene{" "}
                   <span className="text-[#76BA22] font-semibold">
                     amplia experiencia{" "}
@@ -79,7 +79,7 @@ export const Banner = () => {
               </div>
 
               <div>
-                <h2 className="text-lg sm:text-3xl">
+                <h2 className="text-lg sm:text-xl">
                   Porque al elegirnos contarás con una empresa con más de{" "}
                   <span className="text-[#76BA22] font-semibold">
                     23 años de experiencia

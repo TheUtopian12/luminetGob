@@ -67,7 +67,7 @@ export const Ciberseguridad = () => {
               alt=""
               className="w-10"
             />
-            <h1 className="text-left text-[#143C6A] text-sm sm:text-xl font-bold">
+            <h1 className="text-left text-[#143C6A] text-sm sm:text-2xl font-bold">
             ¿Qué hacemos?
             </h1>
           </div>
@@ -110,7 +110,7 @@ export const Ciberseguridad = () => {
               alt=""
               className="w-10"
             />
-            <h1 className="text-left text-[#143C6A] text-sm sm:text-xl font-bold">
+            <h1 className="text-left text-[#143C6A] text-sm sm:text-2xl font-bold">
             ¿Cómo lo hacemos?
             </h1>
           </div>
@@ -148,7 +148,7 @@ export const Ciberseguridad = () => {
               alt=""
               className="w-10"
             />
-            <h1 className="text-left text-[#143C6A] text-sm sm:text-xl font-bold">
+            <h1 className="text-left text-[#143C6A] text-sm sm:text-2xl font-bold">
             Resultados
             </h1>
           </div>
