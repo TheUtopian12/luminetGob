@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/Logo-Luminet-Gobierno.png";
+import logo from "../assets/logo-luminet-c-v.png";
 import logo_ift from "../assets/logo_ift_horizontal.png";
 import cofetel from "../assets/Clientes/Logo CFT.jpeg";
 import Slider from "react-slick";
