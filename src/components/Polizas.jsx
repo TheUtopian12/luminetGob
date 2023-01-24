@@ -16,60 +16,68 @@ const Polizas = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
 
     className: "react__slick__slider__parent",
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+  
   };
 
-  function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div className={className} style={{ ...style }} onClick={onClick}>
-        Next
-      </div>
-    );
-  }
-  function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div className={className} style={{ ...style }} onClick={onClick}>
-        Arrow
-      </div>
-    );
-  }
+
   return (
     <div className="mt-10 min-h-screen w-full">
       <h1 className="text-center text-2xl sm:text-4xl text-[#143C6A] font-bold">
         Contamos con pólizas de servicio y mantenimiento
       </h1>
       <div className="bg-[#09284B] ml-2 mr-2 sm:ml-20 sm:mr-20 rounded-3xl mt-10">
-        <Slider ref={sliderRef} {...settings}>
-          <div>
-            <PlantaExterna />
-          </div>
-          <div>
-            <PlantaInterna />
-          </div>
-          <div>
-            <Alimentacion />
-          </div>
-          <div>
-            <Limpieza />
-          </div>
-          <div>
-            <Accesos />
-          </div>
+        <div className="flex justify-center">
+          <button
+            className="mr-10"
+            onClick={() => sliderRef.current.slickPrev()}
+          >
+            <img
+              src="/img/iconos/arrow (1).png"
+              alt=""
+              className="w-5 rotate-180"
+            />
+          </button>
 
-          <div>
-            <Enlaces />
-          </div>
+          <div
+            className="w-[310px] 
+          sm:w-[560px] 
+          md:w-[730px]
+          lg:w-[900px]
+          xl:w-[1200px]
+          "
+          >
+            <Slider ref={sliderRef} {...settings}>
+              <div>
+                <PlantaExterna />
+              </div>
+              <div>
+                <PlantaInterna />
+              </div>
+              <div>
+                <Alimentacion />
+              </div>
+              <div>
+                <Limpieza />
+              </div>
+              <div>
+                <Accesos />
+              </div>
 
-          <div>
-            <Torres />
+              <div>
+                <Enlaces />
+              </div>
+
+              <div>
+                <Torres />
+              </div>
+            </Slider>
           </div>
-        </Slider>
+          <button className="ml-10" onClick={() => sliderRef.current.slickNext()}> <img src="/img/iconos/arrow (1).png" alt="" className="w-5" /> </button>
+       
+        </div>
       </div>
     </div>
   );

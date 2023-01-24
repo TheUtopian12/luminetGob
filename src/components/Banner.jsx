@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import bgImage from "../assets/banner.jpg";
-
+import { AiOutlinePauseCircle,AiOutlinePlayCircle } from "react-icons/ai";
 import Slider from "react-slick";
 export const Banner = () => {
   const sliderRef = useRef(null);
@@ -92,7 +92,13 @@ export const Banner = () => {
           </div>
           <button className="ml-10" onClick={() => sliderRef.current.slickNext()}> <img src="/img/iconos/arrow (1).png" alt="" className="w-5" /> </button>
         </div>
+       <div className="flex gap-5 justify-center">
+       <button className="mt-10 text-[#76BA22] hover:text-white" onClick={() => sliderRef.current.slickPause()}> <AiOutlinePauseCircle size={30}/> </button>
+        <button className="mt-10 text-[#76BA22] hover:text-white" onClick={() => sliderRef.current.slickPlay()}> <AiOutlinePlayCircle size={30}/> </button>
+       
+       </div>
       </div>
+      
     </div>
   );
 };
