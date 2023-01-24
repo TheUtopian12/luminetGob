@@ -3,6 +3,8 @@ import { Cards } from "./Cards/Cards";
 import { Cards2 } from "./Cards/Cards2";
 import { Cards3 } from "./Cards/Cards3";
 import { Cards4 } from "./Cards/Cards4";
+
+import { Button } from "@material-tailwind/react";
 export const RedInternet = () => {
   return (
     <div className="flex flex-col place-content-center place-items-center justify-center sm:m-10 mb-10">
@@ -29,9 +31,10 @@ export const RedInternet = () => {
           visita
         </h1>
       </div>
-      <button className="text-white bg-gradient-to-r from-[#00745F] to-[#95C926] w-[50%] sm:w-[20%]  sm:text-2xl rounded-2xl text-lg hover:bg-[#598d19] mt-10">
-        luminet.com.mx
-      </button>
+     
+      <Button color="green" variant="gradient" className="w-44 mb-10 sm:mb-0">
+      luminet.com.mx
+          </Button>
     </div>
   );
 };

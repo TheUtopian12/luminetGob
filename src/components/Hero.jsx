@@ -1,5 +1,7 @@
 import React from "react";
 import bgVideo from "../assets/Banner Web.mp4";
+
+import {  Button  } from "@material-tailwind/react";
 export const Hero = () => {
   return (
     <div className="w-full h-screen relative">
@@ -34,13 +36,10 @@ export const Hero = () => {
           total
         </h2>
         <div className="mt-10">
-          <button
-            className="text-white bg-gradient-to-r 
-
-          from-[#013506] to-[#43BA22] w-[50%] sm:w-[30%]  sm:text-2xl rounded-2xl text-lg hover:bg-[#598d19]"
-          >
-            Contactar un especialista
-          </button>
+          
+          <Button color="green" variant="gradient">
+          Contactar un especialista
+            </Button>
         </div>
       </div>
     </div>

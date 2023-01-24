@@ -8,7 +8,7 @@ const Exito = () => {
           Casos de éxito
         </h1>{" "}
       </div>
-      <div className="min-h-screen w-[100%] bg-[#041A32] flex flex-col sm:flex-row gap-10 sm:gap-36 justify-center items-center">
+      <div className="h-[120vh] sm:h-[70vh] w-[100%] bg-[#041A32] flex flex-col sm:flex-row gap-10 sm:gap-36 justify-center items-center">
 
         <div className="grid place-items-center">
           <img
@@ -16,7 +16,7 @@ const Exito = () => {
           alt=""
           className="w-[300px] h-[300px] rounded-[35px] hover:scale-110 ease-in duration-300"
         />
-        <h2 className="text-white text-xl mt-10">Gobierno Municipal de Monterrey</h2>
+        <h2 className="text-white text-xl mt-10 m-10 text-center">Gobierno Municipal de Monterrey</h2>
         </div>
         <div className="grid place-items-center">
            <img
@@ -24,7 +24,7 @@ const Exito = () => {
           alt=""
           className="w-[300px] h-[300px] rounded-[35px] hover:scale-110 ease-in duration-300"
         />
-        <h2 className="text-white text-xl mt-10">Secretaría de Seguridad del Estado de Coahuila</h2>
+        <h2 className="text-white text-xl mt-10 m-10 text-center">Secretaría de Seguridad del Estado de Coahuila</h2>
 
         </div>
        
