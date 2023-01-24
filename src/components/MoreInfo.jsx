@@ -301,9 +301,10 @@ export const MoreInfo = () => {
       </div>
       <div className="mt-16 mb-16 flex justify-center">
         
-        <Button color="green" variant="gradient">
-        Más información
-            </Button>
+        
+            <button type="button" class="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Más información
+         
+          </button>
       </div>
     </div>
   );

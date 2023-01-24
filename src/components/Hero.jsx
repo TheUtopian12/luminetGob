@@ -1,12 +1,11 @@
 import React from "react";
 import bgVideo from "../assets/Banner Web.mp4";
 
-import {  Button  } from "@material-tailwind/react";
+import { Button } from "@material-tailwind/react";
 export const Hero = () => {
   return (
     <div className="w-full h-screen relative">
-     
-     {/*<button
+      {/*<button
         title="Contacto"
         className=" group fixed z-50 top-28 right-10 bg-[#43BA22] w-10 h-10 hover:w-32 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-[#71b55e]   duration-300"
       >
@@ -16,7 +15,6 @@ export const Hero = () => {
         </span>
         <span className="group-hover:hidden">&#9993;</span>
       </button> */}
-      
 
       <video
         className="w-full h-full object-cover"
@@ -37,9 +35,9 @@ export const Hero = () => {
         </h2>
         <div className="mt-10">
           
-          <Button color="green" variant="gradient">
-          Contactar un especialista
-            </Button>
+<button type="button" class="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Contactar un especialista
+          </button>
+           
         </div>
       </div>
     </div>

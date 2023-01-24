@@ -70,7 +70,7 @@ export const Banner = () => {
                   <span className="text-[#76BA22] font-semibold">
                     amplia experiencia{" "}
                   </span>{" "}
-                  para
+                  para{" "}
                   <span className="text-[#76BA22] font-semibold">
                     operar redes propias y externas
                   </span>{" "}

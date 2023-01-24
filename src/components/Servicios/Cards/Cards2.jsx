@@ -22,7 +22,7 @@ export const Cards2 = () => {
         </div>
       </div>
 
-      <div className="w-[90%] h-fit sm:h-72 bg-[#09284B] grid border-black border-2 rounded-3xl">
+      <div className="w-[90%] h-fit  bg-[#09284B] grid border-black border-2 rounded-3xl">
         <span className="m-10 text-white">
           <p>
             {" "}
@@ -36,9 +36,13 @@ export const Cards2 = () => {
           </p>
         </span>
         <div className="flex justify-center gap-24">
-          <Button color="green" variant="gradient" className="w-44 mb-10 sm:mb-0">
+        <button
+          type="button"
+          class="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+        >
+          {" "}
           Más información
-          </Button>
+        </button>
         </div>
         <div className="flex justify-end mr-10 text-white mb-10 sm:mb-20">
           <button onClick={() => setFlip(!flip)}>

@@ -61,7 +61,7 @@ export const Ciberseguridad = () => {
         <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
           <AccordionHeader onClick={() => handleOpen(1)}>
           
-            <div className=" h-20 w-full flex items-center gap-5  sm:gap-36">
+            <div className=" h-20 w-full flex items-center gap-5  sm:gap-36 bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl">
             <img
               src="/img/iconos/information.png"
               alt=""
@@ -96,6 +96,16 @@ export const Ciberseguridad = () => {
                 </li>
                 <li type="circle">Detección de interferencias.</li>
               </ul>
+             
+            </div>
+            <div className="flex justify-center mt-10">
+            <button
+          type="button"
+          class="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+        >
+          {" "}
+          Más información
+        </button>
             </div>
           </AccordionBody>
         </Accordion>
@@ -104,7 +114,7 @@ export const Ciberseguridad = () => {
       <div className="mt-10 ml-5 mr-5 sm:ml-32 sm:mr-32 ">
         <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
           <AccordionHeader onClick={() => handleOpen(2)}>
-            <div className=" h-20 w-full flex items-center gap-5   sm:gap-36">
+            <div className=" h-20 w-full flex items-center gap-5   sm:gap-36 bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl">
             <img
               src="/img/iconos/tools.png"
               alt=""
@@ -133,6 +143,16 @@ export const Ciberseguridad = () => {
                   cableado y grabadoras.
                 </li>
               </ul>
+              
+            </div>
+            <div className="flex justify-center mt-10">
+            <button
+          type="button"
+          class="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+        >
+          {" "}
+          Más información
+        </button>
             </div>
           </AccordionBody>
         </Accordion>
@@ -142,7 +162,7 @@ export const Ciberseguridad = () => {
         <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
           <AccordionHeader onClick={() => handleOpen(3)}>
            
-            <div className=" h-20 w-full flex items-center gap-5   sm:gap-36">
+            <div className=" h-20 w-full flex items-center gap-5   sm:gap-36 bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl">
             <img
               src="/img/iconos/result.png"
               alt=""
@@ -171,6 +191,15 @@ export const Ciberseguridad = () => {
                 </li>
                 <li type="circle">Mantenemos absoluta confidencialidad.</li>
               </ul>
+            </div>
+            <div className="flex justify-center mt-10">
+            <button
+          type="button"
+          class="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+        >
+          {" "}
+          Más información
+        </button>
             </div>
           </AccordionBody>
         </Accordion>

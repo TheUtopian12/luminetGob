@@ -16,7 +16,7 @@ export const Servicios = () => {
           }`}
           onClick={() => setPagina("1")}
         >
-          <h1 className="text-white text-center translate-y-[-10px] sm:translate-y-0 text-[10px] sm:text-sm lg:text-md xl:text-xl font-semibold pt-2 mt-4">
+          <h1 className="text-white  text-center translate-y-[-10px] sm:translate-y-0 text-[10px] sm:text-sm lg:text-md xl:text-xl font-semibold pt-2 mt-4">
             PLANTA EXTERNA Y ÚLTIMA MILLA
           </h1>
         </div>

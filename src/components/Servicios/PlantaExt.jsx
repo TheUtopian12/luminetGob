@@ -9,7 +9,7 @@ import Monitoreo from "./PlantaExtDocs/Monitoreo";
 import Mantenimiento from "./PlantaExtDocs/Mantenimiento";
 
 function Icon({ id, open }) {
-  return <img src="/img/iconos/plus.png" alt="" srcset="" />;
+  return <img src="/img/iconos/plus.png" alt="" srcset="" className="" />;
 }
 export const PlantaExt = () => {
   const [open, setOpen] = useState(0);
@@ -21,7 +21,7 @@ export const PlantaExt = () => {
     <div className="m-10">
       <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
         <AccordionHeader onClick={() => handleOpen(1)}>
-          <div className=" h-20 w-full flex items-center gap-5 sm:gap-36">
+          <div className=" h-20 w-full flex items-center gap-5 sm:gap-36 bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl">
             <div>
               <img
                 src="/img/iconos/cctv-camera.png"
@@ -35,7 +35,7 @@ export const PlantaExt = () => {
                 en vía pública
               </h1>
             </div>
-          </div>
+         </div>
         </AccordionHeader>
         <AccordionBody>
           <Construccion />
@@ -43,7 +43,7 @@ export const PlantaExt = () => {
       </Accordion>
       <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
         <AccordionHeader onClick={() => handleOpen(2)}>
-          <div className=" h-20 w-full flex items-center gap-5 sm:gap-36">
+          <div className="h-20 w-full flex items-center gap-5 sm:gap-36 bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl">
             <div>
               <img
                 src="/img/iconos/internet-security.png"
@@ -57,6 +57,7 @@ export const PlantaExt = () => {
                 Monitoreo de red y cámaras en vía pública y red privada.
               </h1>
             </div>
+           
           </div>
         </AccordionHeader>
         <AccordionBody>
@@ -65,7 +66,7 @@ export const PlantaExt = () => {
       </Accordion>
       <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
         <AccordionHeader onClick={() => handleOpen(3)}>
-          <div className=" h-20 w-full flex items-center gap-5 sm:gap-36">
+          <div className="h-20 w-full flex items-center gap-5 sm:gap-36 bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl">
             <div>
               <img
                 src="/img/iconos/tools.png"
@@ -78,6 +79,7 @@ export const PlantaExt = () => {
                 Mantenimiento de red
               </h1>
             </div>
+          
           </div>
         </AccordionHeader>
         <AccordionBody>
