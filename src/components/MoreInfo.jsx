@@ -4,6 +4,7 @@ import logo_ift from "../assets/logo_ift_horizontal.png";
 import cofetel from "../assets/Clientes/Logo CFT.jpeg";
 import Slider from "react-slick";
 
+import {Button  } from "@material-tailwind/react";
 export const MoreInfo = () => {
   const settings = {
     autoplay: true,
@@ -299,9 +300,10 @@ export const MoreInfo = () => {
         </div>
       </div>
       <div className="mt-16 mb-16 flex justify-center">
-        <button className="text-white bg-gradient-to-r from-[#013506] to-[#43BA22] w-[50%] sm:w-[25%] sm:text-2xl rounded-lg text-lg hover:bg-[#598d19]">
-          Más información
-        </button>
+        
+        <Button color="green" variant="gradient">
+        Más información
+            </Button>
       </div>
     </div>
   );
