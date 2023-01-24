@@ -4,7 +4,7 @@ import logo_ift from "../assets/logo_ift_horizontal.png";
 import cofetel from "../assets/Clientes/Logo CFT.jpeg";
 import Slider from "react-slick";
 
-import {Button  } from "@material-tailwind/react";
+import { Button } from "@material-tailwind/react";
 export const MoreInfo = () => {
   const settings = {
     autoplay: true,
@@ -16,7 +16,7 @@ export const MoreInfo = () => {
     <div className="w-full min-h-screen mt-10">
       <div className="flex justify-center flex-col items-center text-center">
         <img src={logo} alt="" style={{ width: "150px" }} />
-        <h1 className="pt-5 text-lg ml-2 mr-2">
+        <h1 className="pt-5 text-xl ml-2 mr-2 sm:w-[40rem] text-[#143C6A] ">
           Empresa especializada en el{" "}
           <span className="font-bold">sector público</span> para la construcción
           de redes y centro de datos de primer nivel.
@@ -201,7 +201,7 @@ export const MoreInfo = () => {
                   style={{ width: "50px" }}
                 />
               </div>
-              <h2 className="ml-4 text-center" >
+              <h2 className="ml-4 text-center">
                 <span className="text-[#143C6A] font-bold text-lg">
                   Aseguramos la confidencialidad
                 </span>
@@ -300,11 +300,13 @@ export const MoreInfo = () => {
         </div>
       </div>
       <div className="mt-16 mb-16 flex justify-center">
-        
-        
-            <button type="button" class="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Más información
-         
-          </button>
+        <button
+          type="button"
+          class="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+        >
+          {" "}
+          Más información
+        </button>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../assets/Logo-Luminet-Gobierno.png";
 import { SlLocationPin, SlEnvolope, SlCallOut } from "react-icons/sl";
-import { Input, Button,Textarea  } from "@material-tailwind/react";
+import { Input, Button, Textarea } from "@material-tailwind/react";
 const Formulario = () => {
   return (
     <div className="min-h-screen bg-[#95C926] flex flex-col place-items-center">
@@ -49,18 +49,21 @@ const Formulario = () => {
             <Input variant="standard" label="Nombre" />
             <Input variant="standard" label="E-mail" />
             <Input variant="standard" label="Teléfono" />
-            
-      <Textarea variant="standard" label="Comentario" />
 
-            <Button color="green" variant="gradient">
+            <Textarea variant="standard" label="Comentario" />
+
+            <button
+              type="button"
+              class="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            >
+              {" "}
               Enviar
-            </Button>
+            </button>
           </div>
         </div>
       </div>
     </div>
   );
 };
-
 
 export default Formulario;

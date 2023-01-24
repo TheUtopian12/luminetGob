@@ -15,10 +15,10 @@ export const Banner = () => {
       className={`w-[100%] h-[300px] bgImageBanner bg-cover flex items-center justify-center`}
     >
       <div className="text-white text-center ml-5 mr-5">
-        <h1 className="text-lg mb-5 font-extrabold sm:text-4xl">
+        <h1 className="text-lg  mb-5 font-extrabold sm:text-4xl">
           ¿Por qué luminet?
         </h1>
-        <div className="flex justify-center">
+        <div className="flex justify-center ">
           <button className="mr-10" onClick={() => sliderRef.current.slickPrev()}><img src="/img/iconos/arrow (1).png" alt="" className="w-5 rotate-180" /></button>
 
           <div className="w-[310px] 
@@ -93,8 +93,8 @@ export const Banner = () => {
           <button className="ml-10" onClick={() => sliderRef.current.slickNext()}> <img src="/img/iconos/arrow (1).png" alt="" className="w-5" /> </button>
         </div>
        <div className="flex gap-5 justify-center">
-       <button className="mt-10 text-[#76BA22] hover:text-white" onClick={() => sliderRef.current.slickPause()}> <AiOutlinePauseCircle size={30}/> </button>
-        <button className="mt-10 text-[#76BA22] hover:text-white" onClick={() => sliderRef.current.slickPlay()}> <AiOutlinePlayCircle size={30}/> </button>
+       <button className="mt-5 sm:mt-10  text-[#76BA22] hover:text-white" onClick={() => sliderRef.current.slickPause()}> <AiOutlinePauseCircle size={30}/> </button>
+        <button className="mt-5 sm:mt-10 text-[#76BA22] hover:text-white" onClick={() => sliderRef.current.slickPlay()}> <AiOutlinePlayCircle size={30}/> </button>
        
        </div>
       </div>
