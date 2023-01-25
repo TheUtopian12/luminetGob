@@ -57,14 +57,15 @@ export const MoreInfo = () => {
                 <img
                   src="/img/iconos/internet-security.png"
                   alt=""
-                  className="w-[80px]"
+                  className="w-[80px] hover:animate-bounce"
                 />
+                {/*Agregar efecto a iconos */}
               </div>
             </div>
           </div>
           <div>
-            <h2 className="ml-0 mt-6">
-              <span className="text-[#143C6A] font-bold text-lg">
+            <h2 className="ml-0 mt-6 mr-16 text-xl">{/*Referencia para todos los textox*/}
+              <span className="text-[#143C6A] font-bold ">
                 Aseguramos la confidencialidad
               </span>
               <br />

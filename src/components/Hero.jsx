@@ -30,15 +30,17 @@ export const Hero = () => {
           sector público
         </h1>
         <h2 className="text-xl mr-5 ml-5 sm:ml-96 sm:mr-96 sm:text-3xl mt-10 text-[#DFFFD3] ">
-          Integramos servicios especializados para una 
-          conectividad y seguridad
+          Integramos servicios especializados para una conectividad y seguridad
           total
         </h2>
         <div className="mt-10">
-          
-<button type="button" class="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Contactar un especialista
+          <button
+            type="button"
+            class="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+          >
+            {" "}
+            Contactar un especialista
           </button>
-           
         </div>
       </div>
     </div>

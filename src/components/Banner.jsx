@@ -12,24 +12,24 @@ export const Banner = () => {
   };
   return (
     <div
-      className={`w-[100%] h-[300px] bgImageBanner bg-cover flex items-center justify-center`}
+      className={`w-[100%] h-[310px] bgImageBanner bg-cover flex items-center justify-center`}
     >
-      <div className="text-white text-center ml-5 mr-5">
-        <h1 className="text-lg  mb-5 font-extrabold sm:text-4xl">
+      <div className="text-white text-center ml-5 mr-5 mb-10">
+        <h1 className="text-lg  mb-5 font-extrabold sm:text-5xl mt-10">
           ¿Por qué luminet?
         </h1>
         <div className="flex justify-center ">
           <button className="mr-10" onClick={() => sliderRef.current.slickPrev()}><img src="/img/iconos/arrow (1).png" alt="" className="w-5 rotate-180" /></button>
 
-          <div className="w-[310px] 
+          <div className="mt-5 w-[310px] 
           sm:w-[560px] 
           md:w-[730px]
           lg:w-[900px]
-          xl:w-[1000px]
+          xl:w-[1200px]
           ">
             <Slider ref={sliderRef} {...settings}>
               <div>
-                <h2 className="text-lg sm:text-xl">
+                <h2 className="text-lg sm:text-[35px] leading-[50px]">
                   Ofrecemos
                   <span className="text-[#76BA22] font-semibold">
                     {" "}
@@ -40,7 +40,7 @@ export const Banner = () => {
               </div>
 
               <div>
-                <h2 className="text-lg sm:text-xl">
+                <h2 className="text-lg sm:text-[35px] leading-[50px]">
                   Porque somos{" "}
                   <span className="text-[#76BA22] font-semibold">
                     caso de éxito
@@ -54,7 +54,7 @@ export const Banner = () => {
               </div>
 
               <div>
-                <h2 className="text-lg sm:text-xl">
+                <h2 className="text-lg sm:text-[35px] leading-[50px]">
                   Brindamos{" "}
                   <span className="text-[#76BA22] font-semibold">
                     consultoría especializada
@@ -65,26 +65,26 @@ export const Banner = () => {
               </div>
 
               <div>
-                <h2 className="text-lg sm:text-xl">
-                  Porque somos una empresa que tiene{" "}
+                <h2 className="text-lg sm:text-[35px] leading-[50px]">
+                  Porque tenemos{" "}
                   <span className="text-[#76BA22] font-semibold">
                     amplia experiencia{" "}
                   </span>{" "}
                   para{" "}
                   <span className="text-[#76BA22] font-semibold">
                     operar redes propias y externas
-                  </span>{" "}
-                  , que se especializa en planta interna y planta externa{" "}
+                  </span>
+                  , que se especializa en planta interna y externa{" "}
                 </h2>
               </div>
 
               <div>
-                <h2 className="text-lg sm:text-xl">
-                  Porque al elegirnos contarás con una empresa con más de{" "}
+                <h2 className="text-lg sm:text-[33px] leading-[50px]">
+                  Tenemos más de{" "}
                   <span className="text-[#76BA22] font-semibold">
                     23 años de experiencia
-                  </span>{" "}
-                  en el ramo, con personal técnico capacitado y con las
+                  </span>
+                  , con personal técnico capacitado y con
                   herramientas requeridas para un plan de remediación
                 </h2>
               </div>
@@ -92,9 +92,9 @@ export const Banner = () => {
           </div>
           <button className="ml-10" onClick={() => sliderRef.current.slickNext()}> <img src="/img/iconos/arrow (1).png" alt="" className="w-5" /> </button>
         </div>
-       <div className="flex gap-5 justify-center">
-       <button className="mt-5 sm:mt-10  text-[#76BA22] hover:text-white" onClick={() => sliderRef.current.slickPause()}> <AiOutlinePauseCircle size={30}/> </button>
-        <button className="mt-5 sm:mt-10 text-[#76BA22] hover:text-white" onClick={() => sliderRef.current.slickPlay()}> <AiOutlinePlayCircle size={30}/> </button>
+       <div className="flex gap-5 justify-center ">
+       <button className="mt-5 sm:mt-5  text-[#76BA22] hover:text-white" onClick={() => sliderRef.current.slickPause()}> <AiOutlinePauseCircle size={30}/> </button>
+        <button className="mt-5 sm:mt-5 text-[#76BA22] hover:text-white" onClick={() => sliderRef.current.slickPlay()}> <AiOutlinePlayCircle size={30}/> </button>
        
        </div>
       </div>

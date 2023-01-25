@@ -32,7 +32,7 @@ export const Servicios = () => {
         </div>
         <div
           className={`w-[33%] sm:h-20 cursor-pointer  sm:rounded-b-none sm:rounded-xl hover:bg-[#2A5E9A] active:bg-[#76BA22] ${
-            pagina === "3" ? "bg-[#76BA22] " : "bg-[#09284B] "
+            pagina === "3" ? "bg-[#76BA22] " : "bg-[#083a74] "
           }`}
           onClick={() => setPagina("3")}
         >

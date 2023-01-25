@@ -28,6 +28,7 @@ export const PlantaExt = () => {
                 alt=""
                 className="w-14 sm:w-20"
               />
+              {/*Ajustar icono y poner en dos renglones */}
             </div>
             <div>
               <h1 className="text-left text-[#143C6A] text-sm sm:text-2xl font-bold ">
