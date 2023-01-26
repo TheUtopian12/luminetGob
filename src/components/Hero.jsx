@@ -26,13 +26,13 @@ export const Hero = () => {
           total
         </h2>
         <div className="mt-10">
-          <button
+          <a href='#contacto'
             type="button"
             className="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
           >
             {" "}
             Contactar un especialista
-          </button>
+          </a>
         </div>
       </div>
     </div>

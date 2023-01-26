@@ -17,13 +17,13 @@ const Torres = () => {
         <p className='text-lg text-left'>
         Así como la verticalidad de la torre, el sistema de parrayos y tierra y retoque de pintura para evitar corrosión de ser necesaria. </p>
         <div className="flex justify-center gap-24 mt-5">
-        <button
+        <a href='#contacto'
           type="button"
           className="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
         >
           {" "}
           Más información
-        </button>
+        </a>
         </div>
       </div>
     </div>
