@@ -10,7 +10,7 @@ const Carousels = () => {
     arrows:false
   };
   return (
-    <div className="w-[100%] h-[60vh] text-center mt-48 mb-24 bg-cover bgCarousel">
+    <div className="w-[100%] h-[60vh] text-center mt-48 mb-24 bg-cover bgCarousel" id="clientes">
       <center>
       <h1 className="text-center text-4xl text-white font-bold mb-14 pt-14"> Clientes </h1> 
         <Slider {...settings}>

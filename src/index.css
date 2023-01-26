@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-*{font-family: 'Montserrat', sans-serif;}
+*{font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+	
+	
+}
 
 @layer components {
     .blinking-cursor:after {

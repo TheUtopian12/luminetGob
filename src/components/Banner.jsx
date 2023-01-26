@@ -13,6 +13,7 @@ export const Banner = () => {
   return (
     <div
       className={`w-[100%] h-[310px] bgImageBanner bg-cover flex items-center justify-center`}
+      id='servicios'
     >
       <div className="text-white text-center ml-5 mr-5 mb-10">
         <h1 className="text-lg  mb-5 font-extrabold sm:text-5xl mt-10">

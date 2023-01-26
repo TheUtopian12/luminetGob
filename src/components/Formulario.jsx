@@ -6,7 +6,7 @@ import { BiRightArrow } from "react-icons/bi";
 import { MdArrowForwardIos } from "react-icons/md";
 const Formulario = () => {
   return (
-    <div className="min-h-screen bg-[#95C926] flex flex-col place-items-center">
+    <div className="min-h-screen bg-[#95C926] flex flex-col place-items-center" id="contacto">
       <h1 className="sm:text-5xl text-[#143C6A] font-bold text-center pt-10">
         Solicitar más información
       </h1>

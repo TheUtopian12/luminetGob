@@ -22,7 +22,7 @@ const Polizas = () => {
   };
 
   return (
-    <div className="mt-10 min-h-screen w-full">
+    <div className="mt-10 min-h-screen w-full" id="polizas">
       <h1 className="text-center text-2xl sm:text-4xl text-[#143C6A] font-bold">
         Contamos con pólizas de servicio y mantenimiento
       </h1>

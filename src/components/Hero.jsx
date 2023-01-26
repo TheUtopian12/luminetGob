@@ -2,19 +2,11 @@ import React from "react";
 import bgVideo from "../assets/Banner Web.mp4";
 
 import { Button } from "@material-tailwind/react";
+import Navbar from "./ui/Navbar";
 export const Hero = () => {
   return (
-    <div className="w-full h-screen relative">
-      {/*<button
-        title="Contacto"
-        className=" group fixed z-50 top-28 right-10 bg-[#43BA22] w-10 h-10 hover:w-32 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-[#71b55e]   duration-300"
-      >
-        <span className="group-hover:flex hidden">
-          {" "}
-          <h1 className="text-white text-[12px]">Contacto</h1>
-        </span>
-        <span className="group-hover:hidden">&#9993;</span>
-      </button> */}
+    <div className="w-full h-screen relative" id="/">
+      <Navbar/>
 
       <video
         className="w-full h-full object-cover"
