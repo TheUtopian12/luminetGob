@@ -24,7 +24,7 @@
     width: 55px;
     height: 55px;
     border-radius: 50%;
-    background: #db4437;
+    background: linear-gradient(#43BA22, #013506);
     position: fixed;
     bottom: 100px;
     right: 30px;
@@ -125,27 +125,51 @@
   }
   
   .nd1{
-    background: #d3a411;
+    background: #6FB1FD;
     right: 40px;
-    bottom: 120px;
+    bottom: 180px;
     animation-delay: 0.2s;
       animation: bounce-out-nds 0.3s linear;
     animation-fill-mode:  forwards;
   }
   
   .nd3{
-    background: #3c80f6;
+    background: #3970AF;
     right: 40px;
-    bottom: 180px;
+    bottom: 240px;
     animation-delay: 0.15s;
       animation: bounce-out-nds 0.15s linear;
     animation-fill-mode:  forwards;
   }
   
   .nd4{
-    background: #ba68c8;
+    background: #0D488C;
     right: 40px;
-    bottom: 240px;
+    bottom: 300px;
+    animation-delay: 0.1s;
+      animation: bounce-out-nds 0.1s linear;
+    animation-fill-mode:  forwards;
+  }
+  .nd5{
+    background: #0A3F73;
+    right: 40px;
+    bottom: 360px;
+    animation-delay: 0.1s;
+      animation: bounce-out-nds 0.1s linear;
+    animation-fill-mode:  forwards;
+  }
+  .nd6{
+    background: #03152D;
+    right: 40px;
+    bottom: 420px;
+    animation-delay: 0.1s;
+      animation: bounce-out-nds 0.1s linear;
+    animation-fill-mode:  forwards;
+  }
+  .nd7{
+    background: #000E20;
+    right: 40px;
+    bottom: 480px;
     animation-delay: 0.1s;
       animation: bounce-out-nds 0.1s linear;
     animation-fill-mode:  forwards;
