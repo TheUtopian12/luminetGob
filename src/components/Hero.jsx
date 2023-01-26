@@ -3,10 +3,12 @@ import bgVideo from "../assets/Banner Web.mp4";
 
 import { Button } from "@material-tailwind/react";
 import Navbar from "./ui/Navbar";
+import NavbarResponsive from "./ui/NavbarResponsive";
 export const Hero = () => {
   return (
     <div className="w-full h-screen relative" id="/">
-      <Navbar/>
+      <Navbar className='hidden sm:flex'/>
+      <NavbarResponsive/>
 
       <video
         className="w-full h-full object-cover"

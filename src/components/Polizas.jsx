@@ -22,27 +22,31 @@ const Polizas = () => {
   };
 
   return (
-    <div className="mt-10 min-h-screen w-full" id="polizas">
+    <div className="mt-10 h-[90vh] w-full" id="polizas">
       <h1 className="text-center text-2xl sm:text-4xl text-[#143C6A] font-bold">
         Contamos con pólizas de servicio y mantenimiento
       </h1>
 
-      <center>
-        <div className="bg-[#09284B] mt-10 rounded-3xl flex justify-center lg:w-[1100px] lg:h-[600px]">
-          <button className="" onClick={() => sliderRef.current.slickPrev()}>
-            <img
-              src="/img/iconos/arrow (1).png"
-              alt=""
-              className="w-5 rotate-180"
-            />
-          </button>
+      <center className="flex justify-center">
+      
+        <button
+          className="relative translate-x-[80px] z-[90]"
+          onClick={() => sliderRef.current.slickPrev()}
+        >
+          <img
+            src="/img/iconos/arrow (1).png"
+            alt=""
+            className="w-5 rotate-180"
+          />
+        </button>
+        <div className="bg-[#09284B] mt-10 rounded-3xl flex justify-center lg:w-[900px] lg:h-[600px]">
           <div className="flex justify-center">
             <div
               className="w-[310px] 
           sm:w-[560px] 
           md:w-[730px]
           lg:w-[900px]
-          xl:w-[1000px]
+          xl:w-[900px]
           "
             >
               <Slider ref={sliderRef} {...settings}>
@@ -72,11 +76,12 @@ const Polizas = () => {
               </Slider>
             </div>
           </div>
-          <button className="" onClick={() => sliderRef.current.slickNext()}>
+          
+        </div>
+        <button className="translate-x-[-80px]" onClick={() => sliderRef.current.slickNext()}>
             {" "}
             <img src="/img/iconos/arrow (1).png" alt="" className="w-5" />{" "}
           </button>
-        </div>
       </center>
     </div>
   );

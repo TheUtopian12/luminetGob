@@ -23,7 +23,7 @@ export const Cards4 = () => {
       </div>
 
       <div className="w-[70%] h-fit bg-[#09284B] grid border-black border-2 rounded-3xl">
-        <span className="m-10 text-white">
+        <span className="m-10 text-white text-left">
           <p>
             {" "}
             Nuestro servicio de <span className="font-bold">telefonía IP</span> te permite lograr una comunicación

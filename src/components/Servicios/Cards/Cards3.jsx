@@ -23,7 +23,7 @@ export const Cards3 = () => {
       </div>
 
       <div className="w-[70%] h-fit bg-[#09284B] grid border-black border-2 rounded-3xl">
-        <ul className="m-10 list-disc text-white">
+        <ul className="m-10 list-disc text-white text-left">
           <li>
             Servicios de <span className="font-bold">Internet Dedicado y Simétrico</span> hasta 1 Gb de velocidad.
             SLA hasta de <span className="font-bold">99.95%.</span>

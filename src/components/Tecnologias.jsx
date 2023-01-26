@@ -82,9 +82,9 @@ function Tecnologias() {
           </Slider>
         </div>
       </div>{" "}
-      <div className="hidden sm:flex justify-center h-[60vh] bgTec bg-cover bg-center pt-20">
+      <div className="hidden sm:flex justify-center h-[45vh] bgTec bg-cover bg-center pt-20">
         <div className="w-[80%]">
-          <h1 className="text-center mb-20 text-4xl font-bold text-white">
+          <h1 className="text-center mb-10 text-4xl font-bold text-white">
             Tecnologías que implementamos
           </h1>
           <Slider {...settings}>

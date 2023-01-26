@@ -23,7 +23,7 @@ export const Cards2 = () => {
       </div>
 
       <div className="w-[70%] h-fit  bg-[#09284B] grid border-black border-2 rounded-3xl">
-        <span className="m-10 text-white">
+        <span className="m-10 text-white text-left">
           <p>
             {" "}
             Mejoramos la <span className="font-bold">seguridad</span> de la red mediante nuestro servicio de <span className="font-bold">red
