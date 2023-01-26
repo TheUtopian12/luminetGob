@@ -3,6 +3,7 @@ import Logo from "../assets/Logo-Luminet-Gobierno.png";
 import { SlLocationPin, SlEnvolope, SlCallOut } from "react-icons/sl";
 import { Input, Button, Textarea } from "@material-tailwind/react";
 import { BiRightArrow } from "react-icons/bi";
+import { MdArrowForwardIos } from "react-icons/md";
 const Formulario = () => {
   return (
     <div className="min-h-screen bg-[#95C926] flex flex-col place-items-center">
@@ -13,7 +14,9 @@ const Formulario = () => {
         Déjanos tus datos de contacto para que uno de nuestros ejecutivos se
         contacte a la brevedad y te brinde la información detallada.
       </h2>
-
+      <div className="relative top-80 w-12 h-12 bg-white rounded-full flex justify-center items-center">
+        <MdArrowForwardIos size={30} className="text-[#95C926] font-bold"/>
+      </div>
       <div className="w-[100%] sm:w-[60%] min-h-screen pb-10  pt-20 rounded-2xl grid sm:grid-cols-2 gap-10 sm:gap-0">
         <div className="h-[60vh] w-[100%] sm:w-[100%] bg-gradient-to-b from-[#266095] to-[#031e3d] sm:rounded-l-3xl hidden sm:flex flex-col place-items-center pt-5">
           <img src={Logo} alt="" className="w-32" />
@@ -45,7 +48,7 @@ const Formulario = () => {
             </div>
           </div>
         </div>
-        <div className="h-[60vh] w-[100%] sm:w-[100%] bg-white sm:rounded-r-2xl">
+        <div className="h-[60vh] w-[100%] sm:w-[100%] bg-[#e3ebf2] sm:rounded-r-2xl">
           <div className="flex flex-col justify-center  items-center place-items-center m-10 gap-10">
             <Input
               variant="outlined"
