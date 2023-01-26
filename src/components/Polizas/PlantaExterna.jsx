@@ -1,5 +1,5 @@
 import React from "react";
-import poste from "./poste.png";
+import poste from "../../assets/Polizas/poste.png";
 const PlantaExterna = () => {
   return (
     <div className="flex justify-center mt-16">
@@ -8,11 +8,11 @@ const PlantaExterna = () => {
           <img src={poste} alt="" className="rounded-2xl" />
         </div>
         <div className='w-[50%] text-white'>
-          <h1 className="text-left text-3xl text-[#76BA22] font-bold mb-10">
+          <h1 className="text-left text-xl text-[#76BA22] font-bold mb-10">
             Planta Externa y Última Milla
           </h1>
 
-          <ul className="list-disc text-xl">
+          <ul className="list-disc text-lg text-left">
             <li>Patrullajes de red de Fibra Óptica metropolitana.</li>
             <li>
               Mantenimientos preventivos y correctivos de red de Fibra Óptica y
@@ -25,6 +25,15 @@ const PlantaExterna = () => {
             </li>
             <li>Mantenimiento a sites clientes de Gobiernos.</li>
           </ul>
+          <div className="flex justify-center gap-24 mt-5">
+        <button
+          type="button"
+          className="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+        >
+          {" "}
+          Más información
+        </button>
+        </div>
         </div>
       </div>
     </div>

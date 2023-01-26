@@ -2,10 +2,11 @@ import React from "react";
 import Logo from "../assets/Logo-Luminet-Gobierno.png";
 import { SlLocationPin, SlEnvolope, SlCallOut } from "react-icons/sl";
 import { Input, Button, Textarea } from "@material-tailwind/react";
+import { BiRightArrow } from "react-icons/bi";
 const Formulario = () => {
   return (
     <div className="min-h-screen bg-[#95C926] flex flex-col place-items-center">
-      <h1 className="sm:text-4xl text-[#143C6A] font-bold text-center pt-10">
+      <h1 className="sm:text-5xl text-[#143C6A] font-bold text-center pt-10">
         Solicitar más información
       </h1>
       <h2 className="sm:text-2xl text-[#143C6A] text-center pt-5 sm:pt-10 sm:ml-28 sm:mr-28 font-bold">
@@ -14,7 +15,7 @@ const Formulario = () => {
       </h2>
 
       <div className="w-[100%] sm:w-[60%] min-h-screen pb-10  pt-20 rounded-2xl grid sm:grid-cols-2 gap-10 sm:gap-0">
-        <div className="h-[60vh] w-[100%] sm:w-[100%] bg-[#143C6A] sm:rounded-l-2xl hidden sm:flex flex-col place-items-center pt-5">
+        <div className="h-[60vh] w-[100%] sm:w-[100%] bg-gradient-to-b from-[#266095] to-[#031e3d] sm:rounded-l-3xl hidden sm:flex flex-col place-items-center pt-5">
           <img src={Logo} alt="" className="w-32" />
           <div className=" flex flex-col text-white m-5">
             <div className="flex gap-5">
@@ -46,15 +47,29 @@ const Formulario = () => {
         </div>
         <div className="h-[60vh] w-[100%] sm:w-[100%] bg-white sm:rounded-r-2xl">
           <div className="flex flex-col justify-center  items-center place-items-center m-10 gap-10">
-            <Input variant="standard" label="Nombre" />
-            <Input variant="standard" label="E-mail" />
-            <Input variant="standard" label="Teléfono" />
-
-            <Textarea variant="standard" label="Comentario" />
+            <Input
+              variant="outlined"
+              label="Nombre"
+              icon={<BiRightArrow />}
+              color="cyan"
+            />
+            <Input
+              variant="outlined"
+              label="E-mail"
+              icon={<BiRightArrow />}
+              color="cyan"
+            />
+            <Input
+              variant="outlined"
+              label="Teléfono"
+              icon={<BiRightArrow />}
+              color="cyan"
+            />
+            <Textarea label="Mensaje" color="cyan" />
 
             <button
               type="button"
-              class="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              className="w-[200px] text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
             >
               {" "}
               Enviar

@@ -9,7 +9,7 @@ import Monitoreo from "./PlantaExtDocs/Monitoreo";
 import Mantenimiento from "./PlantaExtDocs/Mantenimiento";
 
 function Icon({ id, open }) {
-  return <img src="/img/iconos/plus.png" alt="" srcset="" className="" />;
+  return ;
 }
 export const PlantaExt = () => {
   const [open, setOpen] = useState(0);
@@ -17,12 +17,15 @@ export const PlantaExt = () => {
   const handleOpen = (value) => {
     setOpen(open === value ? 0 : value);
   };
+
   return (
-    <div className="m-10">
-      <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
+    
+    <div className="grid grid-cols-1 m-10 gap-2 ml-[10%] mr-[10%]">
+      <Accordion open={open === 1} icon={''} className='bg-gradient-to-b from-[#c9e3fd] to-[#ffffff00]  rounded-xl'>
         <AccordionHeader onClick={() => handleOpen(1)}>
-          <div className=" h-20 w-full flex items-center gap-5 sm:gap-36 bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl">
-            <div>
+          <div className=" h-20 w-full flex items-center gap-5 sm:justify-between ">
+           <div className="flex items-center gap-5">
+             <div>
               <img
                 src="/img/iconos/cctv-camera.png"
                 alt=""
@@ -36,18 +39,23 @@ export const PlantaExt = () => {
                 en vía pública
               </h1>
             </div>
+           </div>
+           
+            <div style={{width:'40px'}} className='relative'><img src="/img/iconos/plus.png" alt=""  /></div> 
          </div>
         </AccordionHeader>
-        <AccordionBody>
+        <AccordionBody className='bg-white'>
           <Construccion />
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
+      <Accordion open={open === 2} icon={<Icon id={2} open={open} />} className='bg-gradient-to-b from-[#c9e3fd] to-[#ffffff00]  rounded-xl'>
         <AccordionHeader onClick={() => handleOpen(2)}>
-          <div className="h-20 w-full flex items-center gap-5 sm:gap-36 bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl">
+          <div className="h-20 w-full flex items-center gap-5 sm:justify-between ">
+           
+           <div className="flex items-center gap-5">
             <div>
               <img
-                src="/img/iconos/internet-security.png"
+                src="/img/iconos/icon.png"
                 alt=""
                 className="w-14 sm:w-20"
               />
@@ -58,19 +66,22 @@ export const PlantaExt = () => {
                 Monitoreo de red y cámaras en vía pública y red privada.
               </h1>
             </div>
-           
+           </div>
+            
+            <div style={{width:'40px'}} className='relative'><img src="/img/iconos/plus.png" alt=""  /></div> 
+        
           </div>
         </AccordionHeader>
-        <AccordionBody>
+        <AccordionBody className='bg-white'>
           <Monitoreo />
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
+      <Accordion open={open === 3} icon={<Icon id={3} open={open} />} className='bg-gradient-to-b from-[#c9e3fd] to-[#ffffff00]  rounded-xl'>
         <AccordionHeader onClick={() => handleOpen(3)}>
-          <div className="h-20 w-full flex items-center gap-5 sm:gap-36 bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl">
-            <div>
+          <div className="h-20 w-full flex items-center gap-5 sm:justify-between ">
+          <div className="flex items-center gap-5"><div>
               <img
-                src="/img/iconos/tools.png"
+                src="/img/iconos/maintenance(1).png"
                 alt=""
                 className="w-8 sm:w-20"
               />
@@ -79,11 +90,15 @@ export const PlantaExt = () => {
               <h1 className="text-left text-[#143C6A] text-sm sm:text-2xl font-bold ">
                 Mantenimiento de red
               </h1>
-            </div>
+            </div></div>
+           
+            
+            <div style={{width:'40px'}} className='relative'><img src="/img/iconos/plus.png" alt=""  /></div> 
+        
           
           </div>
         </AccordionHeader>
-        <AccordionBody>
+        <AccordionBody className='bg-white'>
           <Mantenimiento />
         </AccordionBody>
       </Accordion>

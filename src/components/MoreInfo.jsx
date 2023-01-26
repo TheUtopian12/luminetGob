@@ -49,22 +49,22 @@ export const MoreInfo = () => {
       </div>
       <hr className="sm:hidden" />
 
-      <div className="sm:grid grid-cols-1 sm:grid-cols-2 mt-4 hidden gap-10">
-        <div className="flex sm:gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+      <div className="sm:grid sm:grid-cols-2 m-5 hidden gap-4">
+        <div className="flex sm:gap-5 text-left sm:pl-0 pt-24 sm:pt-0 group">
           <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
             <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
                   src="/img/iconos/internet-security.png"
                   alt=""
-                  className="w-[80px] hover:animate-bounce"
+                  className="w-[80px] group-hover:animate-bounce"
                 />
                 {/*Agregar efecto a iconos */}
               </div>
             </div>
           </div>
           <div>
-            <h2 className="ml-0 mt-6 mr-16 text-xl">{/*Referencia para todos los textox*/}
+            <h2 className="ml-5 mt-6 mr-0 text-xl">{/*Referencia para todos los textox*/}
               <span className="text-[#143C6A] font-bold ">
                 Aseguramos la confidencialidad
               </span>
@@ -75,21 +75,21 @@ export const MoreInfo = () => {
           </div>
         </div>
 
-        <div className="flex sm:gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex sm:gap-5 text-left sm:pl-0 pt-24 sm:pt-0  group">
           <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
             <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
                   src="/img/iconos/software (1).png"
                   alt=""
-                  className="w-[80px] "
+                  className="w-[80px] group-hover:animate-bounce"
                 />
               </div>
             </div>
           </div>
           <div>
-            <h2 className="ml-0 mt-6">
-              <span className="text-[#143C6A] font-bold texl-lg">
+            <h2 className="ml-0 mt-6 text-xl">
+              <span className="text-[#143C6A] font-bold ">
                 Contamos con software propio
               </span>
               <br />
@@ -98,21 +98,21 @@ export const MoreInfo = () => {
           </div>
         </div>
 
-        <div className="flex sm:gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex sm:gap-5 text-left sm:pl-0 pt-24 sm:pt-0 group">
           <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
             <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
                   src="/img/iconos/box-delivery.png"
                   alt=""
-                  className="w-[80px] sm:w-[60px] "
+                  className="w-[80px] sm:w-[60px] group-hover:animate-bounce"
                 />
               </div>
             </div>
           </div>
           <div>
-            <h2 className="xl:ml-[-30px] mt-6">
-              <span className="text-[#143C6A] font-bold text-lg">
+            <h2 className="xl:ml-[-30px] mt-6 text-xl">
+              <span className="text-[#143C6A] font-bold ">
                 Somos independientes de las marcas de equipos
               </span>
               <br />
@@ -121,21 +121,21 @@ export const MoreInfo = () => {
           </div>
         </div>
 
-        <div className="flex sm:gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex sm:gap-5 text-left sm:pl-0 pt-24 sm:pt-0 group">
           <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
             <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
                   src="/img/iconos/feedback-form.png"
                   alt=""
-                  className="w-[80px] "
+                  className="w-[80px] group-hover:animate-bounce"
                 />
               </div>
             </div>
           </div>
           <div>
-            <h2 className="ml-0 mt-6">
-              <span className="text-[#143C6A] font-bold text-lg">
+            <h2 className="ml-0 mt-6 text-xl">
+              <span className="text-[#143C6A] font-bold ">
                 Damos mantenimiento a la red de seguridad de Coahuila
               </span>
               <br />
@@ -144,21 +144,21 @@ export const MoreInfo = () => {
           </div>
         </div>
 
-        <div className="flex sm:gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex sm:gap-5 text-left sm:pl-0 pt-24 sm:pt-0 group">
           <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
             <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
                   src="/img/iconos/hard-hat (1).png"
                   alt=""
-                  className="w-[80px] "
+                  className="w-[80px] group-hover:animate-bounce "
                 />
               </div>
             </div>
           </div>
           <div>
-            <h2 className="xl:ml-[-30px] mt-6">
-              <span className="text-[#143C6A] font-bold text-lg">
+            <h2 className="xl:ml-[-20px] mt-6 text-xl">
+              <span className="text-[#143C6A] font-bold ">
                 Personal técnico especializado
               </span>
               <br />
@@ -167,21 +167,21 @@ export const MoreInfo = () => {
           </div>
         </div>
 
-        <div className="flex sm:gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+        <div className="flex sm:gap-5 text-left sm:pl-0 pt-24 sm:pt-0 group">
           <div className="flex justify-center sm:justify-start ml-4 w-[20%]">
             <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
                   src="/img/iconos/certificate (1).png"
                   alt=""
-                  className="w-[80px] "
+                  className="w-[80px] group-hover:animate-bounce"
                 />
               </div>
             </div>
           </div>
           <div>
-            <h2 className="ml-0 mt-6">
-              <span className="text-[#143C6A] font-bold text-lg">
+            <h2 className="ml-[-10px] mt-6 text-xl">
+              <span className="text-[#143C6A] font-bold ">
                 Contamos con Certificaciones{" "}
               </span>
               <br />
@@ -281,7 +281,7 @@ export const MoreInfo = () => {
               </h2>
             </div>
 
-            <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
+            <div className="flex flex-col gap-4 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
                   src="/img/iconos/certificate (1).png"
@@ -303,7 +303,7 @@ export const MoreInfo = () => {
       <div className="mt-16 mb-16 flex justify-center">
         <button
           type="button"
-          class="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+          className="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
         >
           {" "}
           Más información

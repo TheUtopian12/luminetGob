@@ -12,17 +12,17 @@ const Exito = () => {
 
         <div className="grid place-items-center">
           <img
-          src="/img/monterrey.png"
+          src="/img/LogosCliente/monterrey.png"
           alt=""
-          className="w-[300px] h-[300px] rounded-[35px] hover:scale-110 ease-in duration-300"
+          className=" rounded-[35px] hover:scale-110 ease-in duration-300"
         />
         <h2 className="text-white text-xl mt-10 m-10 text-center">Gobierno Municipal de Monterrey</h2>
         </div>
         <div className="grid place-items-center">
            <img
-          src="/img/coahuila.png"
+          src="/img/LogosCliente/coahuila.png"
           alt=""
-          className="w-[300px] h-[300px] rounded-[35px] hover:scale-110 ease-in duration-300"
+          className=" rounded-[35px] hover:scale-110 ease-in duration-300"
         />
         <h2 className="text-white text-xl mt-10 m-10 text-center">Secretaría de Seguridad del Estado de Coahuila</h2>
 
