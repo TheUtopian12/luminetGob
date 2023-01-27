@@ -10,7 +10,11 @@
   },
   "dependencies": {
     "@camwiegert/typical": "^0.1.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@material-tailwind/react": "^1.2.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.6",
     "flowbite": "^1.6.3",
     "flowbite-react": "^0.3.7",
     "react": "^18.2.0",

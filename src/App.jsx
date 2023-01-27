@@ -10,7 +10,6 @@ import Polizas from "./components/Polizas";
 import Tecnologias from "./components/Tecnologias";
 import Footer from "./components/ui/Footer";
 import Formulario from "./components/Formulario";
-import Breakpoints from "./components/Breakpoints";
 
 function App() {
   return (

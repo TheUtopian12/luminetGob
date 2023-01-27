@@ -28,9 +28,8 @@ const Polizas = () => {
       </h1>
 
       <center className="flex justify-center">
-      
         <button
-          className="relative translate-x-[80px] z-[90]"
+          className="relative translate-x-[20px] sm:translate-x-[80px] z-[90]"
           onClick={() => sliderRef.current.slickPrev()}
         >
           <img
@@ -39,10 +38,10 @@ const Polizas = () => {
             className="w-5 rotate-180"
           />
         </button>
-        <div className="bg-[#09284B] mt-10 rounded-3xl flex justify-center lg:w-[900px] lg:h-[600px]">
+        <div className="bg-[#09284B] mt-10 rounded-3xl flex justify-center lg:w-[900px] h-[650px] lg:h-[600px]">
           <div className="flex justify-center">
             <div
-              className="w-[310px] 
+              className="w-[380px] 
           sm:w-[560px] 
           md:w-[730px]
           lg:w-[900px]
@@ -76,12 +75,14 @@ const Polizas = () => {
               </Slider>
             </div>
           </div>
-          
         </div>
-        <button className="translate-x-[-80px]" onClick={() => sliderRef.current.slickNext()}>
-            {" "}
-            <img src="/img/iconos/arrow (1).png" alt="" className="w-5" />{" "}
-          </button>
+        <button
+          className="translate-x-[-20px] sm:translate-x-[-80px]"
+          onClick={() => sliderRef.current.slickNext()}
+        >
+          {" "}
+          <img src="/img/iconos/arrow (1).png" alt="" className="w-5" />{" "}
+        </button>
       </center>
     </div>
   );
