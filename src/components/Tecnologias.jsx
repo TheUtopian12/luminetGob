@@ -67,7 +67,7 @@ function Tecnologias() {
   return (
     <div id="tecnologias">
       <div className="flex sm:hidden justify-center w-[100%] h-[60vh] bgTec bg-cover bg-center pt-20" >
-        <div className="w-[80%]" >
+        <div className="w-[80%] pb-10" >
           <h1 className="text-center mb-20 text-2xl font-bold text-white">
             Tecnologías que implementamos
           </h1>
@@ -82,8 +82,9 @@ function Tecnologias() {
           </Slider>
         </div>
       </div>{" "}
-      <div className="hidden sm:flex justify-center h-[45vh] bgTec bg-cover bg-center pt-20">
-        <div className="w-[80%]">
+
+      <div className="hidden sm:flex justify-center h-[45vh] bgTec bg-cover bg-center pt-10">
+        <div className="w-[80%] pb-10">
           <h1 className="text-center mb-10 text-4xl font-bold text-white">
             Tecnologías que implementamos
           </h1>

@@ -24,7 +24,7 @@ export const PlantaExt = () => {
       <Accordion open={open === 1} icon={''} className='bg-gradient-to-b from-[#c9e3fd] to-[#ffffff00]  rounded-xl'>
         <AccordionHeader onClick={() => handleOpen(1)}>
           <div className=" h-20 w-full flex items-center gap-5 sm:justify-between ">
-           <div className="flex items-center gap-5">
+           <div className="flex items-center gap-5 ml-10">
              <div>
               <img
                 src="/img/iconos/cctv-camera.png"
@@ -52,7 +52,7 @@ export const PlantaExt = () => {
         <AccordionHeader onClick={() => handleOpen(2)}>
           <div className="h-20 w-full flex items-center gap-5 sm:justify-between ">
            
-           <div className="flex items-center gap-5">
+           <div className="flex items-center gap-5 ml-10">
             <div>
               <img
                 src="/img/iconos/icon.png"
@@ -79,7 +79,7 @@ export const PlantaExt = () => {
       <Accordion open={open === 3} icon={<Icon id={3} open={open} />} className='bg-gradient-to-b from-[#c9e3fd] to-[#ffffff00]  rounded-xl'>
         <AccordionHeader onClick={() => handleOpen(3)}>
           <div className="h-20 w-full flex items-center gap-5 sm:justify-between ">
-          <div className="flex items-center gap-5"><div>
+          <div className="flex items-center gap-5 ml-10"><div>
               <img
                 src="/img/iconos/maintenance(1).png"
                 alt=""
