@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/Logo-Luminet-Gobierno.png";
 import { BsWhatsapp, BsFillTelephoneFill } from "react-icons/bs";
-
+import { CiMail } from "react-icons/ci";
 const Footer = () => {
   return (
     <>
@@ -24,8 +24,11 @@ const Footer = () => {
             <BsFillTelephoneFill />
             <h3 className="font-bold mb-8">8119 086 413</h3>
           </p>
-          <h3 className="mb-8">contacto@luminetgobierno.com.mx</h3>
 
+          <p className="flex gap-1 mt-3 justify-center sm:justify-start"><CiMail size={25}/>
+          <h3 className="mb-8">contacto@luminetgobierno.com.mx</h3>
+</p>
+          
           <h3>Soporte</h3>
           <p className="flex gap-2 mb-2 mt-2 justify-center sm:justify-start">
             <BsWhatsapp />

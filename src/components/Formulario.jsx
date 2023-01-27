@@ -10,7 +10,7 @@ const Formulario = () => {
       <h1 className="sm:text-5xl text-[#143C6A] font-bold text-center pt-10">
         Solicitar más información
       </h1>
-      <h2 className="sm:text-2xl text-[#143C6A] text-center pt-5 sm:pt-10 sm:ml-40 sm:mr-40 font-bold">
+      <h2 className="sm:text-2xl text-[#143C6A] text-center pt-5 sm:pt-10 sm:ml-48 sm:mr-48 font-bold">
         Déjanos tus datos de contacto para que uno de nuestros ejecutivos se
         contacte a la brevedad y te brinde la información detallada.
       </h2>
