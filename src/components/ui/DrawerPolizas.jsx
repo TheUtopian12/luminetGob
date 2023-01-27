@@ -42,7 +42,7 @@ export default function DrawerPolizas({ texto }) {
   );
 
   return (
-    <div>
+    <div className="sm:hidden">
       {["bottom"].map((anchor) => (
         <React.Fragment key={anchor}>
           <a
