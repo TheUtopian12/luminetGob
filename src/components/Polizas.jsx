@@ -38,7 +38,7 @@ const Polizas = () => {
             className="w-5 rotate-180"
           />
         </button>
-        <div className="bg-[#09284B] mt-10 rounded-3xl flex justify-center lg:w-[900px] h-[650px] lg:h-[600px]">
+        <div className="bg-[#09284B] mt-10 rounded-3xl flex justify-center lg:w-[900px] h-[550px] lg:h-[600px]">
           <div className="flex justify-center">
             <div
               className="w-[380px] 
