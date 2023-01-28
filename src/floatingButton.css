@@ -24,9 +24,9 @@
     width: 55px;
     height: 55px;
     border-radius: 50%;
-    background: linear-gradient(#43BA22, #013506);
+    background: linear-gradient(#43BA22, #00720b);
     position: fixed;
-    bottom: 100px;
+    bottom: 40px;
     right: 30px;
     cursor: pointer;
     box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
@@ -127,7 +127,7 @@
   .nd1{
     background: #6FB1FD;
     right: 40px;
-    bottom: 180px;
+    bottom: 140px;
     animation-delay: 0.2s;
       animation: bounce-out-nds 0.3s linear;
     animation-fill-mode:  forwards;
@@ -136,7 +136,7 @@
   .nd3{
     background: #3970AF;
     right: 40px;
-    bottom: 240px;
+    bottom: 200px;
     animation-delay: 0.15s;
       animation: bounce-out-nds 0.15s linear;
     animation-fill-mode:  forwards;
@@ -145,23 +145,23 @@
   .nd4{
     background: #0D488C;
     right: 40px;
-    bottom: 300px;
-    animation-delay: 0.1s;
-      animation: bounce-out-nds 0.1s linear;
+    bottom: 260px;
+    animation-delay: 0.18s;
+      animation: bounce-out-nds 0.12s linear;
     animation-fill-mode:  forwards;
   }
   .nd5{
     background: #0A3F73;
     right: 40px;
-    bottom: 360px;
-    animation-delay: 0.1s;
-      animation: bounce-out-nds 0.1s linear;
+    bottom: 320px;
+    animation-delay: 0.20s;
+      animation: bounce-out-nds 0.2s linear;
     animation-fill-mode:  forwards;
   }
   .nd6{
     background: #03152D;
     right: 40px;
-    bottom: 420px;
+    bottom: 380px;
     animation-delay: 0.1s;
       animation: bounce-out-nds 0.1s linear;
     animation-fill-mode:  forwards;
@@ -169,7 +169,7 @@
   .nd7{
     background: #000E20;
     right: 40px;
-    bottom: 480px;
+    bottom: 440px;
     animation-delay: 0.1s;
       animation: bounce-out-nds 0.1s linear;
     animation-fill-mode:  forwards;
@@ -199,6 +199,12 @@
   }
   #container-floating:hover .nd5{
     animation-delay: 0.2s;
+  }
+  #container-floating:hover .nd6{
+    animation-delay: 0.25s;
+  }
+  #container-floating:hover .nd7{
+    animation-delay: 0.30s;
   }
   
   .letter{
