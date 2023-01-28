@@ -17,8 +17,8 @@ export const Ciberseguridad = () => {
   };
   return (
     <div>
-      <div className="flex flex-col-reverse sm:flex sm:flex-row mt-20 gap-10 p-10 mr-10 ml-10">
-        <div className="sm:w-[50%] sm:text-2xl ml-10 mr-10 sm:ml-16 text-[#143C6A]">
+      <div className="flex flex-col-reverse sm:flex sm:flex-row mt-20 gap-10 p-10 sm:ml-16 sm:mr-16 ">
+        <div className="sm:w-[50%] sm:text-2xl  sm:mr-10 sm:ml-10 text-[#143C6A]">
           <p className="mt-4">
             Contamos con los equipos más sofisticados de contramedidas
             electrónicas para ofrecer servicios de barrido electrónico que
@@ -41,11 +41,11 @@ export const Ciberseguridad = () => {
             llevar a cabo reuniones y entrevistas importantes.
           </p>
         </div>
-        <div className="sm:w-[50%]">
+        <div className=" sm:w-[50%]">
           <img
             src="https://d29jy8ovkd5kcx.cloudfront.net/wp-content/uploads/2022/06/09141348/WIIT_banche-1280x720.jpg.webp"
             alt=""
-            className="rounded-3xl w-[400px] h-[400px]"
+            className="rounded-3xl sm:w-[400px] sm:h-[400px]"
           />
         </div>
       </div>
@@ -54,7 +54,7 @@ export const Ciberseguridad = () => {
         <Accordion
           open={open === 1}
           icon={<Icon id={1} open={open} />}
-          className="bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl"
+          className="sm:bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl"
         >
           <AccordionHeader onClick={() => handleOpen(1)}>
             <div className="h-20 w-full flex items-center gap-5 sm:justify-between ">
@@ -101,7 +101,7 @@ export const Ciberseguridad = () => {
             <div className="flex justify-center mt-10">
               <a href='#contacto'
                 type="button"
-                className="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                className="text-white sm:bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:sm:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
               >
                 {" "}
                 Más información
@@ -115,7 +115,7 @@ export const Ciberseguridad = () => {
         <Accordion
           open={open === 2}
           icon={<Icon id={2} open={open} />}
-          className="bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl"
+          className="sm:bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl"
         >
           <AccordionHeader onClick={() => handleOpen(2)}>
             <div className="h-20 w-full flex items-center gap-5 sm:justify-between ">
@@ -154,7 +154,7 @@ export const Ciberseguridad = () => {
             <div className="flex justify-center mt-10">
               <a href='#contacto'
                 type="button"
-                className="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                className="text-white sm:bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:sm:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
               >
                 {" "}
                 Más información
@@ -168,7 +168,7 @@ export const Ciberseguridad = () => {
         <Accordion
           open={open === 3}
           icon={<Icon id={3} open={open} />}
-          className="bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl"
+          className="sm:bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl"
         >
           <AccordionHeader onClick={() => handleOpen(3)}>
           <div className="h-20 w-full flex items-center gap-5 sm:justify-between ">
@@ -206,7 +206,7 @@ export const Ciberseguridad = () => {
             <div className="flex justify-center mt-10">
               <a href='#contacto'
                 type="button"
-                className="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                className="text-white sm:bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:sm:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
               >
                 {" "}
                 Más información

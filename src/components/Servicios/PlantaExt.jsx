@@ -21,7 +21,7 @@ export const PlantaExt = () => {
   return (
     
     <div className="grid grid-cols-1 m-10 gap-2 ml-[10%] mr-[10%]">
-      <Accordion open={open === 1} icon={''} className='bg-gradient-to-b from-[#c9e3fd] to-[#ffffff00]  rounded-xl'>
+      <Accordion open={open === 1} icon={''} className='sm:bg-gradient-to-b from-[#c9e3fd] to-[#ffffff00]  rounded-xl'>
         <AccordionHeader onClick={() => handleOpen(1)}>
           <div className=" h-20 w-full flex items-center gap-5 sm:justify-between ">
            <div className="flex items-center gap-5 ml-10">
@@ -41,14 +41,14 @@ export const PlantaExt = () => {
             </div>
            </div>
            
-            <div style={{width:'40px'}} className='relative'><img src="/img/iconos/plus.png" alt=""  /></div> 
+            <div  className='relative w-[60px] sm:w-[40px]'><img src="/img/iconos/plus.png" alt=""  /></div> 
          </div>
         </AccordionHeader>
         <AccordionBody className='bg-white'>
           <Construccion />
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 2} icon={<Icon id={2} open={open} />} className='bg-gradient-to-b from-[#c9e3fd] to-[#ffffff00]  rounded-xl'>
+      <Accordion open={open === 2} icon={<Icon id={2} open={open} />} className='sm:bg-gradient-to-b from-[#c9e3fd] to-[#ffffff00]  rounded-xl'>
         <AccordionHeader onClick={() => handleOpen(2)}>
           <div className="h-20 w-full flex items-center gap-5 sm:justify-between ">
            
@@ -68,7 +68,7 @@ export const PlantaExt = () => {
             </div>
            </div>
             
-            <div style={{width:'40px'}} className='relative'><img src="/img/iconos/plus.png" alt=""  /></div> 
+            <div  className='relative w-[50px] sm:w-[40px]'><img src="/img/iconos/plus.png" alt=""  /></div> 
         
           </div>
         </AccordionHeader>
@@ -76,7 +76,7 @@ export const PlantaExt = () => {
           <Monitoreo />
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 3} icon={<Icon id={3} open={open} />} className='bg-gradient-to-b from-[#c9e3fd] to-[#ffffff00]  rounded-xl'>
+      <Accordion open={open === 3} icon={<Icon id={3} open={open} />} className='sm:bg-gradient-to-b from-[#c9e3fd] to-[#ffffff00]  rounded-xl'>
         <AccordionHeader onClick={() => handleOpen(3)}>
           <div className="h-20 w-full flex items-center gap-5 sm:justify-between ">
           <div className="flex items-center gap-5 ml-10"><div>
@@ -93,7 +93,7 @@ export const PlantaExt = () => {
             </div></div>
            
             
-            <div style={{width:'40px'}} className='relative'><img src="/img/iconos/plus.png" alt=""  /></div> 
+            <div className='relative w-[20px] sm:w-[40px]'><img src="/img/iconos/plus.png" alt=""  /></div> 
         
           
           </div>
