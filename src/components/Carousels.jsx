@@ -1,17 +1,19 @@
 import React, { Component, useRef } from "react";
 import Slider from "react-slick";
-import { Autoplay } from "swiper";
 const Carousels = () => {
   const sliderRef = useRef(null);
   const settings = {
     dots: false,
     infinite: true,
-
+    
     slidesToShow: 3,
     slidesToScroll: 3,
     arrows: false,
     speed: 2000,
     cssEase: "linear",
+    autoplay:true,
+    
+    autoplaySpeed: 8000,
   };
   return (
     <div
