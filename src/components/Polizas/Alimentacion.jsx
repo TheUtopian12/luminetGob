@@ -34,9 +34,6 @@ const Alimentacion = () => {
               Más información
             </a>
           </div>
-
-          
-
           <DrawerPolizas
             texto={
               <div className="m-10">

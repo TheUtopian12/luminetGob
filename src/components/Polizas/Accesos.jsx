@@ -1,5 +1,5 @@
 import React from "react";
-
+import DrawerPolizas from "../ui/DrawerPolizas";
 import poste from "../../assets/Polizas/cam 2.webp";
 const Accesos = () => {
   return (
@@ -18,14 +18,35 @@ const Accesos = () => {
             equipos audiovisuales en general.{" "}
           </p>
           <div className="flex justify-center gap-24 mt-5">
-        <a href='#contacto'
-          type="button"
-          className="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
-        >
-          {" "}
-          Más información
-        </a>
-        </div>
+            <a
+              href="#contacto"
+              type="button"
+              className="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 hidden sm:grid"
+            >
+              {" "}
+              Más información
+            </a>
+          </div>
+          <DrawerPolizas
+            texto={
+              <div className="m-10">
+                <p className="mb-5 text-lg text-left grid  sm:hidden">
+                  Revisión del Circuito Cerrado de TV: cámaras, tarjetas, vídeos
+                  y equipos audiovisuales en general.{" "}
+                </p>
+                <div className="flex justify-center gap-24 mt-5">
+                  <a
+                    href="#contacto"
+                    type="button"
+                    className="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  >
+                    {" "}
+                    Más información
+                  </a>
+                </div>
+              </div>
+            }
+          />
         </div>
       </div>
     </div>
