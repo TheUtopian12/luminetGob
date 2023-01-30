@@ -43,7 +43,8 @@ const Formulario = () => {
             </div>
 
             <div className="flex gap-5 mt-10">
-              <SlCallOut size={33} className="text-[#95C926]" />
+              <a href="tel:+528119086413"><SlCallOut size={33} className="text-[#95C926]" /></a>
+              
               <p>
                 <h2>Teléfono de contacto </h2>
                 <h2 className="font-bold">8119 086 413</h2>
