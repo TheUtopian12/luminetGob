@@ -14,7 +14,7 @@ const Formulario = () => {
         Déjanos tus datos de contacto para que uno de nuestros ejecutivos se
         contacte a la brevedad y te brinde la información detallada.
       </h2>
-      <div className="relative top-80 w-12 h-12 bg-white rounded-full flex justify-center items-center">
+      <div className="hidden relative top-80 w-12 h-12 bg-white rounded-full sm:flex justify-center items-center">
         <MdArrowForwardIos size={30} className="text-[#95C926] font-bold"/>
       </div>
       <div className="w-[100%] sm:w-[60%] min-h-screen pb-10  pt-20 rounded-2xl grid sm:grid-cols-2 gap-10 sm:gap-0">
@@ -48,8 +48,8 @@ const Formulario = () => {
             </div>
           </div>
         </div>
-        <div className="h-[70vh] w-[100%] sm:w-[100%] bg-[#e3ebf2] sm:rounded-r-2xl">
-          <div className="flex flex-col justify-center  items-center place-items-center m-10 gap-10">
+        <div className="ml-5 h-[70vh] w-[90%] sm:w-[100%] bg-[#e3ebf2] sm:rounded-r-2xl rounded-3xl">
+          <div className="flex flex-col justify-center items-center place-items-center m-8 gap-10">
             <Input
               variant="outlined"
               label="Nombre"
