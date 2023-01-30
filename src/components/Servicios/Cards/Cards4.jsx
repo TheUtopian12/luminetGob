@@ -12,17 +12,17 @@ export const Cards4 = () => {
       flipSpeedFrontToBack={0.6}
       flipSpeedBackToFront={0.6}
     >
-      <div className="w-[70%] h-72 bg-[url('/img/SERVICIOS-DE-RED-04.png')] bg-cover bg-center text-center grid rounded-3xl">
+      <div className="w-[70%] h-72 bg-[url('/img/SERVICIOS-DE-RED-04.png')] bg-cover bg-center text-center grid rounded-3xl cursor-pointer" onClick={() => setFlip(!flip)}>
         <div className="flex items-end mb-0 justify-center font-bold">
           <p className="text-lg sm:text-2xl text-white mt-20">VoIP</p>
         </div>
         <div className="flex justify-end mr-10 text-white">
           
-          <button onClick={() => setFlip(!flip)}><BiShare/></button>
+          <button ><BiShare/></button>
           </div>
       </div>
 
-      <div className="w-[70%] h-fit bg-[#09284B] grid border-black border-2 rounded-3xl">
+      <div className="w-[70%] h-fit bg-[#09284B] grid border-black border-2 rounded-3xl cursor-pointer" onClick={() => setFlip(!flip)}>
         <span className="m-10 text-white text-left">
           <p>
             {" "}
@@ -45,7 +45,7 @@ export const Cards4 = () => {
         </a>
         </div>
         <div className="flex justify-end mr-10 text-white mb-10 sm:mb-20">
-          <button onClick={() => setFlip(!flip)}>
+          <button >
             <BiShare />
           </button>
         </div>

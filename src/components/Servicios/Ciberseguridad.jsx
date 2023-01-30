@@ -62,7 +62,7 @@ export const Ciberseguridad = () => {
                 <img
                   src="/img/iconos/information.png"
                   alt=""
-                  className="w-10"
+                  className="w-14 sm:w-20"
                 />
                 <h1 className="text-left text-[#143C6A] text-sm sm:text-2xl font-bold">
                   ¿Qué hacemos?
@@ -119,9 +119,9 @@ export const Ciberseguridad = () => {
         >
           <AccordionHeader onClick={() => handleOpen(2)}>
             <div className="h-20 w-full flex items-center gap-5 sm:justify-between ">
-              <div className=" h-20 w-full flex items-center gap-5  sm:gap-5 ">
+              <div className=" h-20 w-full flex items-center gap-5  sm:gap-5 "> 
                 {" "}
-                <img src="/img/iconos/tools.png" alt="" className="w-10" />
+                <img src="/img/iconos/tools.png" alt="" className="w-14 sm:w-20" />
                 <h1 className="text-left text-[#143C6A] text-sm sm:text-2xl font-bold">
                   ¿Cómo lo hacemos?
                 </h1>

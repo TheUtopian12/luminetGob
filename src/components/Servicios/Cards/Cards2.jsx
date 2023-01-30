@@ -12,17 +12,17 @@ export const Cards2 = () => {
       flipSpeedFrontToBack={0.6}
       flipSpeedBackToFront={0.6}
     >
-      <div className="w-[70%] h-72 bg-[url('/img/SERVICIOS-DE-RED-02.png')] bg-cover bg-center text-center grid rounded-3xl">
+      <div className="w-[70%] h-72 bg-[url('/img/SERVICIOS-DE-RED-02.png')] bg-cover bg-center text-center grid rounded-3xl cursor-pointer" onClick={() => setFlip(!flip)}>
         <div className="flex items-end mb-0 justify-center font-bold">
           <p className="text-lg sm:text-2xl text-white mt-20">Servicios de VPN</p>
         </div>
         <div className="flex justify-end mr-10 text-white">
           
-        <button onClick={() => setFlip(!flip)}><BiShare/></button>
+        <button ><BiShare/></button>
         </div>
       </div>
 
-      <div className="w-[70%] h-fit  bg-[#09284B] grid border-black border-2 rounded-3xl">
+      <div className="w-[70%] h-fit  bg-[#09284B] grid border-black border-2 rounded-3xl" onClick={() => setFlip(!flip)}>
         <span className="m-10 text-white text-left">
           <p>
             {" "}
@@ -35,7 +35,7 @@ export const Cards2 = () => {
             funcionalidad, seguridad y políticas de gestión de una red.
           </p>
         </span>
-        <div className="flex justify-center gap-24">
+        <div className="flex justify-center gap-24  cursor-pointer">
         <a href='#contacto'
           type="button"
           className="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
@@ -45,7 +45,7 @@ export const Cards2 = () => {
         </a>
         </div>
         <div className="flex justify-end mr-10 text-white mb-10 sm:mb-20">
-          <button onClick={() => setFlip(!flip)}>
+          <button >
             <BiShare />
           </button>
         </div>

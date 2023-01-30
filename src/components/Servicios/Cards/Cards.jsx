@@ -12,20 +12,20 @@ export const Cards = () => {
       flipSpeedFrontToBack={0.6}
       flipSpeedBackToFront={0.6}
     >
-      <div className="w-[70%] h-72 sm:h-72 bg-[url('/img/SERVICIOS-DE-RED-01.png')] bg-cover bg-center text-center grid rounded-3xl">
+      <div className="w-[70%] h-72 sm:h-72 bg-[url('/img/SERVICIOS-DE-RED-01.png')] bg-cover bg-center text-center grid rounded-3xl cursor-pointer" onClick={() => setFlip(!flip)} >
         <div className="flex items-end mb-0 font-bold">
           <p className="text-lg sm:text-2xl text-white mt-20">
             Servicios de interconexion para oficinas del sector público
           </p>
         </div>
         <div className="flex justify-end mr-10 text-white">
-          <button onClick={() => setFlip(!flip)}>
+          <button >
             <BiShare />
           </button>
         </div>
       </div>
 
-      <div className="w-[70%] h-fit  bg-[#09284B] grid border-black border-2 rounded-3xl">
+      <div className="w-[70%] h-fit  bg-[#09284B] grid border-black border-2 rounded-3xl cursor-pointer" onClick={() => setFlip(!flip)}>
         <p className="m-10 text-white text-left pt-10">
           Servicio de red totalmente <span className="font-bold">gestionado y seguro</span> que ofrece servicios de
           alta calidad para <span className="font-bold">conectar diferentes oficinas o dependencias</span> entre
@@ -42,7 +42,7 @@ export const Cards = () => {
         </a>
         </div>
         <div className="flex justify-end mr-10 text-white mb-10 sm:mb-20">
-          <button onClick={() => setFlip(!flip)}>
+          <button >
             <BiShare />
           </button>
         </div>

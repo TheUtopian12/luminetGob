@@ -6,7 +6,11 @@ const Construccion = () => {
       {" "}
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="flex justify-center">
-          <img src='/img/cam 2.webp' alt="" className="w-[400px] rounded-3xl" />
+          <img
+            src="/img/camara.png"
+            alt=""
+            className="w-[200px] sm:w-[300px] rounded-3xl"
+          />
         </div>
         <div className="pt-5 sm:pt-0 sm:text-2xl font-semibold">
           <p className="mb-10">
@@ -33,7 +37,8 @@ const Construccion = () => {
         </div>
       </div>
       <div className="flex justify-center mt-10">
-        <a href='#contacto'
+        <a
+          href="#contacto"
           type="button"
           className="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
         >
