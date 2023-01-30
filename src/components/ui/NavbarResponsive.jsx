@@ -14,28 +14,28 @@ const NavbarResponsive = () => {
     <div id="container-floating" className="sm:hidden z-50">
       <div className="nd7 nds">
         <img className="reminder" />
-        <p className="letter flex justify-center items-center"><BiHomeAlt/></p>
+        <a href="#/" className="letter flex justify-center items-center"><BiHomeAlt/></a>
       </div>
       <div className="nd6 nds">
         <img className="reminder" />
-        <p className="letter flex justify-center items-center"><BiTrendingUp/></p>
+        <a  href="#ventajas" className="letter flex justify-center items-center"><BiTrendingUp/></a>
       </div>
       <div className="nd5 nds">
         <img className="reminder" />
-        <p className="letter flex justify-center items-center"><BiBroadcast/></p>
+        <a href="#servicios" className="letter flex justify-center items-center"><BiBroadcast/></a>
       </div>
 
       <div className="nd4 nds">
         <img className="reminder" />
-        <p className="letter flex justify-center items-center"><BiUserCheck/></p>
+        <a href="#clientes" className="letter flex justify-center items-center"><BiUserCheck/></a>
       </div>
 
       <div className="nd3 nds">
-        <p className="letter flex justify-center items-center"><BiSpreadsheet/></p>
+        <a href="#polizas" className="letter flex justify-center items-center"><BiSpreadsheet/></a>
       </div>
 
       <div className="nd1 nds">
-        <p className="letter flex justify-center items-center"><BiConversation/></p>
+        <a href="#contacto" className="letter flex justify-center items-center"><BiConversation/></a>
       </div>
 
       <div id="floating-button">
