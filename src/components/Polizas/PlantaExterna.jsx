@@ -10,7 +10,7 @@ const PlantaExterna = () => {
         </div>
         <div className='sm:w-[50%] text-white'>
           <h1 className="sm:text-left text-xl text-[#76BA22] font-bold mb-10">
-            Planta Externa y Última Milla
+            Planta Externa y <br /> Última Milla
           </h1>
 
           <ul className="list-disc text-lg text-left hidden sm:grid">

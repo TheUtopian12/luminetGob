@@ -10,7 +10,7 @@ const PlantaInterna = () => {
         </div>
         <div className="sm:w-[50%] text-white">
           <h1 className="sm:text-left text-xl text-[#76BA22] font-bold mb-10">
-            Planta interna, Mantenimiento de red y site de clientes
+            Planta interna, <br /> Mantenimiento de red y <br /> site de clientes
           </h1>
 
           <p className="mb-5 text-lg text-left hidden sm:grid">

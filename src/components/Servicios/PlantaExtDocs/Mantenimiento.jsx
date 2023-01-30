@@ -17,12 +17,12 @@ const Mantenimiento = () => {
       <h2 className="font-bold mb-5 text-[#143C6A]">Este servicio incluye:</h2>
       <ul className="list-disc text-[#143C6A] m-5">
         <li>
-        <span className="font-bold">Reparación en la red</span> de fibra óptica y microondas al <span className="font-bold">interior o
+        <span className="font-bold">Reparación en la red</span> de fibra óptica y microondas al <span className="font-bold">{' '}interior o
           exterior.</span>
         </li>
         <li>
         <span className="font-bold">Sustitución por falla de la red</span> de fibra óptica y mocroondas al
-        <span className="font-bold">interior o exterior</span>.
+        <span className="font-bold"> interior o exterior</span>.
         </li>
         <li>Configuración y cambio de <span className="font-bold">equipo de red</span>.</li>
         <li>Configuración y cambio de <span className="font-bold">cámaras al interior o exterior</span>.</li>

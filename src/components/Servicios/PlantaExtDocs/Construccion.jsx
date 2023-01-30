@@ -27,7 +27,7 @@ const Construccion = () => {
           <ul className="list-disc text-[#143C6A] m-5">
             <li>
              <span className="font-bold">La construcción aérea</span>  (mediante posteria o microondas) en vía
-             <span className="font-bold">pública o privada.</span>  
+             <span className="font-bold"> pública o privada.</span>  
             </li>
             <li>
             <span className="font-bold">Equipos de conexión</span>, red de fibra óptica, cámaras y equipamiento
