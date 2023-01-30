@@ -48,7 +48,7 @@ const Formulario = () => {
             </div>
           </div>
         </div>
-        <div className="ml-5 h-[70vh] w-[90%] sm:w-[100%] bg-[#e3ebf2] sm:rounded-r-2xl rounded-3xl">
+        <div className="ml-5 sm:ml-0 h-[70vh] w-[90%] sm:w-[100%] bg-[#e3ebf2] sm:rounded-r-2xl sm:rounded-l-none  rounded-3xl">
           <div className="flex flex-col justify-center items-center place-items-center m-8 gap-10">
             <Input
               variant="outlined"
