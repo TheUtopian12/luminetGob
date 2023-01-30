@@ -27,7 +27,7 @@ const NavbarResponsive = () => {
 
       <div className="nd4 nds">
         <img className="reminder" />
-        <a href="#clientes" className="letter flex justify-center items-center"><BiUserCheck/></a>
+        <a href="#clientesM" className="letter flex justify-center items-center"><BiUserCheck/></a>
       </div>
 
       <div className="nd3 nds">

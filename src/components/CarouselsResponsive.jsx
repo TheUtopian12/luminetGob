@@ -10,7 +10,7 @@ const CarouselsResponsive = () => {
     arrows:false
   };
   return (
-    <div className="w-[100%] h-[50vh] text-center mt-0 mb-10 bg-cover bgCarousel">
+    <div className="w-[100%] h-[50vh] text-center mt-0 mb-10 bg-cover bgCarousel" id="clientesM">
       <center>
       <h1 className="text-center text-4xl text-white font-bold mb-14 pt-14"> Clientes </h1> 
         <Slider {...settings}>
