@@ -36,9 +36,9 @@ const Formulario = () => {
               </p>
             </div>
             <div className="hidden sm:flex gap-5 mt-5">
-              <SlEnvolope size={33} className="text-[#95C926]" />
+             <a href="mailto:contacto@luminet.com.mx"><SlEnvolope size={33} className="text-[#95C926]" /></a> 
               <p>
-                <h2>contacto@luminetgobierno.com.mx</h2>
+                <h2>contacto@luminet.com.mx</h2>
               </p>
             </div>
 
