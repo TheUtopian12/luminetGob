@@ -9,29 +9,29 @@ const Mantenimiento = () => {
     <div className="flex justify-center pt-10">
        <img src='/img/networking-cabling-installer.png' alt="" className="w-[400px] h-[400px] rounded-3xl" />
     </div>
-    <div className="sm:text-2xl pt-5 sm:pt-0 font-semibold">
-      <p className="mb-10">
+    <div className="sm:text-2xl pt-5 sm:pt-0 ">
+      <p className="mb-10 text-[#143C6A]">
         Nos especializamos en proyectos de <span className="text-[#76BA22]">mantenimiento integral</span>  a sistemas
         de redes de <span className="text-[#76BA22]">voz, video y datos.</span> 
       </p>
       <h2 className="font-bold mb-5 text-[#143C6A]">Este servicio incluye:</h2>
       <ul className="list-disc text-[#143C6A] m-5">
         <li>
-          Reparación en la red de fibra óptica y microondas al interior o
-          exterior.
+        <span className="font-bold">Reparación en la red</span> de fibra óptica y microondas al <span className="font-bold">interior o
+          exterior.</span>
         </li>
         <li>
-          Sustitución por falla de la red de fibra óptica y mocroondas al
-          interior o exterior.
+        <span className="font-bold">Sustitución por falla de la red</span> de fibra óptica y mocroondas al
+        <span className="font-bold">interior o exterior</span>.
         </li>
-        <li>Configuración y cambio de equipo de red.</li>
-        <li>Configuración y cambio de cámaras al interior o exterior.</li>
+        <li>Configuración y cambio de <span className="font-bold">equipo de red</span>.</li>
+        <li>Configuración y cambio de <span className="font-bold">cámaras al interior o exterior</span>.</li>
         <li>
-          Mantenimiento preventivo y correctivo a puntos de videovigilancia.
+        <span className="font-bold">Mantenimiento</span> preventivo y correctivo a puntos de <span className="font-bold">videovigilancia</span>.
         </li>
-        <li>Mantenimiento preventivo y correctivo a la red de datos.</li>
-        <li>Validación del estado de circuitos y cableado.</li>
-        <li>Detección de puntos de riesgo.</li>
+        <li><span className="font-bold">Mantenimiento</span> preventivo y correctivo a la <span className="font-bold">red de datos</span>.</li>
+        <li>Validación del estado de <span className="font-bold">circuitos y cableado</span>.</li>
+        <li><span className="font-bold">Detección de puntos de riesgo</span>.</li>
       </ul>
     </div>
   </div>

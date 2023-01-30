@@ -10,12 +10,12 @@ const Monitoreo = () => {
         <div className="flex justify-center">
           <img src='/img/cam 3.jpeg' alt="" className="w-[400px] rounded-3xl" />
         </div>
-        <div className="pt-5 sm:pt-0 sm:text-2xl font-semibold text-[#143C6A]">
+        <div className="pt-5 sm:pt-0 sm:text-2xl  text-[#143C6A]">
           <h2 className="font-bold mb-5">Este servicio incluye:</h2>
           <ul className="list-disc m-5">
-            <li>Configuración e implementación del sistema de cámaras.</li>
+            <li><span className="font-bold">Configuración e implementación</span> del sistema de cámaras.</li>
             <li>
-              Monitoreo de red de fibra óptica, de microondas y del sistema de
+            <span className="font-bold">Monitoreo de red</span> de fibra óptica, de microondas y del sistema de
               cámaras.
             </li>
           </ul>
