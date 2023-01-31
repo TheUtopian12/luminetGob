@@ -30,7 +30,7 @@ function App() {
       <Tecnologias />
       <Formulario />
 
-      <Footer />
+      <Footer /> 
     </>
   );
 }
