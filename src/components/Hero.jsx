@@ -1,7 +1,6 @@
 import React from "react";
 import bgVideo from "../assets/Banner Web.mp4";
-import bgImage from "../assets/bgImage.png";
-
+import bgImage from '../assets/bgImage.png'
 import { Button } from "@material-tailwind/react";
 import Navbar from "./ui/Navbar";
 import NavbarResponsive from "./ui/NavbarResponsive";
@@ -23,10 +22,10 @@ export const Hero = () => {
       <div className="absolute w-full h-full top-0 left-0 bg-gray-900/30"></div>
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-center text-white">
         <h1 className="text-2xl mr-1 ml-1 sm:mr-10 sm:ml-10 sm:text-5xl font-bold 4k:text-6xl">
-        Servicios de integración de consultoría y proyectos especiales para sector público
-        </h1>
+        Servicios de integración de consultoría y proyectos especiales para sector público </h1>
         <h2 className="text-xl mr-5 ml-5 sm:ml-96 sm:mr-96 sm:text-3xl mt-10 text-[#DFFFD3] 4k:text-5xl">
-        Generamos una infraestructura sólida para reducir la brecha digital en México
+          Integramos servicios especializados para una conectividad y seguridad
+          total
         </h2>
         <div className="mt-10">
           <a
