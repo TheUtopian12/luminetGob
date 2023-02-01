@@ -21,7 +21,7 @@ const Formulario = () => {
         <MdArrowForwardIos size={30} className="text-[#95C926] font-bold" />
       </div>
       <div className="w-[100%] sm:w-[60%] min-h-screen pb-10  pt-20 rounded-2xl grid sm:grid-cols-2 gap-0 sm:gap-0">
-        <div className="ml-5 sm:ml-0 h-[33vh] sm:h-[70vh] w-[90%] sm:w-[100%] bg-gradient-to-b from-[#266095] to-[#031e3d] rounded-t-3xl sm:rounded-tr-none sm:rounded-l-3xl flex flex-col place-items-center pt-5">
+        <div className="ml-5 sm:ml-0 h-[40vh] sm:h-[70vh] w-[90%] sm:w-[100%] bg-gradient-to-b from-[#266095] to-[#031e3d] rounded-t-3xl sm:rounded-tr-none sm:rounded-l-3xl flex flex-col place-items-center pt-5">
           <img src={Logo} alt="" className="w-32" />
           <div className=" flex flex-col text-white sm:m-5">
             <div className="hidden sm:flex gap-5">
@@ -35,7 +35,7 @@ const Formulario = () => {
                 </h2>
               </p>
             </div>
-            <div className="hidden sm:flex gap-5 mt-5">
+            <div className=" flex gap-5 mt-5">
              <a href="mailto:contacto@luminet.com.mx"><SlEnvolope size={33} className="text-[#95C926]" /></a> 
               <p>
                 <h2>contacto@luminet.com.mx</h2>
