@@ -73,33 +73,45 @@ export const Ciberseguridad = () => {
               </div>
             </div>
           </AccordionHeader>
-          <AccordionBody className='bg-white'>
+          <AccordionBody className="bg-white">
             <div className="grid place-items-center">
               <ul className="text-sm sm:text-xl ml-10 text-[#143C6A]">
                 <li type="circle">
-                 <span className="font-bold">Detección de todas las transmisiones</span> de audio, video y datos
-                  espías cuya fuente pueden ser cámaras o micrófonos ocultos en
-                  líneas de corriente o líneas telefónicas, sistemas espías en
-                  pc, laptops o celulares.
+                  <span className="font-bold">
+                    Detección de todas las transmisiones
+                  </span>{" "}
+                  de audio, video y datos espías cuya fuente pueden ser cámaras
+                  o micrófonos ocultos en líneas de corriente o líneas
+                  telefónicas, sistemas espías en pc, laptops o celulares.
                 </li>
                 <li type="circle">
-                  Detección de <span className="font-bold">emisiones</span> de Wi-Fi, Bluetooth, Teléfonos
-                  Celulares no autorizados.
+                  Detección de <span className="font-bold">emisiones</span> de
+                  Wi-Fi, Bluetooth, Teléfonos Celulares no autorizados.
                 </li>
                 <li type="circle">
-                  Detección de <span className="font-bold">radiofrecuencias</span> de campo cercano no reconocidas.
+                  Detección de{" "}
+                  <span className="font-bold">radiofrecuencias</span> de campo
+                  cercano no reconocidas.
                 </li>
                 <li type="circle">
-                <span className="font-bold">Inspección física y ocular</span> especializada contra intrusiones.
+                  <span className="font-bold">Inspección física y ocular</span>{" "}
+                  especializada contra intrusiones.
                 </li>
                 <li type="circle">
-                  Detección de <span className="font-bold">fugas acústicas o vibraciones mecánicas.</span>
+                  Detección de{" "}
+                  <span className="font-bold">
+                    fugas acústicas o vibraciones mecánicas.
+                  </span>
                 </li>
-                <li type="circle">Detección de <span className="font-bold">interferencias.</span></li>
+                <li type="circle">
+                  Detección de{" "}
+                  <span className="font-bold">interferencias.</span>
+                </li>
               </ul>
             </div>
             <div className="flex justify-center mt-10">
-              <a href='#contacto'
+              <a
+                href="#contacto"
                 type="button"
                 className="text-white sm:bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:sm:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
               >
@@ -119,9 +131,13 @@ export const Ciberseguridad = () => {
         >
           <AccordionHeader onClick={() => handleOpen(2)}>
             <div className="h-20 w-full flex items-center gap-5 sm:justify-between ">
-              <div className=" h-20 w-full flex items-center gap-5 ml-10 sm:gap-5 "> 
+              <div className=" h-20 w-full flex items-center gap-5 ml-10 sm:gap-5 ">
                 {" "}
-                <img src="/img/iconos/tools.png" alt="" className="w-14 sm:w-20" />
+                <img
+                  src="/img/iconos/tools.png"
+                  alt=""
+                  className="w-14 sm:w-20"
+                />
                 <h1 className="text-left text-[#143C6A] text-sm sm:text-2xl font-bold">
                   ¿Cómo lo hacemos?
                 </h1>
@@ -131,28 +147,41 @@ export const Ciberseguridad = () => {
               </div>
             </div>
           </AccordionHeader>
-          <AccordionBody className='bg-white'>
+          <AccordionBody className="bg-white">
             <div className="grid">
-              <h2 ><span className="font-bold text-[#143C6A] text-xl">Por medio de nuestros equipos especializados podemos detectar:</span></h2>
-              <ul className="text-sm sm:text-xl ml-10 text-[#143C6A]">
+              <div className="ml-10">
+                <h2>
+                  <span className="font-bold text-[#143C6A] sm:text-xl ">
+                    Por medio de nuestros equipos especializados podemos
+                    detectar:
+                  </span>
+                </h2>
+              </div>
+
+              <ul className="text-sm sm:text-xl ml-10 text-[#143C6A] pt-5">
                 <li type="circle">
-                 <span className="font-bold">Lentes de cámaras ocultas</span>  de forma rápida.
+                  <span className="font-bold">Lentes de cámaras ocultas</span>{" "}
+                  de forma rápida.
                 </li>
                 <li type="circle">
-                 <span className="font-bold">Transmisiones</span> conocidas, desconocidas, ilegales, disruptivas o
-                  interferentes.
+                  <span className="font-bold">Transmisiones</span> conocidas,
+                  desconocidas, ilegales, disruptivas o interferentes.
                 </li>
                 <li type="circle">
-                <span className="font-bold">Equipos ocultos</span>  por medio del calor emitido.
+                  <span className="font-bold">Equipos ocultos</span> por medio
+                  del calor emitido.
                 </li>
                 <li type="circle">
-                <span className="font-bold">Transmisores activos y pasivos</span>, transmisores a través de
-                  cableado y grabadoras.
+                  <span className="font-bold">
+                    Transmisores activos y pasivos
+                  </span>
+                  , transmisores a través de cableado y grabadoras.
                 </li>
               </ul>
             </div>
             <div className="flex justify-center mt-10">
-              <a href='#contacto'
+              <a
+                href="#contacto"
                 type="button"
                 className="text-white sm:bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:sm:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
               >
@@ -171,40 +200,62 @@ export const Ciberseguridad = () => {
           className="sm:bg-gradient-to-b from-[#c9e3fd] to-[#eef6ff] rounded-xl"
         >
           <AccordionHeader onClick={() => handleOpen(3)}>
-          <div className="h-20 w-full flex items-center gap-5 ml-10 sm:justify-between ">
+            <div className="h-20 w-full flex items-center gap-5 ml-10 sm:justify-between ">
               <div className=" h-20 w-full flex items-center gap-5  sm:gap-5 ">
-                  <img src="/img/iconos/result.png" alt="" className="w-14 sm:w-20" />
-              <h1 className="text-left text-[#143C6A] text-sm sm:text-2xl font-bold">
-                Resultados
-              </h1>
+                <img
+                  src="/img/iconos/result.png"
+                  alt=""
+                  className="w-14 sm:w-20"
+                />
+                <h1 className="text-left text-[#143C6A] text-sm sm:text-2xl font-bold">
+                  Resultados
+                </h1>
               </div>
               <div style={{ width: "40px" }} className="relative">
                 <img src="/img/iconos/plus.png" alt="" />
               </div>
-
             </div>
           </AccordionHeader>
-          <AccordionBody className='bg-white'>
+          <AccordionBody className="bg-white">
             <div className="grid">
               <ul className="text-sm sm:text-xl ml-10 text-[#143C6A]">
                 <li type="circle">
-                <span className="font-bold">Seguridad para redes</span> internas, externas e internet.
+                  <span className="font-bold">Seguridad para redes</span>{" "}
+                  internas, externas e internet.
                 </li>
-                <li type="circle"><span className="font-bold">Control de ataques</span> de hackeo.</li>
-                <li type="circle"><span className="font-bold">Detección de software</span> de espionaje.</li>
-                <li type="circle"><span className="font-bold">Detección de micrófonos y cámaras.</span></li>
+                <li type="circle">
+                  <span className="font-bold">Control de ataques</span> de
+                  hackeo.
+                </li>
+                <li type="circle">
+                  <span className="font-bold">Detección de software</span> de
+                  espionaje.
+                </li>
+                <li type="circle">
+                  <span className="font-bold">
+                    Detección de micrófonos y cámaras.
+                  </span>
+                </li>
                 <li type="circle">
                   Detección de ondas de Radio Frecuencia de campo cercano.
                 </li>
                 <li type="circle">
-                <span className="font-bold">Seguridad y confianza total</span> para realizar reuniones y
-                  conferencias importantes en los sitios analizados.
+                  <span className="font-bold">Seguridad y confianza total</span>{" "}
+                  para realizar reuniones y conferencias importantes en los
+                  sitios analizados.
                 </li>
-                <li type="circle">Mantenemos absoluta <span className="font-bold">confidencialidad.</span></li>
+                <li type="circle">
+                  Mantenemos absoluta{" "}
+                  <span className="font-bold">confidencialidad.</span>
+                </li>
+                <li type="circle">
+                  <span className="font-bold">25 años de experiencia</span>
+                </li>
               </ul>
             </div>
             <div className="flex justify-center mt-10">
-              <a href='#contacto'
+              <a
+                href="#contacto"
                 type="button"
                 className="text-white sm:bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:sm:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
               >

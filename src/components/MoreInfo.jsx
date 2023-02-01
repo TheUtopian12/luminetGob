@@ -134,12 +134,12 @@ export const MoreInfo = () => {
             </div>
           </div>
           <div>
-            <h2 className="ml-0 mt-6 text-xl">
+            <h2 className="xl:ml-[20px] mt-6 text-xl">
               <span className="text-[#143C6A] font-bold ">
-                Damos mantenimiento a la red de seguridad de Coahuila
+                Damos mantenimiento a la red de Coahuila
               </span>
               <br />
-              La mejor red de seguridad evaluada de México.{" "}
+              Resultados comprobados ya que es la red de seguridad mejor evaluada en México.
             </h2>
           </div>
         </div>
@@ -180,7 +180,7 @@ export const MoreInfo = () => {
             </div>
           </div>
           <div>
-            <h2 className="ml-[-10px] mt-6 text-xl">
+            <h2 className="ml-[-20px] mt-6 text-xl">
               <span className="text-[#143C6A] font-bold ">
                 Contamos con Certificaciones{" "}
               </span>
@@ -191,8 +191,8 @@ export const MoreInfo = () => {
         </div>
       </div>
 
-      <div className="flex justify-center">
-        <div className="sm:hidden w-[90%]">
+      <center >
+        <div className="sm:hidden w-[100%] pr-4">
           <Slider {...settings}>
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
@@ -239,7 +239,7 @@ export const MoreInfo = () => {
               </div>
               <h2 className="ml-4 text-center">
                 <span className="text-[#143C6A] font-bold texl-lg">
-                  Somos independientes de las marcas de equipos
+                  Somos independientes de <br /> las marcas de equipos
                 </span>
                 <br />
                 No representamos a ninguna empresa extranjera.
@@ -256,10 +256,10 @@ export const MoreInfo = () => {
               </div>
               <h2 className="ml-4 text-center">
                 <span className="text-[#143C6A] font-bold texl-lg">
-                  Damos mantenimiento a la red de seguridad de Coahuila
+                  Damos mantenimiento a la red de Coahuila
                 </span>
                 <br />
-                La mejor red de seguridad evaluada de México.
+                Resultados comprobados ya que es la red de seguridad mejor evaluada en México.
               </h2>
             </div>
 
@@ -299,7 +299,7 @@ export const MoreInfo = () => {
             </div>
           </Slider>
         </div>
-      </div>
+      </center>
       <div className="mt-16 mb-16 flex justify-center">
         <a href='#contacto'
           type="button"

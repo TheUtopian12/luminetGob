@@ -6,7 +6,7 @@ export const Banner = () => {
   const sliderRef = useRef(null);
   const settings = {
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     dots: false,
     arrows: false,
   };
@@ -42,7 +42,7 @@ export const Banner = () => {
 
               <div>
                 <h2 className="text-lg sm:text-[35px] sm:leading-[50px]">
-                  Porque somos{" "}
+                  Somos{" "}
                   <span className="text-[#76BA22] font-semibold">
                     caso de éxito
                   </span>{" "}
@@ -67,7 +67,7 @@ export const Banner = () => {
 
               <div>
                 <h2 className="text-lg sm:text-[35px] sm:leading-[50px]">
-                  Porque tenemos{" "}
+                  Tenemos{" "}
                   <span className="text-[#76BA22] font-semibold">
                     amplia experiencia{" "}
                   </span>{" "}
