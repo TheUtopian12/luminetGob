@@ -7,11 +7,10 @@ const Footer = () => {
     <>
       <div className="bg-[#041A32] text-center sm:text-left  grid sm:grid-cols-3 place items-center">
         <div className="text-white sm:m-16 ">
-         <center>
-             <img src={logo} alt="Logo" className="mb-5 w-[50%]" />
-        
-         </center>
-         <h3 className="mb-5">
+          <center>
+            <img src={logo} alt="Logo" className="mb-5 w-[50%]" />
+          </center>
+          <h3 className="mb-5">
             Pedro Figueroa No. 2815 CP 25024 Saltillo, Coahuila
           </h3>
           <h3>
@@ -25,10 +24,11 @@ const Footer = () => {
             <h3 className="font-bold mb-8">8119 086 413</h3>
           </p>
 
-          <p className="flex gap-1 mt-3 justify-center sm:justify-start"><CiMail size={25}/>
-          <h3 className="mb-8">contacto@luminetgobierno.com.mx</h3>
-</p>
-          
+          <p className="flex gap-1 mt-3 justify-center sm:justify-start">
+            <CiMail size={25} />
+            <h3 className="mb-8">contacto@luminetgobierno.com.mx</h3>
+          </p>
+
           <h3>Soporte</h3>
           <p className="flex gap-2 mb-2 mt-2 justify-center sm:justify-start">
             <BsWhatsapp />
@@ -62,9 +62,21 @@ const Footer = () => {
         </div>
       </div>
       <div className="h-20 bg-[#292929] flex justify-center items-center">
-        <h1 className="text-center text-white cursor-pointer">
-          Aviso de privacidad | Cumplimiento IFT y PROFECO
-        </h1>
+        <object
+          data="myfile.pdf"
+          type="application/pdf"
+          width="100%"
+          height="100%"
+        >
+          <p>
+            <a href="./docs/Aviso de privacidad Luminet.pdf">
+             
+              <h1 className="text-center text-white cursor-pointer mt-8">
+                Aviso de privacidad
+              </h1>
+            </a>
+          </p>
+        </object>
       </div>
     </>
   );

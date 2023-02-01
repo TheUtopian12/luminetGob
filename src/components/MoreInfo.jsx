@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/Logo-Luminet-Gobierno_v2.png";
 import logo_ift from "../assets/logo_ift_horizontal.png";
-import cofetel from "../assets/Clientes/Logo CFT.jpeg";
+import cofetel from "../assets/antenna.png";
 import Slider from "react-slick";
 
 import { Button } from "@material-tailwind/react";
@@ -34,11 +34,11 @@ export const MoreInfo = () => {
         </div>
         <div>
           <h2 className="text-lg sm:text-lg md:xl font-semibold">
-            1er Concesionario Federal de Telecomunicaciones en radiofrecuencia
+           Pioneros en brindar servicios de telecomunicación en radiofrecuencia
           </h2>
         </div>
         <div className="flex justify-center">
-          <img src={cofetel} alt="" className="w-[250px] mb-10 sm:mb-0 " />
+          <img src={cofetel} alt="" className="w-[120px] mb-10 sm:mb-0 " />
         </div>
       </div>
 

@@ -1,5 +1,6 @@
 import React from "react";
 import bgVideo from "../assets/Banner Web.mp4";
+import bgImage from "../assets/bgImage.png";
 
 import { Button } from "@material-tailwind/react";
 import Navbar from "./ui/Navbar";
@@ -11,20 +12,21 @@ export const Hero = () => {
       <NavbarResponsive />
 
       <video
-        className="w-full h-full object-cover"
+        className="w-full h-full hidden sm:grid object-cover"
         autoPlay
         loop
         muted
         src={bgVideo}
       />
+      <img src={bgImage} alt="" className="w-full h-full sm:hidden grid object-cover"/>
+
       <div className="absolute w-full h-full top-0 left-0 bg-gray-900/30"></div>
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-center text-white">
         <h1 className="text-2xl mr-1 ml-1 sm:mr-10 sm:ml-10 sm:text-5xl font-bold 4k:text-6xl">
-        Generamos una infraestructura sólida para reducir la brecha digital en México
+        Servicios de integración de consultoría y proyectos especiales para sector público
         </h1>
         <h2 className="text-xl mr-5 ml-5 sm:ml-96 sm:mr-96 sm:text-3xl mt-10 text-[#DFFFD3] 4k:text-5xl">
-          Integramos servicios especializados para una conectividad y seguridad
-          total
+        Generamos una infraestructura sólida para reducir la brecha digital en México
         </h2>
         <div className="mt-10">
           <a
