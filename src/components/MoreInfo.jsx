@@ -38,7 +38,7 @@ export const MoreInfo = () => {
           </h2>
         </div>
         <div className="flex justify-center">
-          <img src={cofetel} alt="" className="w-[120px] mb-10 sm:mb-0 " />
+          <img src={cofetel} alt="" className="w-[80px] mb-10 sm:mb-0 " />
         </div>
       </div>
 
