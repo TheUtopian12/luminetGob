@@ -13,10 +13,10 @@ const Enlaces = () => {
             className="rounded-2xl h-[300px] sm:h-[400px]"
           />
         </div>
-        <div className="sm:w-[50%] text-white">
-          <h1 className="sm:text-left text-xl text-[#76BA22] font-bold mb-10">
-            Revisión de funcionamiento de enlaces{" "}
-          </h1>
+       
+          <div className="sm:w-[50%] text-white">
+          <h1 className="text-center text-xl text-[#76BA22] font-bold mb-10">
+          Revisión de funcionamiento <br className="md:hidden" /> de enlaces </h1>
 
           <ul className="list-disc text-lg text-left hidden sm:grid">
             <li>

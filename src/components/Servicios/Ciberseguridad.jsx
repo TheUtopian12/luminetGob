@@ -248,9 +248,7 @@ export const Ciberseguridad = () => {
                   Mantenemos absoluta{" "}
                   <span className="font-bold">confidencialidad.</span>
                 </li>
-                <li type="circle">
-                  <span className="font-bold">25 años de experiencia</span>
-                </li>
+               
               </ul>
             </div>
             <div className="flex justify-center mt-10">

@@ -32,8 +32,8 @@ export const MoreInfo = () => {
         <div className="flex justify-center">
           <img src={logo_ift} alt="" style={{ width: "250px" }} />
         </div>
-        <div>
-          <h2 className="text-lg sm:text-lg md:xl font-semibold">
+        <div className="md:translate-x-16">
+          <h2 className="text-lg sm:text-lg md:xl font-semibold ">
            Pioneros en brindar servicios de telecomunicación en radiofrecuencia
           </h2>
         </div>

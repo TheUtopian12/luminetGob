@@ -13,8 +13,8 @@ const Limpieza = () => {
           />
         </div>
         <div className="sm:w-[50%] text-white">
-          <h1 className="text-left text-xl text-[#76BA22] font-bold mb-10">
-            Limpieza técnica de salas de sistemas{" "}
+          <h1 className="text-center text-xl text-[#76BA22] font-bold mb-10">
+            Limpieza técnica de salas <br className="md:hidden" /> de sistemas{" "}
           </h1>
 
           <p className="mb-5 text-lg text-left hidden sm:grid">

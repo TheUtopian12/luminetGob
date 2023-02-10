@@ -11,10 +11,11 @@ const Footer = () => {
             <img src={logo} alt="Logo" className="mb-5 w-[50%]" />
           </center>
           <h3 className="mb-5">
-            Pedro Figueroa No. 2815 CP 25024 Saltillo, Coahuila
+            Pedro Figueroa No.2815 CP, 25024 Saltillo, Coahuila, México.
           </h3>
           <h3>
-            Av. Eugenio Garza Sada No. 3820, Col. Más Palomas Monterrey. N.L.
+            Av. Eugenio Garza Sada No. 3820, Col. Más Palomas, Monterrey. N.L.
+            México.
           </h3>
         </div>
         <div className="text-white ">
@@ -70,7 +71,6 @@ const Footer = () => {
         >
           <p>
             <a href="./docs/Aviso de privacidad Luminet.pdf">
-             
               <h1 className="text-center text-white cursor-pointer mt-8">
                 Aviso de privacidad
               </h1>

@@ -22,9 +22,9 @@ export const Info = () => {
         </span>
       </div>
       <div className="bg-[#041A32] h-[50%] sm:w-[50%] sm:h-full flex items-center">
-        <h2 className="text-white text-center text-2xl ml-5 mr-5">
+        <h2 className="text-white text-center text-2xl ml-10 mr-10">
           Somos los operadores de enlaces en microondas más grande de México con
-          más <span className="font-bold text-[#A5FF36]">23 años de experiencia</span>
+          más <br className="md:hidden"/> <span className="font-bold text-[#A5FF36]">23 años de experiencia</span>
         </h2>
       </div>
     </div>

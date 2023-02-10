@@ -10,7 +10,7 @@ const Torres = () => {
       </div>
       <div className='sm:w-[50%] text-white'>
         <h1 className="sm:text-left text-xl text-[#76BA22] font-bold mb-10">
-        Mantenimiento de Torres de Telecomunicaciones </h1>
+        Mantenimiento de Torres <br className='md:hidden'/> de Telecomunicaciones </h1>
 
         <p className="mb-5 text-lg text-left hidden sm:grid">
         Ejecutamos las acciones y trabajos necesarios con el objetivo de asegurar la conservación de los anclajes y las estructuras de soporte, tramos de la torre y tensores. </p>
