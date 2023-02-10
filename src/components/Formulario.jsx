@@ -27,12 +27,14 @@ const Formulario = () => {
             <div className="hidden sm:flex gap-5">
               <SlLocationPin size={50} className="text-[#95C926]" />
               <p>
-                <h2>Pedro Figueroa No.2815 CP, 25024 Saltillo, Coahuila, México.</h2>
+                <h2>Pedro Figueroa No. 2815, CP. 25024, Saltillo, Coahuila, México.</h2>
                 <br />
                 <h2>
-                  Av. Eugenio Garza Sada No. 3820, Col. Más Palomas, Monterrey.
-                  N.L. México.
+                Av. Eugenio Garza Sada No. 3820, Col. Más Palomas, Monterrey, N.L., México.
                 </h2>
+
+              
+
               </p>
             </div>
             <div className=" flex gap-5 mt-5">

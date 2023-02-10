@@ -11,11 +11,10 @@ const Footer = () => {
             <img src={logo} alt="Logo" className="mb-5 w-[50%]" />
           </center>
           <h3 className="mb-5">
-            Pedro Figueroa No.2815 CP, 25024 Saltillo, Coahuila, México.
+          Pedro Figueroa No. 2815, CP. 25024, Saltillo, Coahuila, México.
           </h3>
           <h3>
-            Av. Eugenio Garza Sada No. 3820, Col. Más Palomas, Monterrey. N.L.
-            México.
+          Av. Eugenio Garza Sada No. 3820, Col. Más Palomas, Monterrey, N.L., México.
           </h3>
         </div>
         <div className="text-white ">
