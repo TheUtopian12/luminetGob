@@ -25,7 +25,7 @@ export const Hero = () => {
 
       <div className="absolute w-full h-full top-0 left-0 bg-gray-900/30"></div>
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-center text-white">
-        <h1 className="text-2xl mr-1 ml-1 sm:mr-10 sm:ml-10 sm:text-5xl font-bold 4k:text-6xl">
+        <h1 className="text-2xl mr-1 ml-1 sm:mr-10 sm:ml-10 sm:text-5xl font-bold 4k:text-6xl lg:text-white  2xl:mr-16 2xl:ml-16">
           Servicios de integración, consultoría y proyectos especiales para
           sector público{" "}
         </h1>
