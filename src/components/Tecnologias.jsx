@@ -9,7 +9,7 @@ import tamce from "../assets/Tecnologias/tamce.png";
 import tarana from "../assets/Tecnologias/tarana.png";
 import zencase from "../assets/Tecnologias/zencase.png";
 import Benquant from "../assets/Tecnologias/Logo_Bequant.jpg";
-import Mimosa from "../assets/Tecnologias/Logo_Bequant.jpg";
+import Mimosa from "../assets/Tecnologias/Logo_Mimosa.jpg";
 
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 
