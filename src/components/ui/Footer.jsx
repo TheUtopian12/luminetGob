@@ -11,10 +11,16 @@ const Footer = () => {
             <img src={logo} alt="Logo" className="mb-5 w-[50%]" />
           </center>
           <h3 className="mb-5">
-          Pedro Figueroa No. 2815, CP. 25024, Saltillo, Coahuila, México.
+            Pedro Figueroa No. 2815, CP. 25024, Saltillo, Coahuila, México.
           </h3>
           <h3>
-          Av. Eugenio Garza Sada No. 3820, Col. Más Palomas, Monterrey, N.L., México.
+            Av. Eugenio Garza Sada No. 3820, Col. Más Palomas, Monterrey, N.L.,
+            México.
+          </h3>
+          <br />
+          <h3>
+            Av. Revolución 1653, 3er Piso, Colonia San Ángel, CP 01000, Alcaldía
+            Álvaro Obregón, CDMX
           </h3>
         </div>
         <div className="text-white ">
