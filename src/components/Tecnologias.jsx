@@ -60,7 +60,7 @@ function Tecnologias() {
   const settings2 = {
     infinite: true,
     lazyLoad: true,
-    speed: 1300,
+    speed: 300,
     autoplay: true,
     slidesToShow: 1,
     centerMode: false,
