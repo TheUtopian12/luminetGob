@@ -2,114 +2,119 @@
 @tailwind components;
 @tailwind utilities;
 
-*{font-family: 'Montserrat', sans-serif;
+* {
+	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
-	
-	
+
+
 }
 
 @layer components {
-    .blinking-cursor:after {
-        content: '.';
+	.blinking-cursor:after {
+		content: '.';
 
-        animation: blink .8s step-start infinite
-    }
+		animation: blink .8s step-start infinite
+	}
 
-    @keyframes blink {
-        50% {
-            opacity: 0;
-        }
-    }
+	@keyframes blink {
+		50% {
+			opacity: 0;
+		}
+	}
 }
 
-.bgImageBanner{
-    background-image: url('../src/assets/shutterstock_395659066.png');
+.bgImageBanner {
+	background-image: url('../src/assets/shutterstock_395659066.png');
 }
-.bgCarousel{
-    background-image: url('../src/assets/shutterstock_1257663727.png');
+
+.bgCarousel {
+	background-image: url('../src/assets/shutterstock_1257663727.png');
 }
-.bgTec{
-    background-image: url('../src/assets/shutterstock_1182169972.png');
+
+.bgTec {
+	background-image: url('../src/assets/shutterstock_1182169972.png');
 }
 
 .slick-prev {
-    left: 3% !important;
-    z-index: 1;
-  }
-  .slick-next {
-    right: 3% !important;
-    z-index: 1;
-  }
+	left: 3% !important;
+	z-index: 1;
+}
+
+.slick-next {
+	right: 3% !important;
+	z-index: 1;
+}
 
 
-  	/* REACT SLICK ARROW CUSTOM CSS */
-	  .react__slick__slider__parent {
-	    position: relative;
-	  }
-	  
-	  .react__slick__slider__parent .slick-prev,
-	  .react__slick__slider__parent .slick-next {
-	    position: absolute;
-	    top: 50%;
-	  }
-	  .react__slick__slider__parent .slick-prev {
-	    color: black;
-	    z-index: 1;
-	  }
-	  .react__slick__slider__parent .slick-next {
-	    border-radius: 50%;
-	    color: black;
-	    z-index: 1;
-	  }
-	  
-	  .react__slick__slider__parent .slick-prev:before, .slick-next:before {
-	    color: black;
-        
-	  }
+/* REACT SLICK ARROW CUSTOM CSS */
+.react__slick__slider__parent {
+	position: relative;
+}
+
+.react__slick__slider__parent .slick-prev,
+.react__slick__slider__parent .slick-next {
+	position: absolute;
+	top: 50%;
+}
+
+.react__slick__slider__parent .slick-prev {
+	color: black;
+	z-index: 1;
+}
+
+.react__slick__slider__parent .slick-next {
+	border-radius: 50%;
+	color: black;
+	z-index: 1;
+}
+
+.react__slick__slider__parent .slick-prev:before,
+.slick-next:before {
+	color: black;
+
+}
 
 
-	  
+
 .slide img {
 	width: 20rem;
 	margin: 0 auto;
 	border-radius: 20px;
-  }
-  
-  .slide {
-	transform: scale(0.6);
+}
+
+.slide {
+	transform: scale(0.5);
 	transition: transform 300ms;
 	opacity: 0.5;
-  }
-  
-  .activeSlide {
-	transform: scale(1.0);
+}
+
+.activeSlide {
+	transform: scale(1.1);
 	opacity: 1;
-  }
-  
-  .arrow {
+}
+
+.arrow {
 	background-color: transparent;
 	color: green;
 	position: absolute;
 	cursor: pointer;
 	z-index: 10;
-  }
-  
-  .arrow svg {
+}
+
+.arrow svg {
 	transition: color 300ms;
-  }
-  
-  .arrow svg:hover {
+}
+
+.arrow svg:hover {
 	color: #68edff;
-  }
-  
-  .next {
+}
+
+.next {
 	right: -10%;
 	top: 50%;
-  }
-  
-  .prev {
+}
+
+.prev {
 	left: -10%;
 	top: 50%;
-  }
-
-  
+}

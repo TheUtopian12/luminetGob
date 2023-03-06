@@ -47,11 +47,11 @@ function Tecnologias() {
 
   const settings = {
     infinite: true,
-    lazyLoad: true,
     speed: 300,
     slidesToShow: 3,
+    slidesToScroll: 1,
     centerMode: true,
-    centerPadding: 0,
+    centerPadding: "60px",
     autoplay: false,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
@@ -63,6 +63,9 @@ function Tecnologias() {
     speed: 300,
     autoplay: true,
     slidesToShow: 1,
+
+    centerMode: true,
+    centerPadding: "60px",
     centerMode: false,
     centerPadding: 0,
     nextArrow: <NextArrow />,
