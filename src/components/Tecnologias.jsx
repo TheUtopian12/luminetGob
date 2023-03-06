@@ -8,6 +8,8 @@ import Panasonic from "../assets/Tecnologias/panasonic.png";
 import tamce from "../assets/Tecnologias/tamce.png";
 import tarana from "../assets/Tecnologias/tarana.png";
 import zencase from "../assets/Tecnologias/zencase.png";
+import Benquant from "../assets/Tecnologias/Logo_Bequant.jpg";
+import Mimosa from "../assets/Tecnologias/Logo_Bequant.jpg";
 
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 
@@ -17,8 +19,10 @@ const images = [
   hikvision,
   Logos,
   Panasonic,
+  Benquant,
   tamce,
   tarana,
+  Mimosa,
   zencase,
 ];
 
@@ -26,7 +30,7 @@ function Tecnologias() {
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow next" onClick={onClick}>
-        <FaAngleRight size={30}/>
+        <FaAngleRight size={30} />
       </div>
     );
   };
@@ -34,7 +38,7 @@ function Tecnologias() {
   const PrevArrow = ({ onClick }) => {
     return (
       <div className="arrow prev " onClick={onClick}>
-        <FaAngleLeft size={30}/>
+        <FaAngleLeft size={30} />
       </div>
     );
   };
@@ -48,7 +52,7 @@ function Tecnologias() {
     slidesToShow: 3,
     centerMode: true,
     centerPadding: 0,
-    autoplay:true,
+    autoplay: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     beforeChange: (current, next) => setImageIndex(next),
@@ -56,8 +60,8 @@ function Tecnologias() {
   const settings2 = {
     infinite: true,
     lazyLoad: true,
-    speed: 300,
-    autoplay:true,
+    speed: 1300,
+    autoplay: true,
     slidesToShow: 1,
     centerMode: true,
     centerPadding: 0,
@@ -68,8 +72,8 @@ function Tecnologias() {
 
   return (
     <div id="tecnologias">
-      <div className="flex sm:hidden justify-center w-[100%] h-[60vh] bgTec bg-cover bg-center pt-20" >
-        <div className="w-[80%] pb-10" >
+      <div className="flex sm:hidden justify-center w-[100%] h-[60vh] bgTec bg-cover bg-center pt-20">
+        <div className="w-[80%] pb-10">
           <h1 className="text-center mb-20 text-2xl font-bold text-white">
             Tecnologías que implementamos
           </h1>
@@ -84,7 +88,6 @@ function Tecnologias() {
           </Slider>
         </div>
       </div>{" "}
-
       <div className="hidden sm:flex justify-center h-[45vh] bgTec bg-cover bg-center pt-10">
         <div className="w-[80%] pb-10">
           <h1 className="text-center mb-10 text-4xl font-bold text-white">
