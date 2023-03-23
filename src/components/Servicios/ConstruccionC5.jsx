@@ -21,28 +21,28 @@ export const ConstruccionC5 = () => {
         <div className="sm:w-[50%] sm:text-2xl  sm:mr-10 sm:ml-10 text-[#143C6A]">
           <p className="mt-4">
             La construcción de C2, C4 y C5 empieza en la selección de los
-            mejores sistemas tecnológicos de video, cómputo, ruteo, centro de
-            datos, climatización, seguridad física, entre otros rubros, y
-            termina con la llave en mano para nuestros clientes.  
+            <span className="font-bold"> mejores sistemas</span> tecnológicos de
+            video, cómputo, ruteo, centro de datos, climatización, seguridad
+            física, entre otros rubros, y termina con la entrega{" "}
+            <span className="font-bold">llave en mano</span> para nuestros
+            clientes.  
           </p>
           <p className="mt-4">
-            <span className="font-bold">
-              Nuestros más de 23 años de experiencia
+            <span>
+              Nuestros más de{" "}
+              <span className="font-bold">23 años de experiencia</span>
             </span>{" "}
             como operador de Telecomunicaciones Federales y de centros de datos,
-            nos han permitido desarrollar una metodología única en el diseño de
+            nos han permitido desarrollar una{" "}
+            <span className="font-bold">metodología única</span> en el diseño de
             centros de control y comando.
-          </p>
-          <p className="mt-4">
-            Por ejemplo: en salas de sesiones y despachos en las cuales se van a
-            llevar a cabo reuniones y entrevistas importantes.
           </p>
         </div>
         <div className=" sm:w-[50%]">
           <img
             src="/img/imagen c4.jpg"
             alt=""
-            className="rounded-3xl sm:w-[500px] sm:h-[400px]"
+            className="rounded-3xl sm:w-[500px] sm:h-[300px] translate-y-[20px]"
           />
         </div>
       </div>
@@ -74,7 +74,8 @@ export const ConstruccionC5 = () => {
             <div className="grid place-items-start">
               <ul className="text-sm sm:text-xl ml-20 text-[#143C6A]">
                 <li type="circle">
-                  Lineamientos del CNI (Centro Nacional de Inteligencia).
+                  Lineamientos del <span className="font-bold">CNI </span>
+                  (Centro Nacional de Inteligencia).
                 </li>
                 <li type="circle">Planta interna y planta externa</li>
                 <li type="circle">Radiocomunicación</li>
@@ -140,15 +141,19 @@ export const ConstruccionC5 = () => {
               <ul className="text-sm sm:text-xl ml-20 text-[#143C6A] pt-5">
                 <li type="circle">El mejor precio del mercado. </li>
                 <li type="circle">
-                  Diseños y operación alineados al CNI (Centro Nacional de
+                  Diseños y operación alineados al{" "}
+                  <span className="font-bold">CNI</span> (Centro Nacional de
                   Inteligencia).
                 </li>
                 <li type="circle">
-                  Garantizamos el cumplimiento de las normas federales y de
-                  organismos internacionales. 
+                  Garantizamos el{" "}
+                  <span className="font-bold">cumplimiento de las normas</span>{" "}
+                  federales y de organismos internacionales. 
                 </li>
                 <li type="circle">
-                  Contamos con un equipo propio de expertos, no subcontratamos. 
+                  Contamos con un{" "}
+                  <span className="font-bold">equipo propio de expertos</span>,
+                  no subcontratamos. 
                 </li>
                 <li type="circle">Más de 23 años de experiencia. </li>
                 <li type="circle">
