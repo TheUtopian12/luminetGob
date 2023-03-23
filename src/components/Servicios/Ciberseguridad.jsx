@@ -45,7 +45,7 @@ export const Ciberseguridad = () => {
           <img
             src="https://d29jy8ovkd5kcx.cloudfront.net/wp-content/uploads/2022/06/09141348/WIIT_banche-1280x720.jpg.webp"
             alt=""
-            className="rounded-3xl sm:w-[400px] sm:h-[400px]"
+            className="rounded-3xl sm:w-[500px] sm:h-[400px]"
           />
         </div>
       </div>
@@ -248,7 +248,6 @@ export const Ciberseguridad = () => {
                   Mantenemos absoluta{" "}
                   <span className="font-bold">confidencialidad.</span>
                 </li>
-               
               </ul>
             </div>
             <div className="flex justify-center mt-10">

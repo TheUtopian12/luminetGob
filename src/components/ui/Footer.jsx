@@ -11,12 +11,10 @@ const Footer = () => {
             <img src={logo} alt="Logo" className="mb-5 w-[50%]" />
           </center>
           <h3 className="mb-5">
-            Pedro Figueroa No. 2815, CP. 25024, Saltillo, Coahuila, México.
+            Av. Nazario Ortiz No. 2060, local 319-A, Plaza Santa Isabel, Col.
+            Tanque de Peña, CP 25270, Saltillo, Coahuila, Mx.
           </h3>
-          <h3>
-            Av. Eugenio Garza Sada No. 3820, Col. Más Palomas, Monterrey, N.L.,
-            México.
-          </h3>
+
           <br />
           <h3>
             Av. Revolución 1653, 3er Piso, Colonia San Ángel, CP 01000, Alcaldía

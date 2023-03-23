@@ -28,14 +28,11 @@ const Formulario = () => {
               <SlLocationPin size={50} className="text-[#95C926]" />
               <p>
                 <h2>
-                  Pedro Figueroa No. 2815, CP. 25024, Saltillo, Coahuila,
-                  México.
+                  Av. Nazario Ortiz No. 2060, local 319-A, Plaza Santa Isabel,
+                  Col. Tanque de Peña, CP 25270, Saltillo, Coahuila, Mx.
                 </h2>
                 <br />
-                <h2>
-                  Av. Eugenio Garza Sada No. 3820, Col. Más Palomas, Monterrey,
-                  N.L., México.
-                </h2>
+
                 <br />
                 <h2>
                   Av. Revolución 1653, 3er Piso, Colonia San Ángel, CP 01000,
