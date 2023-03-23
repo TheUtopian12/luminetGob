@@ -12,9 +12,9 @@ export const ContenidoServicios = ({ pagina }) => {
       ) : pagina === "2" ? (
         <Ciberseguridad />
       ) : pagina === "3" ? (
-        <RedInternet />
-      ) : (
         <ConstruccionC5 />
+      ) : (
+        <RedInternet />
       )}
     </div>
   );

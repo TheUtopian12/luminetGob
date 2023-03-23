@@ -29,7 +29,7 @@ const Formulario = () => {
               <p>
                 <h2>
                   Av. Nazario Ortiz No. 2060, local 319-A, Plaza Santa Isabel,
-                  Col. Tanque de Peña, CP 25270, Saltillo, Coahuila, Mx.
+                  Col. Tanque de Peña, <br /> CP 25270, Saltillo, Coahuila, Mx.
                 </h2>
                 <br />
 
