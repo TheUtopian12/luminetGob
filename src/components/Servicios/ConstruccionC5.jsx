@@ -21,11 +21,11 @@ export const ConstruccionC5 = () => {
         <div className="sm:w-[50%] sm:text-2xl  sm:mr-10 sm:ml-10 text-[#143C6A]">
           <p className="mt-4">
             La construcción de C2, C4 y C5 empieza en la selección de los
-            <span className="font-bold"> mejores sistemas</span> tecnológicos de
+            <span className="font-bold"> mejores sistemas tecnológicos</span> de
             video, cómputo, ruteo, centro de datos, climatización, seguridad
-            física, entre otros rubros, y termina con la entrega{" "}
-            <span className="font-bold">llave en mano</span> para nuestros
-            clientes.  
+            física, entre otros rubros, y termina con la{" "}
+            <span className="font-bold">entrega llave en mano</span> para
+            nuestros clientes.  
           </p>
           <p className="mt-4">
             <span>
@@ -79,8 +79,8 @@ export const ConstruccionC5 = () => {
                 </li>
                 <li type="circle">Planta interna y planta externa</li>
                 <li type="circle">Radiocomunicación</li>
-                <li type="circle">Video vigilancia</li>
-                <li type="circle">Video control</li>
+                <li type="circle">Videovigilancia</li>
+                <li type="circle">Videocontrol</li>
                 <li type="circle">Centros de datos</li>
                 <li type="circle">Redes internas</li>
                 <li type="circle">

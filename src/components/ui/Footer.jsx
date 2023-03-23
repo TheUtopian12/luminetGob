@@ -12,7 +12,7 @@ const Footer = () => {
           </center>
           <h3 className="mb-5">
             Av. Nazario Ortiz No. 2060, local 319-A, Plaza Santa Isabel, Col.
-            Tanque de Peña, <br /> CP 25270, Saltillo, Coahuila, Mx.
+            Tanque de Peña, <br></br> CP 25270, Saltillo, Coahuila, Mx.
           </h3>
 
           <br />
@@ -21,7 +21,7 @@ const Footer = () => {
             Álvaro Obregón, CDMX
           </h3>
         </div>
-        <div className="text-white ">
+        <div className="text-white pt-10">
           <h3 className="">¡Llámanos sin costo!</h3>
           <p className="flex gap-2 mt-2 justify-center sm:justify-start">
             <BsFillTelephoneFill />

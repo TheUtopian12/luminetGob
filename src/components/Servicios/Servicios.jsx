@@ -46,8 +46,8 @@ export const Servicios = () => {
           }`}
           onClick={() => setPagina("4")}
         >
-          <h1 className="text-white text-center translate-y-[-10px] sm:translate-y-0 text-[10px] sm:text-sm lg:text-md xl:text-xl font-semibold pt-2 mt-4">
-            SERVICIOS DE RED E INTERNET
+          <h1 className="text-white text-center translate-y-[-10px] sm:translate-y-0 text-[10px] sm:text-sm lg:text-md xl:text-xl font-semibold pt-0 mt-4">
+            SERVICIOS DE RED <br />E INTERNET
           </h1>
         </div>
       </nav>
