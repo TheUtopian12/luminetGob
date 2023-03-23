@@ -45,7 +45,7 @@ const Formulario = () => {
                 <SlEnvolope size={33} className="text-[#95C926]" />
               </a>
               <p>
-                <h2>contacto@luminet.com.mx</h2>
+                <h2>contactogobierno@luminet.com.mx</h2>
               </p>
             </div>
 

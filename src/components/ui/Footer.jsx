@@ -30,7 +30,7 @@ const Footer = () => {
 
           <p className="flex gap-1 mt-3 justify-center sm:justify-start">
             <CiMail size={25} />
-            <h3 className="mb-8">contacto@luminetgobierno.com.mx</h3>
+            <h3 className="mb-8">contactogobierno@luminet.com.mx</h3>
           </p>
 
           <h3>Soporte</h3>
