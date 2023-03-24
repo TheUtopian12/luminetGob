@@ -16,7 +16,7 @@ const Footer = () => {
           </h3>
 
           <br />
-          <h3>
+          <h3 className="ml-1 mr-1 sm:ml-0 sm:mr-0">
             Av. Revolución 1653, 3er Piso, Colonia San Ángel, CP 01000, Alcaldía
             Álvaro Obregón, CDMX
           </h3>
