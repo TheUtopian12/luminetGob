@@ -1,15 +1,93 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../assets/Logo-Luminet-Gobierno.png";
 import { SlLocationPin, SlEnvolope, SlCallOut } from "react-icons/sl";
 import { Input, Button, Textarea } from "@material-tailwind/react";
 import { BiRightArrow } from "react-icons/bi";
 import { MdArrowForwardIos } from "react-icons/md";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import ReCAPTCHA from "react-google-recaptcha";
 const Formulario = () => {
+  const notify = () =>
+    toast.success("¡Gracias! Hemos enviado tu información correctamente.", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
+
+  const errorNotify = () =>
+    toast.error("El captcha no es valido", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
+
+  const [formData, setFormData] = useState({
+    nombre: "",
+    correo: "",
+    telefono: "",
+    comentario: "",
+    empresa: "",
+  });
+  const [captchaToken, setCaptchaToken] = useState("");
+
+  // Función para actualizar los datos del formulario
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({ ...formData, [name]: value, empresa: "Desde state" });
+  };
+  function onChange(value) {
+    setCaptchaToken(value);
+  }
+  // Función para enviar los datos del formulario
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    if (captchaToken === "") {
+      errorNotify();
+    } else {
+      notify();
+
+      const requestOptions = {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+      };
+
+      fetch(
+        "https://form-receiver.wispi.mx/form/ln-contacto-gob",
+        requestOptions
+      )
+        .then((response) => response.json())
+        .then((data) => console.log(data))
+        .catch((error) => console.error(error));
+      setFormData({
+        nombre: "",
+        correo: "",
+        telefono: "",
+        comentario: "",
+        empresa: "",
+      });
+      setCaptchaToken("");
+    }
+  };
+
   return (
     <div
       className="min-h-screen bg-[#95C926] flex flex-col place-items-center"
       id="contacto"
     >
+      <ToastContainer position="top-center" className="sm:w-[600px]" />
       <h1 className="sm:text-5xl text-[#143C6A] font-bold text-center pt-10">
         Solicitar más información
       </h1>
@@ -64,33 +142,73 @@ const Formulario = () => {
 
         <div className="ml-5 sm:ml-0 h-[70vh] w-[90%] sm:w-[100%] bg-[#e3ebf2] sm:rounded-r-2xl sm:rounded-l-none rounded-b-3xl">
           <div className="flex flex-col justify-center items-center place-items-center m-8 gap-10">
-            <Input
-              variant="outlined"
-              label="Nombre"
-              icon={<BiRightArrow />}
-              color="blue"
-            />
-            <Input
-              variant="outlined"
-              label="E-mail"
-              icon={<BiRightArrow />}
-              color="blue"
-            />
-            <Input
-              variant="outlined"
-              label="Teléfono"
-              icon={<BiRightArrow />}
-              color="blue"
-            />
-            <Textarea label="Mensaje" color="blue" />
-
-            <button
-              type="button"
-              className="w-[200px] text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            <form
+              onSubmit={handleSubmit}
+              className="grid grid-cols-1 gap-8 place-items-center"
             >
-              {" "}
-              Enviar
-            </button>
+              <Input
+                className="w-[350px]"
+                variant="outlined"
+                required="true"
+                label="Nombre"
+                name="nombre"
+                icon={<BiRightArrow />}
+                color="blue"
+                value={formData.nombre}
+                onChange={handleInputChange}
+              />
+              <Input
+                variant="outlined"
+                label="E-mail"
+                required="true"
+                name="correo"
+                icon={<BiRightArrow />}
+                color="blue"
+                value={formData.correo}
+                onChange={handleInputChange}
+              />
+              <Input
+                variant="outlined"
+                label="Teléfono"
+                required="true"
+                name="telefono"
+                icon={<BiRightArrow />}
+                color="blue"
+                value={formData.telefono}
+                onChange={handleInputChange}
+              />
+              <div className="hidden">
+                <Input
+                  variant="outlined"
+                  label="Empresa"
+                  name="empresa"
+                  icon={<BiRightArrow />}
+                  color="blue"
+                  value={formData.empresa}
+                  onChange={handleInputChange}
+                />
+              </div>
+
+              <Textarea
+                label="Mensaje"
+                name="comentario"
+                color="blue"
+                required="true"
+                value={formData.comentario}
+                onChange={handleInputChange}
+              />
+              <ReCAPTCHA
+                sitekey="6LcwLzUlAAAAAIR_B8-CsS9J78kfEQ_HFHRFzuah"
+                onChange={onChange}
+              />
+              <button
+                type="submit"
+                className="w-[200px] text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              >
+                {" "}
+                Enviar
+              </button>
+            </form>
           </div>
         </div>
       </div>
