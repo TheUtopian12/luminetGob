@@ -140,14 +140,14 @@ const Formulario = () => {
           </div>
         </div>
 
-        <div className="ml-5 sm:ml-0 h-[70vh] w-[90%] sm:w-[100%] bg-[#e3ebf2] sm:rounded-r-2xl sm:rounded-l-none rounded-b-3xl">
+        <div className="ml-5 sm:ml-0 h-[80vh] w-[90%] sm:w-[100%] bg-[#e3ebf2] sm:rounded-r-2xl sm:rounded-l-none rounded-b-3xl">
           <div className="flex flex-col justify-center items-center place-items-center m-8 gap-10">
             <form
               onSubmit={handleSubmit}
               className="grid grid-cols-1 gap-8 place-items-center"
             >
               <Input
-                className="w-[350px]"
+                className=" sm:w-[350px] "
                 variant="outlined"
                 required="true"
                 label="Nombre"
