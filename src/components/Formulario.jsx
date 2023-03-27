@@ -44,7 +44,7 @@ const Formulario = () => {
   // Función para actualizar los datos del formulario
   const handleInputChange = (event) => {
     const { name, value } = event.target;
-    setFormData({ ...formData, [name]: value, empresa: "Desde state" });
+    setFormData({ ...formData, [name]: value, empresa: "-" });
   };
   function onChange(value) {
     setCaptchaToken(value);
