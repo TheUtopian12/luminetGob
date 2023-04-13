@@ -24,6 +24,10 @@ function App() {
           name="description"
           content="Luminet Gobierno | Servicios al sector público en México 23 años de experiencia en servicios de redes y seguridad: Planta externa, última milla, ciberseguridad, contrainteligencia, centros de comando."
         />
+        <meta
+          property="og:description"
+          content="Luminet Gobierno | Servicios al sector público en México 23 años de experiencia en servicios de redes y seguridad: Planta externa, última milla, ciberseguridad, contrainteligencia, centros de comando."
+        />
       </Helmet>
       <Hero />
       <Info />
