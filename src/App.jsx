@@ -18,12 +18,12 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Luminet Gobierno </title>
-        <link rel="canonical" href="https://www.luminetgobierno.com.mx/" />
 
         <meta
           name="description"
           content="Luminet Gobierno | Servicios al sector público en México 23 años de experiencia en servicios de redes y seguridad: Planta externa, última milla, ciberseguridad, contrainteligencia, centros de comando."
         />
+        <link rel="canonical" href="https://www.luminetgobierno.com.mx/" />
       </Helmet>
       <Child>
         <Helmet>

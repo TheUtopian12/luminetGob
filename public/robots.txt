@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /luminetgobierno.com/
+Disallow: /luminetgobierno.mx/
