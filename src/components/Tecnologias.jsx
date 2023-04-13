@@ -66,8 +66,6 @@ function Tecnologias() {
 
     centerMode: true,
     centerPadding: "60px",
-    centerMode: false,
-    centerPadding: 0,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     beforeChange: (current, next) => setImageIndex(next),

@@ -1,4 +1,3 @@
-import { Helmet, Child } from "react-helmet";
 import { Banner } from "./components/Banner";
 import { Hero } from "./components/Hero";
 import { Info } from "./components/Info";
@@ -14,26 +13,7 @@ import Formulario from "./components/Formulario";
 
 function App() {
   return (
-    <div>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Luminet Gobierno </title>
-
-        <meta
-          name="description"
-          content="Luminet Gobierno | Servicios al sector público en México 23 años de experiencia en servicios de redes y seguridad: Planta externa, última milla, ciberseguridad, contrainteligencia, centros de comando."
-        />
-        <link rel="canonical" href="https://www.luminetgobierno.com.mx/" />
-      </Helmet>
-      <Child>
-        <Helmet>
-          <meta
-            name="description"
-            content="Luminet Gobierno | Servicios al sector público en México 23 años de experiencia en servicios de redes y seguridad: Planta externa, última milla, ciberseguridad, contrainteligencia, centros de comando."
-          />
-        </Helmet>
-      </Child>
-
+    <>
       <Hero />
       <Info />
       <MoreInfo />
@@ -51,7 +31,7 @@ function App() {
       <Formulario />
 
       <Footer />
-    </div>
+    </>
   );
 }
 
