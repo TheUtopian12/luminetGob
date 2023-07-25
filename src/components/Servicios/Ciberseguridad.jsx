@@ -18,7 +18,7 @@ export const Ciberseguridad = () => {
   return (
     <div>
       <div className="flex flex-col-reverse sm:flex sm:flex-row mt-20 gap-10 p-10 sm:ml-16 sm:mr-16 ">
-        <div className="sm:w-[50%] sm:text-2xl  sm:mr-10 sm:ml-10 text-[#143C6A]">
+        <div className="sm:w-[50%] sm:text-[18px] lg:text-2xl  sm:mr-10 sm:ml-10 text-[#143C6A]">
           <p className="mt-4">
             Contamos con los equipos más sofisticados de contramedidas
             electrónicas para ofrecer servicios de barrido electrónico que

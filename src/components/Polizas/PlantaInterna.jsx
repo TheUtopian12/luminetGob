@@ -4,13 +4,14 @@ import DrawerPolizas from "../ui/DrawerPolizas";
 const PlantaInterna = () => {
   return (
     <div className="flex justify-center mt-16">
-      <div className="sm:flex gap-16  sm:w-[80%] sm:h-[500px] items-center p-10 rounded-3xl">
+      <div className="sm:flex gap-16  lg:w-[80%] sm:h-[500px] items-center p-10 rounded-3xl">
         <div className="w-[300px]">
           <img src={poste} alt="" className="rounded-2xl" />
         </div>
         <div className="sm:w-[50%] text-white">
           <h1 className="sm:text-left text-xl text-[#76BA22] font-bold mb-10">
-            Planta interna, <br /> Mantenimiento de red y <br /> site de clientes
+            Planta interna, <br /> Mantenimiento de red y <br /> site de
+            clientes
           </h1>
 
           <p className="mb-5 text-lg text-left hidden sm:grid">
@@ -34,14 +35,14 @@ const PlantaInterna = () => {
           <DrawerPolizas
             texto={
               <div className="m-10">
-              <p className="mb-5 text-lg text-left  sm:hidden grid">
-            Revisión del funcionamiento de routers, switches, señal de proveedor
-            de internet y cableado.
-          </p>
-          <p className="text-lg text-left grid sm:hidden">
-            Así como inspección de configuración, la disposición y distribución
-            de los cables.
-          </p>
+                <p className="mb-5 text-lg text-left  sm:hidden grid">
+                  Revisión del funcionamiento de routers, switches, señal de
+                  proveedor de internet y cableado.
+                </p>
+                <p className="text-lg text-left grid sm:hidden">
+                  Así como inspección de configuración, la disposición y
+                  distribución de los cables.
+                </p>
                 <div className="flex justify-center gap-24 mt-5">
                   <a
                     href="#contacto"

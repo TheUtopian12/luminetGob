@@ -5,7 +5,7 @@ import poste from "../../assets/Polizas/6.jpeg";
 const Enlaces = () => {
   return (
     <div className="flex justify-center mt-16">
-      <div className="sm:flex gap-16  sm:w-[80%] sm:h-[500px] items-center sm:p-10 rounded-3xl">
+      <div className="sm:flex gap-16  lg:w-[80%] sm:h-[500px] items-center sm:p-10 rounded-3xl">
         <div className="w-[300px]">
           <img
             src={poste}
@@ -13,10 +13,11 @@ const Enlaces = () => {
             className="rounded-2xl h-[300px] sm:h-[400px]"
           />
         </div>
-       
-          <div className="sm:w-[50%] text-white">
+
+        <div className="sm:w-[50%] text-white">
           <h1 className="text-center text-xl text-[#76BA22] font-bold mb-10">
-          Revisión de funcionamiento <br className="md:hidden" /> de enlaces </h1>
+            Revisión de funcionamiento <br className="md:hidden" /> de enlaces{" "}
+          </h1>
 
           <ul className="list-disc text-lg text-left hidden sm:grid">
             <li>

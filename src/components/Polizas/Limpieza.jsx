@@ -4,7 +4,7 @@ import poste from "../../assets/Polizas/Rack 03.jpeg";
 const Limpieza = () => {
   return (
     <div className="flex justify-center mt-16">
-      <div className="sm:flex gap-16  sm:w-[80%] h-[300px] sm:h-[500px] items-center p-10 rounded-3xl">
+      <div className="sm:flex gap-16  lg:w-[80%] h-[300px] sm:h-[500px] items-center p-10 rounded-3xl">
         <div className="w-[300px]">
           <img
             src={poste}

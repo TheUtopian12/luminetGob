@@ -12,7 +12,7 @@ const Construccion = () => {
             className="w-[200px] sm:w-[300px] rounded-3xl"
           />
         </div>
-        <div className="pt-5 sm:pt-0 sm:text-2xl ">
+        <div className="pt-5 sm:pt-0 sm:text-lg lg:text-2xl ">
           <p className="mb-10 text-[#143C6A]">
             Ofrecemos una solución integral para la{" "}
             <span className="text-[#76BA22]">implementación de la red</span> de
@@ -26,12 +26,13 @@ const Construccion = () => {
           </h2>
           <ul className="list-disc text-[#143C6A] m-5">
             <li>
-             <span className="font-bold">La construcción aérea</span>  (mediante posteria o microondas) en vía
-             <span className="font-bold"> pública o privada.</span>  
+              <span className="font-bold">La construcción aérea</span> (mediante
+              posteria o microondas) en vía
+              <span className="font-bold"> pública o privada.</span>
             </li>
             <li>
-            <span className="font-bold">Equipos de conexión</span>, red de fibra óptica, cámaras y equipamiento
-              para el site.
+              <span className="font-bold">Equipos de conexión</span>, red de
+              fibra óptica, cámaras y equipamiento para el site.
             </li>
           </ul>
         </div>

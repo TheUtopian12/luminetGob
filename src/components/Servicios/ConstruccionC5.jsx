@@ -18,14 +18,14 @@ export const ConstruccionC5 = () => {
   return (
     <div>
       <div className="flex flex-col-reverse sm:flex sm:flex-row mt-20 gap-10 p-10 sm:ml-16 sm:mr-16 ">
-        <div className="sm:w-[50%] sm:text-2xl  sm:mr-10 sm:ml-10 text-[#143C6A]">
+        <div className="sm:w-[50%] sm:text-lg lg:text-2xl  sm:mr-6 sm:ml-6 lg:mr-10 lg:ml-10 text-[#143C6A]">
           <p className="mt-4">
             La construcción de C2, C4 y C5 empieza en la selección de los
             <span className="font-bold"> mejores sistemas tecnológicos</span> de
             video, cómputo, ruteo, centro de datos, climatización, seguridad
             física, entre otros rubros, y termina con la{" "}
             <span className="font-bold">entrega llave en mano</span> para
-            nuestros clientes.  
+            nuestros clientes.
           </p>
           <p className="mt-4">
             <span>

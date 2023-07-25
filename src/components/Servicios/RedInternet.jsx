@@ -8,7 +8,7 @@ import { Button } from "@material-tailwind/react";
 export const RedInternet = () => {
   return (
     <div className="">
-      <center className="grid grid-cols-1 sm:grid-cols-2  gap-10 mt-10 ">
+      <center className="grid grid-cols-1 lg:grid-cols-2  gap-10 mt-10 ">
         <div>
           <Cards />
         </div>
