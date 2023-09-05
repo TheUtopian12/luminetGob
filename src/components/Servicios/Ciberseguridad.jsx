@@ -43,6 +43,7 @@ export const Ciberseguridad = () => {
         </div>
         <div className=" sm:w-[50%]">
           <img
+            loading="lazy"
             src="https://d29jy8ovkd5kcx.cloudfront.net/wp-content/uploads/2022/06/09141348/WIIT_banche-1280x720.jpg.webp"
             alt=""
             className="rounded-3xl sm:w-[500px] sm:h-[400px]"
@@ -60,6 +61,7 @@ export const Ciberseguridad = () => {
             <div className="h-20 w-full flex items-center gap-5 sm:justify-between ">
               <div className="h-20 w-full flex items-center gap-5 ml-10  sm:gap-5 ">
                 <img
+                  loading="lazy"
                   src="/img/iconos/information.png"
                   alt=""
                   className="w-14 sm:w-20"
@@ -69,7 +71,7 @@ export const Ciberseguridad = () => {
                 </h1>
               </div>{" "}
               <div style={{ width: "40px" }} className="relative">
-                <img src="/img/iconos/plus.png" alt="" />
+                <img loading="lazy" src="/img/iconos/plus.png" alt="" />
               </div>
             </div>
           </AccordionHeader>
@@ -134,6 +136,7 @@ export const Ciberseguridad = () => {
               <div className=" h-20 w-full flex items-center gap-5 ml-10 sm:gap-5 ">
                 {" "}
                 <img
+                  loading="lazy"
                   src="/img/iconos/tools.png"
                   alt=""
                   className="w-14 sm:w-20"
@@ -143,7 +146,7 @@ export const Ciberseguridad = () => {
                 </h1>
               </div>
               <div style={{ width: "40px" }} className="relative">
-                <img src="/img/iconos/plus.png" alt="" />
+                <img loading="lazy" src="/img/iconos/plus.png" alt="" />
               </div>
             </div>
           </AccordionHeader>
@@ -203,6 +206,7 @@ export const Ciberseguridad = () => {
             <div className="h-20 w-full flex items-center gap-5 ml-10 sm:justify-between ">
               <div className=" h-20 w-full flex items-center gap-5  sm:gap-5 ">
                 <img
+                  loading="lazy"
                   src="/img/iconos/result.png"
                   alt=""
                   className="w-14 sm:w-20"
@@ -212,7 +216,7 @@ export const Ciberseguridad = () => {
                 </h1>
               </div>
               <div style={{ width: "40px" }} className="relative">
-                <img src="/img/iconos/plus.png" alt="" />
+                <img loading="lazy" src="/img/iconos/plus.png" alt="" />
               </div>
             </div>
           </AccordionHeader>

@@ -30,6 +30,7 @@ export const PlantaExt = () => {
             <div className="flex items-center gap-5 ml-10">
               <div>
                 <img
+                  loading="lazy"
                   src="/img/iconos/cctv-camera.png"
                   alt=""
                   className="w-14 lg:w-20"
@@ -45,7 +46,7 @@ export const PlantaExt = () => {
             </div>
 
             <div className="relative w-[60px] sm:w-[45px] lg:w-[40px]">
-              <img src="/img/iconos/plus.png" alt="" />
+              <img loading="lazy" src="/img/iconos/plus.png" alt="" />
             </div>
           </div>
         </AccordionHeader>
@@ -63,6 +64,7 @@ export const PlantaExt = () => {
             <div className="flex items-center gap-5 ml-10">
               <div>
                 <img
+                  loading="lazy"
                   src="/img/iconos/icon.png"
                   alt=""
                   className="w-10 lg:w-20"
@@ -77,7 +79,7 @@ export const PlantaExt = () => {
             </div>
 
             <div className="relative w-[50px] sm:w-[35px] lg:w-[40px]">
-              <img src="/img/iconos/plus.png" alt="" />
+              <img loading="lazy" src="/img/iconos/plus.png" alt="" />
             </div>
           </div>
         </AccordionHeader>
@@ -95,6 +97,7 @@ export const PlantaExt = () => {
             <div className="flex items-center gap-5 ml-10">
               <div>
                 <img
+                  loading="lazy"
                   src="/img/iconos/maintenance(1).png"
                   alt=""
                   className="w-8 sm:w-10 lg:w-20"
@@ -108,7 +111,7 @@ export const PlantaExt = () => {
             </div>
 
             <div className="relative w-[20px] sm:w-[25px] lg:w-[40px]">
-              <img src="/img/iconos/plus.png" alt="" />
+              <img loading="lazy" src="/img/iconos/plus.png" alt="" />
             </div>
           </div>
         </AccordionHeader>

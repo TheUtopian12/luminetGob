@@ -40,6 +40,7 @@ export const ConstruccionC5 = () => {
         </div>
         <div className=" sm:w-[50%]">
           <img
+            loading="lazy"
             src="/img/imagen c4.jpg"
             alt=""
             className="rounded-3xl sm:w-[500px] sm:h-[300px] translate-y-[20px]"
@@ -57,6 +58,7 @@ export const ConstruccionC5 = () => {
             <div className="h-20 w-full flex items-center gap-5 sm:justify-between ">
               <div className="h-20 w-full flex items-center gap-5 ml-10  sm:gap-5 ">
                 <img
+                  loading="lazy"
                   src="/img/iconos/iconos.png"
                   alt=""
                   className="w-14 sm:w-14"
@@ -66,7 +68,7 @@ export const ConstruccionC5 = () => {
                 </h1>
               </div>{" "}
               <div style={{ width: "40px" }} className="relative">
-                <img src="/img/iconos/plus.png" alt="" />
+                <img loading="lazy" src="/img/iconos/plus.png" alt="" />
               </div>
             </div>
           </AccordionHeader>
@@ -121,6 +123,7 @@ export const ConstruccionC5 = () => {
               <div className=" h-20 w-full flex items-center gap-5 ml-10 sm:gap-5 ">
                 {" "}
                 <img
+                  loading="lazy"
                   src="/img/iconos/icono marcador.png"
                   alt=""
                   className="w-14 sm:w-16"
@@ -130,7 +133,7 @@ export const ConstruccionC5 = () => {
                 </h1>
               </div>
               <div style={{ width: "40px" }} className="relative">
-                <img src="/img/iconos/plus.png" alt="" />
+                <img loading="lazy" src="/img/iconos/plus.png" alt="" />
               </div>
             </div>
           </AccordionHeader>

@@ -8,6 +8,7 @@ const Enlaces = () => {
       <div className="sm:flex gap-16  lg:w-[80%] sm:h-[500px] items-center sm:p-10 rounded-3xl">
         <div className="w-[300px]">
           <img
+            loading="lazy"
             src={poste}
             alt=""
             className="rounded-2xl h-[300px] sm:h-[400px]"

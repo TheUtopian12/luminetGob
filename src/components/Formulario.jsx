@@ -100,7 +100,7 @@ const Formulario = () => {
       </div>
       <div className="w-[100%] sm:w-[60%] min-h-screen pb-10  pt-20 rounded-2xl grid lg:grid-cols-2 gap-0 sm:gap-0">
         <div className="ml-5 sm:ml-0 h-[43vh] lg:h-[70vh] w-[90%] sm:w-[100%] bg-gradient-to-b from-[#266095] to-[#031e3d] rounded-t-3xl lg:rounded-tr-none lg:rounded-l-3xl flex flex-col place-items-center pt-5">
-          <img src={Logo} alt="" className="w-32" />
+          <img loading="lazy" src={Logo} alt="" className="w-32" />
           <div className=" flex flex-col text-white sm:m-5">
             <div className="hidden sm:flex gap-5">
               <SlLocationPin size={50} className="text-[#95C926]" />

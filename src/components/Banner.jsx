@@ -26,6 +26,7 @@ export const Banner = () => {
             onClick={() => sliderRef.current.slickPrev()}
           >
             <img
+              loading="lazy"
               src="/img/iconos/arrow (1).png"
               alt=""
               className="w-5 rotate-180"
@@ -109,7 +110,12 @@ export const Banner = () => {
             onClick={() => sliderRef.current.slickNext()}
           >
             {" "}
-            <img src="/img/iconos/arrow (1).png" alt="" className="w-5" />{" "}
+            <img
+              loading="lazy"
+              src="/img/iconos/arrow (1).png"
+              alt=""
+              className="w-5"
+            />{" "}
           </button>
         </div>
         <div className="lg:flex gap-5 justify-center hidden">

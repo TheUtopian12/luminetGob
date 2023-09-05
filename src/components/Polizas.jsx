@@ -34,6 +34,7 @@ const Polizas = () => {
           onClick={() => sliderRef.current.slickPrev()}
         >
           <img
+            loading="lazy"
             src="/img/iconos/arrow (1).png"
             alt=""
             className="w-5 rotate-180"
@@ -83,7 +84,12 @@ const Polizas = () => {
           onClick={() => sliderRef.current.slickNext()}
         >
           {" "}
-          <img src="/img/iconos/arrow (1).png" alt="" className="w-5" />
+          <img
+            loading="lazy"
+            src="/img/iconos/arrow (1).png"
+            alt=""
+            className="w-5"
+          />
         </button>
       </center>
     </div>

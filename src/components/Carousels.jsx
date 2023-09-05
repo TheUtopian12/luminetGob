@@ -5,14 +5,14 @@ const Carousels = () => {
   const settings = {
     dots: false,
     infinite: true,
-    
+
     slidesToShow: 3,
     slidesToScroll: 3,
     arrows: false,
     speed: 2000,
     cssEase: "linear",
-    autoplay:true,
-    
+    autoplay: true,
+
     autoplaySpeed: 8000,
   };
   return (
@@ -28,6 +28,7 @@ const Carousels = () => {
         <div className="flex justify-between pl-10 pr-10">
           <button className="" onClick={() => sliderRef.current.slickPrev()}>
             <img
+              loading="lazy"
               src="/img/iconos/arrow (1).png"
               alt=""
               className="w-5 rotate-180"
@@ -45,6 +46,7 @@ const Carousels = () => {
             <Slider ref={sliderRef} {...settings}>
               <div className="pl-0">
                 <img
+                  loading="lazy"
                   src="/img/LogosCliente/coahuila.png"
                   alt=""
                   className="sm:w-[400px]  rounded-2xl bg-white"
@@ -55,6 +57,7 @@ const Carousels = () => {
               </div>
               <div className="pl-0">
                 <img
+                  loading="lazy"
                   src="/img/LogosCliente/guanajuato.png"
                   alt=""
                   className="sm:w-[400px] bg-white rounded-2xl"
@@ -65,6 +68,7 @@ const Carousels = () => {
               </div>
               <div className="pl-0">
                 <img
+                  loading="lazy"
                   src="/img/LogosCliente/monterrey.png"
                   alt=""
                   className="sm:w-[400px] bg-white rounded-2xl"
@@ -75,6 +79,7 @@ const Carousels = () => {
               </div>
               <div className="pl-0">
                 <img
+                  loading="lazy"
                   src="/img/LogosCliente/deacero.png"
                   alt=""
                   className="sm:w-[400px] bg-white rounded-2xl"
@@ -84,6 +89,7 @@ const Carousels = () => {
 
               <div className="pl-0">
                 <img
+                  loading="lazy"
                   src="/img/LogosCliente/gp.png"
                   alt=""
                   className="sm:w-[400px] bg-white rounded-2xl"
@@ -93,6 +99,7 @@ const Carousels = () => {
 
               <div className="pl-0">
                 <img
+                  loading="lazy"
                   src="/img/LogosCliente/judicial.png"
                   alt=""
                   className="sm:w-[400px] bg-white rounded-2xl"
@@ -104,6 +111,7 @@ const Carousels = () => {
 
               <div className="pl-0">
                 <img
+                  loading="lazy"
                   src="/img/LogosCliente/metalsa.png"
                   alt=""
                   className="sm:w-[400px] bg-white rounded-2xl"
@@ -113,6 +121,7 @@ const Carousels = () => {
 
               <div className="pl-0">
                 <img
+                  loading="lazy"
                   src="/img/LogosCliente/saltilloG.png"
                   alt=""
                   className="sm:w-[400px] bg-white rounded-2xl"
@@ -124,6 +133,7 @@ const Carousels = () => {
 
               <div className="pl-0">
                 <img
+                  loading="lazy"
                   src="/img/LogosCliente/saltilloU.png"
                   alt=""
                   className="sm:w-[400px] bg-white rounded-2xl"
@@ -135,6 +145,7 @@ const Carousels = () => {
 
               <div className="pl-0">
                 <img
+                  loading="lazy"
                   src="/img/LogosCliente/salud.png"
                   alt=""
                   className="sm:w-[400px] bg-white rounded-2xl"
@@ -146,6 +157,7 @@ const Carousels = () => {
 
               <div className="pl-0">
                 <img
+                  loading="lazy"
                   src="/img/LogosCliente/amex.png"
                   alt=""
                   className="sm:w-[400px] bg-white rounded-2xl"
@@ -155,6 +167,7 @@ const Carousels = () => {
 
               <div className="pl-0">
                 <img
+                  loading="lazy"
                   src="/img/LogosCliente/uanl.png"
                   alt=""
                   className="sm:w-[400px] bg-white rounded-2xl"
@@ -167,7 +180,12 @@ const Carousels = () => {
           </center>
 
           <button className="" onClick={() => sliderRef.current.slickNext()}>
-            <img src="/img/iconos/arrow (1).png" alt="" className="w-5 " />
+            <img
+              loading="lazy"
+              src="/img/iconos/arrow (1).png"
+              alt=""
+              className="w-5 "
+            />
           </button>
         </div>
       </center>

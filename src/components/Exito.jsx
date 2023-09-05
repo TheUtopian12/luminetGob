@@ -11,6 +11,7 @@ const Exito = () => {
       <div className="h-[120vh] sm:h-[70vh] w-[100%] bg-[#041A32] flex flex-col sm:flex-row gap-10 sm:gap-36 justify-center items-center">
         <div className="grid place-items-center">
           <img
+            loading="lazy"
             src="/img/LogosCliente/monterrey.png"
             alt=""
             className="w-[350px] sm:w-full rounded-[35px] hover:scale-110 ease-in duration-300"
@@ -21,6 +22,7 @@ const Exito = () => {
         </div>
         <div className="grid place-items-center">
           <img
+            loading="lazy"
             src="/img/LogosCliente/coahuila.png"
             alt=""
             className="w-[350px] sm:w-full rounded-[35px] hover:scale-110 ease-in duration-300"

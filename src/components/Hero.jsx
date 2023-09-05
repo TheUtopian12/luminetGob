@@ -18,6 +18,7 @@ export const Hero = () => {
         src={bgVideo}
       />
       <img
+        loading="lazy"
         src={bgImage}
         alt=""
         className="w-full h-full sm:hidden grid object-cover"

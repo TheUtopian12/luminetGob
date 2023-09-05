@@ -7,6 +7,7 @@ const Construccion = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="flex justify-center">
           <img
+            loading="lazy"
             src="/img/camara.png"
             alt=""
             className="w-[200px] sm:w-[300px] rounded-3xl"

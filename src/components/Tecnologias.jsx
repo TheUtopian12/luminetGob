@@ -83,7 +83,7 @@ function Tecnologias() {
               <div
                 className={idx === imageIndex ? "slide activeSlide" : "slide"}
               >
-                <img src={img} alt={img} />
+                <img loading="lazy" src={img} alt={img} />
               </div>
             ))}
           </Slider>
@@ -99,7 +99,7 @@ function Tecnologias() {
               <div
                 className={idx === imageIndex ? "slide activeSlide" : "slide"}
               >
-                <img src={img} alt={img} />
+                <img loading="lazy" src={img} alt={img} />
               </div>
             ))}
           </Slider>

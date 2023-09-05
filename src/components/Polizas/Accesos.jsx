@@ -6,7 +6,7 @@ const Accesos = () => {
     <div className="flex justify-center mt-16">
       <div className="sm:flex gap-16 lg:w-[80%] sm:h-[500px] items-center sm:p-10 rounded-3xl">
         <div className="w-[300px] ">
-          <img src={poste} alt="" className="rounded-2xl" />
+          <img loading="lazy" src={poste} alt="" className="rounded-2xl" />
         </div>
         <div className="sm:w-[50%] text-white">
           <h1 className="sm:text-left text-xl text-[#76BA22] font-bold mb-10 pt-10">

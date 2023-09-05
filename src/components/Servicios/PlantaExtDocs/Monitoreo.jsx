@@ -8,7 +8,12 @@ const Monitoreo = () => {
       {" "}
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="flex justify-center">
-          <img src="/img/cam 3.jpeg" alt="" className="w-[400px] rounded-3xl" />
+          <img
+            loading="lazy"
+            src="/img/cam 3.jpeg"
+            alt=""
+            className="w-[400px] rounded-3xl"
+          />
         </div>
         <div className="pt-5 sm:pt-0 sm:text-lg sm:pl-2 lg:text-2xl  text-[#143C6A]">
           <h2 className="font-bold mb-5">Este servicio incluye:</h2>

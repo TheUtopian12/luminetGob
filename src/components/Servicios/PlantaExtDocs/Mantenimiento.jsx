@@ -8,6 +8,7 @@ const Mantenimiento = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="flex justify-center pt-10">
           <img
+            loading="lazy"
             src="/img/networking-cabling-installer.png"
             alt=""
             className="w-[400px] h-[400px] rounded-3xl"

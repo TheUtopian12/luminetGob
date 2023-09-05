@@ -8,7 +8,12 @@ const Footer = () => {
       <div className="bg-[#041A32] text-center sm:text-left  grid sm:grid-cols-3 place items-center">
         <div className="text-white sm:m-16 ">
           <center>
-            <img src={logo} alt="Logo" className="mb-5 w-[50%]" />
+            <img
+              loading="lazy"
+              src={logo}
+              alt="Logo"
+              className="mb-5 w-[50%]"
+            />
           </center>
           <h3 className="mb-5">
             Av. Nazario Ortiz No. 2060, local 319-A, Plaza Santa Isabel, Col.

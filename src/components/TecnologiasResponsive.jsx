@@ -26,7 +26,7 @@ function TecnologiasResponsive() {
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow next" onClick={onClick}>
-        <FaAngleRight size={30}/>
+        <FaAngleRight size={30} />
       </div>
     );
   };
@@ -34,7 +34,7 @@ function TecnologiasResponsive() {
   const PrevArrow = ({ onClick }) => {
     return (
       <div className="arrow prev " onClick={onClick}>
-        <FaAngleLeft size={30}/>
+        <FaAngleLeft size={30} />
       </div>
     );
   };
@@ -56,11 +56,13 @@ function TecnologiasResponsive() {
   return (
     <div className="flex justify-center h-[60vh] bgTec bg-cover bg-center pt-20">
       <div className="w-[80%]">
-        <h1 className="text-center mb-20 text-4xl font-bold text-white">Tecnologías que implementamos</h1>
+        <h1 className="text-center mb-20 text-4xl font-bold text-white">
+          Tecnologías que implementamos
+        </h1>
         <Slider {...settings}>
           {images.map((img, idx) => (
             <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-              <img src={img} alt={img} />
+              <img loading="lazy" src={img} alt={img} />
             </div>
           ))}
         </Slider>

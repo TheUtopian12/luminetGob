@@ -15,7 +15,7 @@ export const MoreInfo = () => {
   return (
     <div className="w-full min-h-screen mt-10">
       <div className="flex justify-center flex-col items-center text-center">
-        <img src={logo} alt="" style={{ width: "150px" }} />
+        <img loading="lazy" src={logo} alt="" style={{ width: "150px" }} />
         <h1 className="pt-5 text-xl ml-2 mr-2 sm:w-[40rem] text-[#143C6A] ">
           Empresa especializada en el{" "}
           <span className="font-bold">sector público</span> para la construcción
@@ -30,15 +30,25 @@ export const MoreInfo = () => {
           </h2>
         </div>
         <div className="flex justify-center">
-          <img src={logo_ift} alt="" style={{ width: "250px" }} />
+          <img
+            loading="lazy"
+            src={logo_ift}
+            alt=""
+            style={{ width: "250px" }}
+          />
         </div>
         <div className="md:translate-x-16">
           <h2 className="text-lg sm:text-lg md:xl font-semibold ">
-           Pioneros en brindar servicios de telecomunicación en radiofrecuencia
+            Pioneros en brindar servicios de telecomunicación en radiofrecuencia
           </h2>
         </div>
         <div className="flex justify-center">
-          <img src={cofetel} alt="" className="w-[80px] mb-10 sm:mb-0 " />
+          <img
+            loading="lazy"
+            src={cofetel}
+            alt=""
+            className="w-[80px] mb-10 sm:mb-0 "
+          />
         </div>
       </div>
 
@@ -55,6 +65,7 @@ export const MoreInfo = () => {
             <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
+                  loading="lazy"
                   src="/img/iconos/internet-security.png"
                   alt=""
                   className="w-[80px] group-hover:animate-bounce"
@@ -64,7 +75,8 @@ export const MoreInfo = () => {
             </div>
           </div>
           <div>
-            <h2 className="ml-5 mt-6 mr-0 text-xl">{/*Referencia para todos los textox*/}
+            <h2 className="ml-5 mt-6 mr-0 text-xl">
+              {/*Referencia para todos los textox*/}
               <span className="text-[#143C6A] font-bold ">
                 Aseguramos la confidencialidad
               </span>
@@ -80,6 +92,7 @@ export const MoreInfo = () => {
             <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
+                  loading="lazy"
                   src="/img/iconos/software (1).png"
                   alt=""
                   className="w-[80px] group-hover:animate-bounce"
@@ -103,6 +116,7 @@ export const MoreInfo = () => {
             <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
+                  loading="lazy"
                   src="/img/iconos/box-delivery.png"
                   alt=""
                   className="w-[80px] sm:w-[60px] group-hover:animate-bounce"
@@ -126,6 +140,7 @@ export const MoreInfo = () => {
             <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
+                  loading="lazy"
                   src="/img/iconos/feedback-form.png"
                   alt=""
                   className="w-[80px] group-hover:animate-bounce"
@@ -139,7 +154,8 @@ export const MoreInfo = () => {
                 Damos mantenimiento a la red de Coahuila
               </span>
               <br />
-              Resultados comprobados ya que es la red de seguridad mejor evaluada en México.
+              Resultados comprobados ya que es la red de seguridad mejor
+              evaluada en México.
             </h2>
           </div>
         </div>
@@ -149,6 +165,7 @@ export const MoreInfo = () => {
             <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
+                  loading="lazy"
                   src="/img/iconos/hard-hat (1).png"
                   alt=""
                   className="w-[80px] group-hover:animate-bounce "
@@ -172,6 +189,7 @@ export const MoreInfo = () => {
             <div className="lg:bg-gradient-to-b from-[#bddcffbd] via-[#D9D9D9] to-transparent rounded-full w-[100px] flex justify-center items-center">
               <div>
                 <img
+                  loading="lazy"
                   src="/img/iconos/certificate (1).png"
                   alt=""
                   className="w-[80px] group-hover:animate-bounce"
@@ -191,12 +209,13 @@ export const MoreInfo = () => {
         </div>
       </div>
 
-      <center >
+      <center>
         <div className="sm:hidden w-[100%] pr-4">
           <Slider {...settings}>
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
+                  loading="lazy"
                   src="/img/iconos/internet-security.png"
                   alt=""
                   style={{ width: "50px" }}
@@ -215,6 +234,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
+                  loading="lazy"
                   src="/img/iconos/software (1).png"
                   alt=""
                   style={{ width: "50px" }}
@@ -232,6 +252,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
+                  loading="lazy"
                   src="/img/iconos/box-delivery.png"
                   alt=""
                   style={{ width: "50px" }}
@@ -249,6 +270,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
+                  loading="lazy"
                   src="/img/iconos/feedback-form.png"
                   alt=""
                   style={{ width: "50px" }}
@@ -259,13 +281,15 @@ export const MoreInfo = () => {
                   Damos mantenimiento a la red de Coahuila
                 </span>
                 <br />
-                Resultados comprobados ya que es la red de seguridad mejor evaluada en México.
+                Resultados comprobados ya que es la red de seguridad mejor
+                evaluada en México.
               </h2>
             </div>
 
             <div className="flex flex-col gap-5 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
+                  loading="lazy"
                   src="/img/iconos/hard-hat (1).png"
                   alt=""
                   style={{ width: "50px" }}
@@ -284,6 +308,7 @@ export const MoreInfo = () => {
             <div className="flex flex-col gap-4 text-left sm:pl-10 pt-24 sm:pt-0">
               <div className="flex justify-center sm:justify-start ml-4">
                 <img
+                  loading="lazy"
                   src="/img/iconos/certificate (1).png"
                   alt=""
                   style={{ width: "50px" }}
@@ -301,7 +326,8 @@ export const MoreInfo = () => {
         </div>
       </center>
       <div className="mt-16 mb-16 flex justify-center">
-        <a href='#contacto'
+        <a
+          href="#contacto"
           type="button"
           className="text-white bg-gradient-to-br from-[#08785c] to-[#8ec529] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"
         >
