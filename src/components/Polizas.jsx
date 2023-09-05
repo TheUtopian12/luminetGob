@@ -29,6 +29,7 @@ const Polizas = () => {
 
       <center className="flex justify-center">
         <button
+          aria-label="Anterior"
           className="relative translate-x-[20px] sm:translate-x-[80px] z-[90]"
           onClick={() => sliderRef.current.slickPrev()}
         >
@@ -77,11 +78,12 @@ const Polizas = () => {
           </div>
         </div>
         <button
+          aria-label="Siguiente"
           className="translate-x-[-20px] sm:translate-x-[-80px]"
           onClick={() => sliderRef.current.slickNext()}
         >
           {" "}
-          <img src="/img/iconos/arrow (1).png" alt="" className="w-5" />{" "}
+          <img src="/img/iconos/arrow (1).png" alt="" className="w-5" />
         </button>
       </center>
     </div>

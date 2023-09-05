@@ -21,6 +21,7 @@ export const Banner = () => {
         </h1>
         <div className="flex justify-center ">
           <button
+            aria-label="Prev"
             className="mr-10"
             onClick={() => sliderRef.current.slickPrev()}
           >
@@ -104,6 +105,7 @@ export const Banner = () => {
           </div>
           <button
             className="ml-10"
+            aria-label="Next"
             onClick={() => sliderRef.current.slickNext()}
           >
             {" "}
@@ -112,6 +114,7 @@ export const Banner = () => {
         </div>
         <div className="lg:flex gap-5 justify-center hidden">
           <button
+            aria-label="Pause"
             className="mt-5 sm:mt-5  text-[#76BA22] hover:text-white"
             onClick={() => sliderRef.current.slickPause()}
           >
@@ -119,6 +122,7 @@ export const Banner = () => {
             <AiOutlinePauseCircle size={30} />{" "}
           </button>
           <button
+            aria-label="Play"
             className="mt-5 sm:mt-5 text-[#76BA22] hover:text-white"
             onClick={() => sliderRef.current.slickPlay()}
           >
