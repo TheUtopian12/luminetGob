@@ -16,19 +16,19 @@ const NavbarResponsive = () => {
   return (
     <div id="container-floating" className="md:hidden z-50">
       <div className="nd7 nds">
-        <img className="reminder" />
+        <img className="reminder" alt="main" />
         <a href="#/" className="letter flex justify-center items-center">
           <BiHomeAlt />
         </a>
       </div>
       <div className="nd6 nds">
-        <img className="reminder" />
+        <img className="reminder" alt="ventajas" />
         <a href="#ventajas" className="letter flex justify-center items-center">
           <BiTrendingUp />
         </a>
       </div>
       <div className="nd5 nds">
-        <img className="reminder" />
+        <img className="reminder" alt="servicios" />
         <a
           href="#servicios"
           className="letter flex justify-center items-center"
@@ -38,7 +38,7 @@ const NavbarResponsive = () => {
       </div>
 
       <div className="nd4 nds">
-        <img className="reminder" />
+        <img className="reminder" alt="clientes" />
         <a
           href="#clientesM"
           className="letter flex justify-center items-center"
