@@ -31,6 +31,10 @@ const Footer = () => {
           <p className="flex gap-2 mt-2 justify-center sm:justify-start">
             <BsFillTelephoneFill />
             <h3 className="font-bold mb-8">8119 086 413</h3>
+
+            <h3 className="font-bold mb-8">844 362 6447</h3>
+
+            <h3 className="font-bold mb-8">81 36 48 18 48</h3>
           </p>
 
           <p className="flex gap-1 mt-3 justify-center sm:justify-start">
