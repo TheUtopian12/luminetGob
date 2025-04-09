@@ -28,11 +28,7 @@ const Footer = () => {
         </div>
         <div className="text-white pt-10">
           <h3 className="">¡Llámanos sin costo!</h3>
-          <p className="flex gap-2 mt-2 justify-center sm:justify-start">
-            <BsFillTelephoneFill />
-            <h3 className="font-bold mb-8">8119 086 413</h3>
-            
-          </p>
+          
 
           <p className="flex gap-2 mt-2 justify-center sm:justify-start">
             <BsFillTelephoneFill />
